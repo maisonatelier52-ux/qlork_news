@@ -1,0 +1,50 @@
+"use client";
+import React, { useState, useEffect, useMemo } from "react";
+
+interface DateBarProps {
+  message?: string;
+  buttonText?: string;
+}
+
+const DateBar: React.FC<DateBarProps> = ({
+  message = "Exclusive news, insights, and analysis for financial market experts.",
+  buttonText = "Explore Now",
+}) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const currentDate = useMemo(() => {
+    const today = new Date();
+    const options: Intl.DateTimeFormatOptions = {
+      weekday: "long",
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    };
+    return today.toLocaleDateString("en-US", options);
+  }, []);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsVisible(window.innerWidth >= 768);
+    };
+
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  if (!isVisible) return null;
+
+  return (
+    <div className="bg-black text-white">
+      <div className="max-w-360 mx-auto px-16 flex items-center justify-between flex-wrap gap-4">
+        <div className="text-xs font-medium">{currentDate}</div>
+        <div className="text-xs text-end flex-1 hidden md:block">{message}</div>
+        <button className="bg-red-900  text-white px-4 py-1.5 text-xs transition-colors duration-200">
+          {buttonText}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default DateBar;

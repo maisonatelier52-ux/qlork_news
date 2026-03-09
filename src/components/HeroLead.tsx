@@ -1,0 +1,69 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+interface HeroLeadProps {
+  category: string;
+  title: string;
+  shortdescription: string;
+  date: string;
+  image: string;
+  slug: string;
+  sub?: { title: string; descr: string }[];
+  topic:string;
+}
+
+const HeroLead: React.FC<HeroLeadProps> = ({
+  category,
+  title,
+  shortdescription,
+  date,
+  image,
+  slug,
+  topic,
+}) => {
+
+  const linkHref = `/${category.toLocaleLowerCase()}/${slug}`;
+
+  return (
+    <section className="bg-white">
+      <div className="max-w-360 mx-auto py-0 lg:py-2">
+        <div className="flex flex-col-reverse lg:flex-row gap-3 items-start">
+          <div className="flex-2 space-y-3 mt-0">
+            <div className="flex items-center gap-2 text-sm font-semibold text-gray-700">
+              <span className="w-3 h-3 rounded-full bg-red-600" />
+              <span className='text-red-600'>{topic}</span>
+            </div>
+            <Link href={linkHref} title={title} className="block">
+              <h1 className="text-[30px] sm:text-4xl lg:text-[35px] font-bold leading-none md:leading-[1.1] text-gray-900 transition-colors">
+                {title}
+              </h1>
+            </Link>
+            <p className="text-sm text-gray-700 leading-tight mb-1">{shortdescription}</p>
+            <span className="text-[11px] text-gray-600">{date}</span>
+          </div>
+          <div className="flex-3 w-full">
+            <Link href={linkHref} title={title} className="block">
+              <div className="relative w-full h-72 sm:h-74 lg:h-100 overflow-hidden">
+                <Image
+                  src={image}
+                  alt={title}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  fetchPriority="high"
+                  decoding="async"
+                  quality={85}
+                />
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroLead;
+

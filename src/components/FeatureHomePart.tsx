@@ -1,0 +1,67 @@
+import React from "react";
+import HeroLead from "./HeroLead";
+import Sidebar, { SidebarItem } from "./Sidebar";
+import HorizontalSidebar, { HorizontalSidebarItem } from "./HorizontalSidebar";
+
+export interface Sub {
+  title: string;
+  descr: string;
+}
+export interface HeroArticle {
+  category: string;
+  title: string;
+  date: string;
+  image: string;
+  slug: string;
+  shortdescription: string;
+  topic: string;
+  sub: Sub[];
+}
+
+interface FeatureHomePartProps {
+  hero: HeroArticle;
+  sidebarItems: SidebarItem[];
+  horizontalItems: HorizontalSidebarItem[];
+  onHeroBookmarkToggle?: () => void;
+  onSidebarBookmarkToggle?: (index: number) => void;
+  onHorizontalBookmarkToggle?: (index: number) => void;
+}
+
+const FeatureHomePart: React.FC<FeatureHomePartProps> = ({
+  hero,
+  sidebarItems,
+  horizontalItems,
+}) => {
+  return (
+    <section className="bg-white">
+      <div className="max-w-360 mx-auto px-3 md:px-16">
+        <div className="flex flex-col xl:flex-row gap-6 py-3 md:pb-10">
+          <div className="flex-1 min-w-0">
+            <div className="flex flex-col gap-6">
+              <HeroLead
+                category={hero.category}
+                title={hero.title}
+                shortdescription={hero.shortdescription}
+                date={hero.date}
+                image={hero.image}
+                slug={hero.slug}
+                sub={hero.sub}
+                topic={hero.topic}
+              />
+              <HorizontalSidebar
+                items={horizontalItems}
+              />
+            </div>
+          </div>
+          <div className="w-full xl:w-105 shrink-0">
+            <Sidebar
+              items={sidebarItems}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FeatureHomePart;

@@ -24,12 +24,12 @@ export default function ShareArticle({ title }: ShareArticleProps) {
     <div className="w-full border-t border-b border-dashed border-gray-200 py-4">
       <div className="flex items-center justify-between">
 
-        <div className="flex items-center gap-2 text-gray-900 font-semibold">
-          <FaLink className="text-lg" />
+        <div className="flex items-center gap-2 text-[12px] text-gray-900 font-semibold font-libre">
+          <FaLink className="text-[12px]" />
          <span className="hidden sm:inline">Share This Article</span>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 text-[12px]">
           <ShareIcon
             href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
           >

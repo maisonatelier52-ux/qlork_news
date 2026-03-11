@@ -14,11 +14,11 @@ export default function AboutSection() {
 
         {/* Header */}
         <div className="text-center mb-20">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-5">
+          <h1 className="text-4xl md:text-5xl font-extrabold font-libre tracking-tight mb-5">
             About <span className="text-gray-900">Qlork</span>
           </h1>
           <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-[15px] text-gray-600 max-w-2xl font-sen tracking-tight leading-tight mx-auto">
            A modern digital news platform delivering clear, credible, and timely journalism.
           </p>
         </div>
@@ -28,25 +28,25 @@ export default function AboutSection() {
 
           {/* Who We Are */}
           <div className="pb-12 border-b border-gray-200">
-            <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
+            <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
               <span className="w-1.5 h-6 bg-gray-900 rounded" />
               Who We Are
             </h2>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight">
            Qlork is a trusted digital news platform committed to delivering accurate, timely, and insightful journalism. We cover stories that matter—shaping conversations, informing decisions, and connecting readers to the events that influence the world. At Qlork, we prioritize clarity, integrity, and depth, providing news without sensationalism or bias.
             </p>
           </div>
 
           {/* What We Cover */}
           <div className="pb-12 border-b border-gray-200">
-            <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
+            <h2 className="text-[20px] font-semibold font-libre mb-4 flex items-center gap-3">
               <span className="w-1.5 h-6 bg-gray-900 rounded" />
               What We Cover
             </h2>
-            <p className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-6">
               Our newsroom tracks the stories that matter most to informed readers.
             </p>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-6 text-gray-700">
+            <ul className="grid grid-cols-1 font-sen tracking-tight leading-tight text-[15px] sm:grid-cols-2 gap-y-3 gap-x-6 text-gray-700">
               <li>• Breaking & National News</li>
               <li>• Business & Financial Markets</li>
               <li>• Politics & Policy</li>
@@ -58,22 +58,22 @@ export default function AboutSection() {
 
           {/* Our Standards */}
           <div className="pb-12 border-b border-gray-200">
-            <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
-              <span className="w-1.5 h-6 bg-gray-900 rounded" />
+            <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+              <span className="w-1.5 h-6  bg-gray-900 rounded" />
               Our Standards
             </h2>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight leading-relaxed">
            At Qlork, we uphold the highest standards of journalism. Accuracy, fairness, and integrity guide everything we do. We focus on delivering news that is verified, unbiased, and meaningful, ensuring our readers receive information they can trust.
             </p>
           </div>
 
           {/* Mission */}
           <div className="bg-gray-50 border border-gray-200 rounded-2xl p-10">
-            <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
+            <h2 className="text-[20px] font-semibold mb-4 font-libre flex items-center gap-3">
               <span className="w-1.5 h-6 bg-gray-900 rounded" />
               Our Mission
             </h2>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 font-sen tracking-tight leading-tight text-[15px]">
             Our mission is to inform, inspire, and empower our audience. We strive to cover stories that shape the world, spark important conversations, and provide insight without sensationalism. Qlork is dedicated to connecting people with the truth, fostering understanding, and promoting responsible journalism.
             </p>
           </div>

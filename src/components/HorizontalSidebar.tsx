@@ -37,27 +37,21 @@ const HorizontalSidebar: React.FC<HorizontalSidebarProps> = ({
               <TrendingUp className="w-3 h-3 text-gray-600 mt-0.5 flex-shrink-0" />
               <div className="space-y-0.5">
                 <div className="text-xs text-gray-600 flex items-center gap-1">
-                  <span className="font-semibold text-gray-700 capitalize">{item.category}</span>
-                  {item.live && (
-                    <span className="flex items-center gap-0.5 text-red-600 font-semibold">
-                      <Dot className="w-3 h-3 fill-red-600 text-red-600" />
-                      Live
-                    </span>
-                  )}
+                  <span className="font-semibold text-gray-700 capitalize font-sen tracking-tight">{item.category}</span>
                 </div>
                 <Link
                   href={item.href || (item.slug ? `/${item.category.toLocaleLowerCase()}/${item.slug}` : "#")} 
                   title={item.title}
                   className="block"
                 >
-                  <h2 className="text-sm font-semibold text-gray-900 leading-tight  transition-colors">
+                  <h2 className="text-[12px] font-semibold font-libre text-gray-900 leading-tight  transition-colors">
                     {item.title}
                   </h2>
                 </Link>
               </div>
             </div>
     
-            <div className="flex items-center gap-2 text-[11px] text-gray-600 pl-4">
+            <div className="flex items-center gap-2 text-[11px] font-sen tracking-tight text-gray-600 pl-4">
               <span>{item.date}</span>
             </div>
           </div>

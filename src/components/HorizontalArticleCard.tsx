@@ -27,7 +27,7 @@ const HorizontalArticleCard: React.FC<HorizontalArticleCardProps> = ({
     <div className="bg-white">
       {heading && (
         <div className="flex items-center gap-2 mb-2">
-          <p className="text-xl font-semibold text-gray-900">{heading}</p>
+          <p className="text-xl font-semibold text-gray-900 font-libre">{heading}</p>
           <span className="text-gray-500 text-lg">›</span>
         </div>
       )}
@@ -50,18 +50,18 @@ const HorizontalArticleCard: React.FC<HorizontalArticleCardProps> = ({
 
       {/* Text Section */}
       <div className="flex-1 flex flex-col  space-y-2 py-0">
-        <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+        <div className="text-sm font-semibold text-gray-600 uppercase font-sen tracking-tight leading-tight">
           {topic}
         </div>
         <Link href={`/${category.toLocaleLowerCase()}/${slug}`} title={title}>
-          <h3 className="text-[28px] md:text-4xl font-bold text-gray-900 leading-[1.1]  transition-colors">
+          <h3 className="text-[20px] md:text-[25px] font-libre font-bold text-gray-900 leading-[1.1]  transition-colors">
             {title}
           </h3>
         </Link>
-        <p className="text-base text-gray-700 leading-[1.3] line-clamp-3">
+        <p className="text-[13px] text-gray-700 font-sen tracking-tight leading-tight">
           {shortdescription}
         </p>
-        <div className="flex items-center gap-4 text-[12px] text-gray-600">
+        <div className="flex items-center font-sen tracking-tight leading-tight gap-4 text-[12px] text-gray-600">
           <span>{date}</span>
         
         </div>

@@ -37,7 +37,6 @@ export interface ArticleDetailProps {
 
 const ArticleDetail: React.FC<ArticleDetailProps> = ({
   slug,
-  category,
   title,
   image,
   shortdescription,
@@ -52,14 +51,14 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({
       <div className="w-full py-0">
         <div className="flex items-center gap-2 mb-4">
           <span className="w-2 h-2 bg-red-600 rounded-full"></span>
-          <p className="text-sm font-medium text-red-600  transition-colors">
+          <p className="text-[13px] text-red-600 font-sen tracking-tight leading-tight transition-colors">
             {topic}
           </p>
         </div>
-        <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-black mb-3 leading-[1.1]">
+        <h1 className="text-[20px] md::text-[25px] font-extrabold font-libre text-black mb-3 leading-[1.1]">
           {title}
         </h1>
-        <p className="text-sm sm:text-base text-black leading-tight mb-1">
+        <p className="text-[12px] sm:text-[14px] font-sen tracking-tight leading-tight text-black leading-tight mb-1">
           {shortdescription}
         </p>
 
@@ -82,7 +81,7 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({
 
           {/* Author Details */}
           <div className="flex-1">
-            <div className="flex items-center justify-between flex-wrap gap-4">
+            <div className="flex items-center font-sen tracking-tight leading-tight justify-between flex-wrap gap-4">
               <Link
                 href="/our-team"
                 className="flex items-center gap-4"
@@ -103,7 +102,7 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({
         </div>
         {/* Article Content */}
         <div className="prose prose-lg max-w-none">
-          <div key={slug} className="my-2 sm:my-2">
+          <div key={slug} className="my-2 sm:my-2 pb-5">
             <div className="relative w-full aspect-video bg-gray-100">
               <Image
                 src={image}
@@ -118,12 +117,12 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({
           {sub?.map((item, index) => (
             <div key={index}>
               {item.title && item.title.trim() !== "" && (
-                <h2 className="text-xl sm:text-2xl md:text-[27px] font-bold text-black md:mt-5 mt-2 mb-4 md:mb-3 first:mt-0 relative inline-block after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-1/4">
+                <h2 className="text-xl sm:text-2xl md:text-[22px] font-bold font-libre text-black md:mt-5 mt-2 mb-4 md:mb-3 first:mt-0 relative inline-block after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-1/4">
                   {item.title}
                 </h2>
               )}
               {item.descr && (
-                <p className="text-sm sm:text-[16px] text-black leading-[1.4] mb-2">
+                <p className="text-sm sm:text-[14px] font-sen tracking-tight leading-tight text-black leading-[1.4] mb-2">
                   {item.descr}
                 </p>
               )}

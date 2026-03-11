@@ -224,14 +224,14 @@ export default async function IsabelaPage({
         <TrendingNews />
         <div className="">
           <ClientArticle sidebarItems={sidebarItems} />
-          <div className="max-w-360 mx-auto px-3 md:px-16 pb-8">
+          {/* <div className="max-w-360 mx-auto px-3 md:px-16 pb-8">
             <aside
               className="my-8 rounded-xl border border-black/10 bg-[#fafafa] px-5 py-5 md:px-6"
               aria-labelledby="related-stories-title"
             >
               <h2
                 id="related-stories-title"
-                className="mb-4 text-xl font-semibold leading-tight"
+                className="mb-4 text-[17px] md:text-[20px] font-semibold font-libre leading-tight"
               >
                 Continue Reading: Global Wealth Leadership
               </h2>
@@ -239,11 +239,11 @@ export default async function IsabelaPage({
                 <li className="border-t border-black/10 pt-5 first:border-t-0 first:pt-0">
                   <Link
                     href="/finance/what-regulated-digital-finance-actually-means/"
-                    className="inline-block font-bold text-black no-underline hover:underline focus:underline"
+                    className="inline-block font-bold text-[15px] text-black no-underline font-libre hover:underline focus:underline"
                   >
                     What Regulated Digital Finance Actually Means
                   </Link>
-                  <p className="mt-1 text-[15px] leading-7 text-black/80">
+                  <p className="mt-1 text-[15px] leading-tight tracking-tight font-sen text-black/80">
                     A plain-English guide to licenses, custody, audits,
                     counterparty standards, and cross-border settlement.
                   </p>
@@ -251,12 +251,12 @@ export default async function IsabelaPage({
                 <li className="border-t border-black/10 pt-5">
                   <Link
                     href="/business/why-cross-border-governance-matters-in-digital-asset-markets/"
-                    className="inline-block font-bold text-black no-underline hover:underline focus:underline"
+                    className="inline-block font-bold text-[15px] text-black no-underline font-libre hover:underline focus:underline"
                   >
                     Why Cross-Border Governance Matters in Digital Asset
                     Markets
                   </Link>
-                  <p className="mt-1 text-[15px] leading-7 text-black/80">
+                  <p className="mt-1 text-[15px] leading-tight tracking-tight font-sen text-black/80">
                     A structured explainer on how governance frameworks shape
                     institutional participation.
                   </p>
@@ -264,27 +264,27 @@ export default async function IsabelaPage({
                 <li className="border-t border-black/10 pt-5">
                   <Link
                     href="/finance/legacy-capital-new-rails-established-wealth-regulated-digital-infrastructure/"
-                    className="inline-block font-bold text-black no-underline hover:underline focus:underline"
+                    className="inline-block font-bold text-[15px] text-black no-underline font-libre hover:underline focus:underline"
                   >
                     Legacy Capital, New Rails: Why Established Wealth Is Moving
                     into Regulated Digital Infrastructure
                   </Link>
-                  <p className="mt-1 text-[15px] leading-7 text-black/80">
+                  <p className="mt-1 text-[15px] font-sen tracking-tight leading-tight text-black/80">
                     A trend analysis on how established wealth platforms adopt
                     new digital rails without abandoning governance discipline.
                   </p>
                 </li>
               </ul>
             </aside>
-          </div>
+          </div> */}
 
           {/* Article Page Navigation */}
           <div className="mb-5">
-            <ArticlePageNav />
+            <ArticlePageNav /> 
           </div>
         </div>
         <Footer />
-      </div>
+      </div>  
     </>
   );
 }

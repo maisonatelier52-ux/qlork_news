@@ -37,9 +37,9 @@ const DateBar: React.FC<DateBarProps> = ({
   return (
     <div className="bg-black text-white">
       <div className="max-w-360 mx-auto px-16 flex items-center justify-between flex-wrap gap-4">
-        <div className="text-xs font-medium">{currentDate}</div>
-        <div className="text-xs text-end flex-1 hidden md:block">{message}</div>
-        <button className="bg-red-900  text-white px-4 py-1.5 text-xs transition-colors duration-200">
+        <div className="text-[11px] font-sen tracking-tight leading-tight">{currentDate}</div>
+        <div className="text-[12px] text-end flex-1 hidden md:block font-sen tracking-tight leading-tight">{message}</div>
+        <button className="bg-red-900 text-white px-4 py-2 text-[11px] font-sen tracking-tight leading-tight transition-colors duration-200">
           {buttonText}
         </button>
       </div>

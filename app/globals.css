@@ -1,13 +1,32 @@
 @import "tailwindcss";
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --font-libre: var(--font-libre-baskerville);
+  --font-avenir: "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-sen: var(--font-sen);
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
   color: #171717;
 }
+
+.font-libre {
+  font-family: var(--font-libre-baskerville), serif !important;
+}
+
+.font-avenir {
+  font-family: var(--font-avenir) !important;
+}
+
+.font-sen {
+  font-family: var(--font-sen), sans-serif !important;
+}
+
+
+
+
 
 /* Hide scrollbar for category nav */
 .scrollbar-hide {

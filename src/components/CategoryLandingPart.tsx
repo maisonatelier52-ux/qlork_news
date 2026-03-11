@@ -44,7 +44,6 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
   mainFeature,
   articles,
   promo,
-  onArticleBookmarkToggle,
   className = "",
 }) => {
   const normalizeCategory = (category: string): string =>
@@ -92,18 +91,15 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
                 )}
                 <div className="space-y-3">
                   <Link href={mainFeatureHref} title={mainFeature.title}>
-                    <h2 className="text-2xl sm:text-3xl font-bold leading-[1.1]  transition-colors">
-                      {mainFeature.live && (
-                        <span className="text-red-500 mr-2">Live:</span>
-                      )}
+                    <h2 className="text-[20px] sm:text-[25px] font-bold leading-[1.1] font-libre transition-colors">
                       {mainFeature.title}
                     </h2>
                   </Link>
-                  <p className="text-sm text-gray-200 leading-tight mt-1 line-clamp-3">
+                  <p className="text[12px] md:text-[13px] text-white font-sen tracking-tight leading-tight mt-1 line-clamp-3">
                     {mainFeature.shortdescription}
                   </p>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-[11px]">{mainFeature.date}</span>
+                  <div className="flex items-center font-sen tracking-tight leading-tight justify-between text-sm">
+                    <span className="text-[12px]">{mainFeature.date}</span>
                   </div>
                 </div>
               </div>
@@ -119,7 +115,7 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
                   title={article.title}
                   className="block"
                 >
-                  <div className="relative w-full aspect-5/3 bg-gray-100 overflow-hidden">
+                  <div className="relative w-full aspect-4/3 bg-gray-100 overflow-hidden">
                     <Image
                       src={article.image}
                       alt={article.title}
@@ -136,12 +132,12 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
                     href={`/${normalizeCategory(article.category)}/${article.slug}`}
                     title={article.title}
                   >
-                    <h3 className="text-base sm:text-lg font-bold text-gray-900 leading-tight  transition-colors">
+                    <h3 className="text-base sm:text-[13px] font-bold font-libre text-gray-900 leading-tight  transition-colors">
                       {article.title}
                     </h3>
                   </Link>
-                  <div className="flex items-center justify-between text-sm text-gray-600">
-                    <span className="text-[11px]">{article.date}</span>
+                  <div className="flex items-center font-sen tracking-tight leading-tight justify-between text-sm text-gray-600">
+                    <span className="text-[12px]">{article.date}</span>
                   </div>
                 </div>
               </article>
@@ -152,10 +148,10 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
           <div className="lg:col-span-3">
             <div className="bg-orange-50 border border-orange-100 p-6 sm:p-8 lg:h-[580px] flex flex-col justify-between">
               <div className="space-y-3 sm:space-y-4">
-                <h3 className="text-2xl sm:text-[25px] font-bold leading-tight text-red-900">
+                <h3 className="text-[20px] font-bold font-libre leading-tight text-red-900">
                   {promo.title}
                 </h3>
-                <p className="text-sm text-gray-700 leading-[1.4]">
+                <p className="text-[13px] text-gray-700 font-sen tracking-tight leading-tight">
                   {promo.body}
                 </p>
               </div>
@@ -163,7 +159,7 @@ const CategoryLandingPart: React.FC<CategoryLandingPartProps> = ({
                 <Link
                   href={promo.buttonHref}
                   title="promotion-link"
-                  className="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
+                  className="inline-flex items-center font-sen tracking-tight leading-tight justify-center border border-gray-900 px-6 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
                 >
                   {promo.buttonLabel}
                 </Link>

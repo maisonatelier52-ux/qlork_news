@@ -60,7 +60,7 @@ const ArticleWithSidebar: React.FC<ArticleWithSidebarProps> = ({
   }, []);
 
   return (
-    <div className={`max-w-360 mx-auto px-3 md:px-16 grid grid-cols-1 lg:grid-cols-4 gap-12 py-4 bg-white ${className}`}>
+    <div className={`max-w-360 mx-auto px-3 md:px-16 grid grid-cols-1 lg:grid-cols-4 gap-12 pt-0 pb-4 bg-white ${className}`}>
       {/* Left: Article Detail */}
       <div className="lg:col-span-3">
         <ArticleDetail

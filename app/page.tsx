@@ -26,6 +26,7 @@ import Footer from "@/src/components/Footer";
 import Script from "next/script";
 import MainGridLast from "@/src/components/MainGridLast";
 
+
 export default async function HomePage() {
   return (
     <main>
@@ -136,16 +137,18 @@ export default async function HomePage() {
         <FeatureHomePart
           hero={politicsData[7]}
           sidebarItems={[
-            businessData[1],
-            businessData[2],
+            businessData[0],
+            businessData[6],
             businessData[3],
             businessData[4],
+            businessData[1]
           ]}
           horizontalItems={[
             worldData[8],
             opinionData[6],
             educationData[4],
             financeData[0],
+            
           ]}
         />
 
@@ -153,7 +156,7 @@ export default async function HomePage() {
           <MainGrid
             items={[
               worldData[0],
-              businessData[0],
+              businessData[9],
               worldData[2],
               worldData[3],
               worldData[4],
@@ -162,23 +165,18 @@ export default async function HomePage() {
           />
         </div>
 
-        <div className="max-w-360 mx-auto px-3 md:px-16 py-4">
-          <div className="text-1xl md:text-1xl font-bold text-gray-900 mb-2">
+        <div className="max-w-360 mx-auto px-3 md:px-16">
+          <div className="text-1xl md:text-1xl font-bold font-libre text-gray-900 mb-2">
             Latest News & Breaking Stories
           </div>
-          <p className="text-base text-gray-700 leading-tight">
+          <p className="text-[14px] text-gray-700 font-sen tracking-tight leading-tight">
             Stay informed with the latest breaking news and stories from around
             the world. Get real-time updates on politics, business, technology,
             health, and more.
           </p>
         </div>
 
-        <Suspense fallback={<div className="h-32 animate-pulse bg-gray-100" />}>
-          <div className="w-full py-2">
-            <BigAddBanner />
-          </div>
-        </Suspense>
-
+       
         <HomeLandingPart
           mainFeature={featuredData[1]}
           sidebarItems={[
@@ -187,6 +185,7 @@ export default async function HomePage() {
             hotData[0],
             opinionData[0],
             worldData[5],
+            businessData[2]
           ]}
         />
 
@@ -195,7 +194,7 @@ export default async function HomePage() {
             article={globalaffairsData[1]}
             mainGridItems={[
               politicsData[2],
-              businessData[5],
+              businessData[8],
               hotData[1],
               worldData[6],
             ]}
@@ -203,13 +202,13 @@ export default async function HomePage() {
           />
         </div>
 
-        <Suspense fallback={<div className="h-32 animate-pulse bg-gray-100" />}>
+        {/* <Suspense fallback={<div className="h-32 animate-pulse bg-gray-100" />}>
           <div className="w-full py-2">
             <SecondBanner />
           </div>
-        </Suspense>
+        </Suspense> */}
 
-        <Suspense fallback={<div className="h-64 animate-pulse bg-gray-100" />}>
+        <Suspense fallback={<div className="h-64 animate-pulse bg-gray-100 " />}>
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12">
             <MainGridLazy
               items={[

@@ -131,20 +131,20 @@ const LeaveAComment: React.FC = () => {
         {/* Header */}
         <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
           <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6 text-gray-900" />
-          <p className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">
+          <p className="text-xl sm:text-2xl md:text-[20px] font-bold font-libre text-gray-900">
             Leave a Comment
           </p>
         </div>
 
         {/* Privacy Notice */}
-        <p className="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">
+        <p className="text-xs sm:text-sm text-gray-600 font-sen tracking-tight leading-tight mb-4 sm:mb-6">
           <span className="italic">Your email address will not be published.</span>{" "}
           Required fields are marked <span className="text-red-500">*</span>
         </p>
 
         {/* Success Message */}
         {submitSuccess && (
-          <div className="mb-4 p-2 bg-green-50 border border-green-200 text-green-800 rounded">
+          <div className="mb-4 p-2 bg-green-50 border font-sen tracking-tight leading-tight border-green-200 text-green-800 rounded">
             Thank you for your comment! It has been submitted successfully.
           </div>
         )}
@@ -158,7 +158,7 @@ const LeaveAComment: React.FC = () => {
   required
   value={formData.comment}
   onChange={(e) => handleChange("comment", e.target.value)}
-  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500 resize-none"
+  className="w-full px-4 py-3 bg-gray-50 placeholder:font-sen tracking-tight leading-tight border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500 resize-none"
 />
           </div>
           {/* Input Fields Row */}
@@ -170,7 +170,7 @@ const LeaveAComment: React.FC = () => {
   required
   value={formData.name}
   onChange={(e) => handleChange("name", e.target.value)}
-  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
+  className="w-full px-4 py-3 placeholder:font-sen tracking-tight leading-tight bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
 />
 
             </div>
@@ -181,7 +181,7 @@ const LeaveAComment: React.FC = () => {
   required
   value={formData.email}
   onChange={(e) => handleChange("email", e.target.value)}
-  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
+  className="w-full px-4 py-3 placeholder:font-sen tracking-tight leading-tight bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
 />
 
             </div>
@@ -191,22 +191,22 @@ const LeaveAComment: React.FC = () => {
   placeholder="Your website"
   value={formData.website}
   onChange={(e) => handleChange("website", e.target.value)}
-  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
+  className="w-full px-4 py-3 placeholder:font-sen tracking-tight leading-tight bg-gray-50 border border-gray-200 rounded-none text-sm focus:outline-none focus:ring-1 focus:ring-orange-500"
 />
 
             </div>
           </div>
 
           {/* Checkbox */}
-          <div className="flex items-start gap-2 sm:gap-3 mb-4 sm:mb-6">
+          <div className="flex items-start gap-2 sm:gap-3 mb-4 font-sen tracking-tight leading-tight sm:mb-6">
             <input
               type="checkbox"
               id="save-info"
               checked={formData.saveInfo}
               onChange={(e) => handleChange("saveInfo", e.target.checked)}
-              className="mt-0.5 sm:mt-1 w-3 sm:w-4 h-3 sm:h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500 cursor-pointer"
+              className="mt-0.5 sm:mt-1 w-2 sm:w-3 h-2 sm:h-3 text-orange-500 border-gray-300 rounded focus:ring-orange-500 cursor-pointer"
             />
-            <label htmlFor="save-info" className="text-xs sm:text-sm text-gray-600 cursor-pointer">
+            <label htmlFor="save-info" className="text-xs  sm:text-sm text-gray-600 cursor-pointer">
               Save my name, email, and website in this browser for the next time I comment.
             </label>
           </div>
@@ -215,7 +215,7 @@ const LeaveAComment: React.FC = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className={`px-6 py-2 sm:px-8 sm:py-3 bg-gray-900 text-white font-semibold hover:bg-orange-500 transition-colors duration-200 rounded-none text-sm sm:text-base ${
+            className={`px-6 py-2 sm:px-8 sm:py-3 bg-gray-900 font-sen tracking-tight leading-tight text-white font-semibold hover:bg-orange-500 transition-colors duration-200 rounded-none text-sm sm:text-base ${
               isSubmitting ? "opacity-50 cursor-not-allowed" : ""
             }`}
           >

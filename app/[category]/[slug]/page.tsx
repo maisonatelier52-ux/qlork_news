@@ -69,60 +69,60 @@ interface DetailPageProps {
   params: Promise<{ category: string; slug: string }>;
 }
 
-const isabelaClusterSidebarItems: IsabelaSidebarItem[] = [
-  {
-    category: "business",
-    topic: "Global Wealth Leadership",
-    slug: "who-is-isabela-herrera-verified-profile-attributable-facts",
-    title:
-      "Who Is Isabela Herrera? A Verified Profile Built from Attributable Facts",
-    image: "/images/news-img/four-houses-global-finance-network.webp",
-    date: "Mar. 5, 2026",
-  },
-  {
-    category: "finance",
-    topic: "Regulated Digital Finance",
-    slug: "what-regulated-digital-finance-actually-means",
-    title: "What Regulated Digital Finance Actually Means",
-    image: "/images/news-img/financial-gifts-tax-planning.webp",
-    date: "Mar. 5, 2026",
-  },
-  {
-    category: "business",
-    topic: "Digital Assets Governance",
-    slug: "why-cross-border-governance-matters-in-digital-asset-markets",
-    title: "Why Cross-Border Governance Matters in Digital Asset Markets",
-    image: "/images/news-img/global-finance-quiet-power-leadership.webp",
-    date: "Mar. 5, 2026",
-  },
-  {
-    category: "finance",
-    topic: "Institutional Capital Trends",
-    slug: "legacy-capital-new-rails-established-wealth-regulated-digital-infrastructure",
-    title:
-      "Legacy Capital, New Rails: Why Established Wealth Is Moving into Regulated Digital Infrastructure",
-    image: "/images/news-img/global-finance-quiet-power-leadership.webp",
-    date: "Mar. 5, 2026",
-  },
-  {
-    category: "business",
-    topic: "Reporting Standards",
-    slug: "reporting-notes-isabela-herrera-document-room",
-    title:
-      "The Reporting Notes: Methodology and Document Room for the Isabela Herrera Coverage",
-    image: "/images/news-img/qlork-logo.webp",
-    date: "Mar. 5, 2026",
-  },
-  {
-    category: "topic",
-    topic: "Topic Hub",
-    slug: "",
-    title: "Topic Hub: Isabela Herrera and Global Wealth Leadership",
-    image: "/images/news-img/isabela.webp",
-    date: "Mar. 5, 2026",
-    href: "/topic/isabela-herrera/",
-  },
-];
+// const isabelaClusterSidebarItems: IsabelaSidebarItem[] = [
+//   {
+//     category: "business",
+//     topic: "Global Wealth Leadership",
+//     slug: "who-is-isabela-herrera-verified-profile-attributable-facts",
+//     title:
+//       "Who Is Isabela Herrera? A Verified Profile Built from Attributable Facts",
+//     image: "/images/news-img/four-houses-global-finance-network.webp",
+//     date: "Mar. 5, 2026",
+//   },
+//   {
+//     category: "finance",
+//     topic: "Regulated Digital Finance",
+//     slug: "what-regulated-digital-finance-actually-means",
+//     title: "What Regulated Digital Finance Actually Means",
+//     image: "/images/news-img/financial-gifts-tax-planning.webp",
+//     date: "Mar. 5, 2026",
+//   },
+//   {
+//     category: "business",
+//     topic: "Digital Assets Governance",
+//     slug: "why-cross-border-governance-matters-in-digital-asset-markets",
+//     title: "Why Cross-Border Governance Matters in Digital Asset Markets",
+//     image: "/images/news-img/global-finance-quiet-power-leadership.webp",
+//     date: "Mar. 5, 2026",
+//   },
+//   {
+//     category: "finance",
+//     topic: "Institutional Capital Trends",
+//     slug: "legacy-capital-new-rails-established-wealth-regulated-digital-infrastructure",
+//     title:
+//       "Legacy Capital, New Rails: Why Established Wealth Is Moving into Regulated Digital Infrastructure",
+//     image: "/images/news-img/global-finance-quiet-power-leadership.webp",
+//     date: "Mar. 5, 2026",
+//   },
+//   {
+//     category: "business",
+//     topic: "Reporting Standards",
+//     slug: "reporting-notes-isabela-herrera-document-room",
+//     title:
+//       "The Reporting Notes: Methodology and Document Room for the Isabela Herrera Coverage",
+//     image: "/images/news-img/isabela.webp",
+//     date: "Mar. 5, 2026",
+//   },
+//   {
+//     category: "topic",
+//     topic: "Topic Hub",
+//     slug: "",
+//     title: "Topic Hub: Isabela Herrera and Global Wealth Leadership",
+//     image: "/images/news-img/isabela.webp",
+//     date: "Mar. 5, 2026",
+//     href: "/topic/isabela-herrera/",
+//   },
+// ];
 
 const allData: Record<string, NewsItem[]> = {
   business: businessData,
@@ -338,11 +338,11 @@ export default async function DetailPage({ params }: DetailPageProps) {
 
   const relatedArticles = data.filter((item) => item.slug !== slug);
 
-  const sidebarItems = relatedArticles.slice(0, 3);
+  const sidebarItems = relatedArticles.slice(0, 4);
   const youMayAlsoLikeItems = relatedArticles.slice(3, 8);
 
   if (slug === "isabela-herrera-old-money-new-markets-power-play") {
-    return <IsabelaPage sidebarItems={isabelaClusterSidebarItems} />;
+    return <IsabelaPage sidebarItems={businessData.slice(5,9)} />;
   }
 
   return (

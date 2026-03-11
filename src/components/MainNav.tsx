@@ -45,9 +45,9 @@ const MainNav: React.FC = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
+      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 ">
         <div className="max-w-360 mx-auto px-3 md:px-16">
-          <div className="flex items-center justify-between py-3">
+          <div className="flex items-center justify-between py-5">
             <div className="flex items-center justify-between gap-6">
               {/* Logo */}
               <Link href="/" title="Qlork Home" className="flex items-center">
@@ -73,7 +73,7 @@ const MainNav: React.FC = () => {
                       <Link
                         href={item.href}
                         title={item.title}
-                        className={`relative text-sm font-semibold transition-colors duration-200
+                        className={`relative text-sm font-semibold transition-colors font-sen tracking-tight leading-tight duration-200
                                                     ${
                                                       isActive
                                                         ? "bg-gray-200 text-black p-2"

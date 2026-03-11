@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const SubscribeNewsletter: React.FC = () => {
+const   SubscribeNewsletter: React.FC = () => {
   const [email, setEmail] = useState("");
   const [agreed, setAgreed] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -24,7 +24,7 @@ const SubscribeNewsletter: React.FC = () => {
       href: "https://substack.com/@qlork1",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-4 h-4"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const SubscribeNewsletter: React.FC = () => {
       href: "https://www.instagram.com/qlork_news/",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-4 h-4"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -90,8 +90,8 @@ const SubscribeNewsletter: React.FC = () => {
           className="object-contain"
         />
       </div>
-      <p className="text-xl font-bold text-gray-900 mb-3">Subscribe</p>
-      <p className="text-sm text-gray-600 mb-5 leading-relaxed">
+      <p className="text-[18px] font-bold text-gray-900 mb-3 font-libre">Subscribe</p>
+      <p className="text-sm text-gray-600 mb-5 font-sen tracking-tight leading-tight">
         Subscribe to our newsletter to get our newest articles instantly!
       </p>
       {submitSuccess && (
@@ -106,21 +106,21 @@ const SubscribeNewsletter: React.FC = () => {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Your email address"
           required
-          className="w-full px-4 py-3 mb-4 bg-white border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-transparent"
+          className="w-full px-4 py-3 mb-4 bg-white text-[12px] placeholder:font-sen tracking-tight leading-tight border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-orange-500 focus:border-transparent"
         />
         <label className="flex items-start gap-2 mb-2 text-xs text-gray-600 cursor-pointer">
           <input
             type="checkbox"
             checked={agreed}
             onChange={(e) => setAgreed(e.target.checked)}
-            className="mt-0.5 w-4 h-4 text-orange-500 border-gray-300 rounded focus:ring-orange-500"
+            className="mt-0.5 w-4 h-4 text-orange-500 font-sen tracking-tight leading-tight text-[12px] border-gray-300 rounded focus:ring-orange-500"
           />
           <span>I have read and agree to the terms & conditions</span>
         </label>
         <button
           type="submit"
           disabled={isSubmitting || !agreed}
-          className={`w-full px-6 py-3 bg-black cursor-pointer text-white font-semibold hover:bg-gray-800 transition-colors duration-200 ${
+          className={`w-full px-6 py-3 bg-black cursor-pointer text-white font-sen tracking-tight leading-tight text-[15px] font-semibold hover:bg-gray-800 transition-colors duration-200 ${
             isSubmitting || !agreed ? "opacity-50 cursor-not-allowed" : ""
           }`}
         >
@@ -140,7 +140,7 @@ const SubscribeNewsletter: React.FC = () => {
               <span className="text-gray-900 group-hover:text-orange-500 transition-colors">
                 {social.icon}
               </span>
-              <span className="font-medium text-sm">{social.name}</span>
+              <span className="font-medium text-[13px] font-sen tracking-tight leading-tight">{social.name}</span>
             </div>
           </Link>
         ))}

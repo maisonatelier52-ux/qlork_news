@@ -32,7 +32,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         {items.map((item, index) => (
           <div key={index} className="flex gap-4 md:py-4 py-2">
             <div className="flex-1 space-y-1">
-              <div className="flex items-center gap-2 text-[11px] text-gray-600">
+              <div className="flex items-center gap-2 text-[12px] font-sen tracking-tight leading-tight text-gray-600">
                 <span>{item.topic}</span>
               </div>
               <Link
@@ -43,11 +43,11 @@ const Sidebar: React.FC<SidebarProps> = ({
                 className="block"
                 title={item.title}
               >
-                <h3 className="text-sm font-semibold text-gray-900 leading-snug  transition-colors">
+                <h3 className="text-[12px] font-semibold font-libre text-gray-900 leading-snug  transition-colors">
                   {item.title}
                 </h3>
               </Link>
-              <div className="flex items-center gap-3 text-[11px] text-gray-600">
+              <div className="flex items-center gap-3 text-[12px] font-sen tracking-tight text-gray-600">
                 <span>{item.date}</span>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                 item.href ||
                 (item.slug ? `/${item.category}/${item.slug}` : "#")
               }
-              className="w-30 h-25 shrink-0 overflow-hidden border border-gray-200 block"
+              className="w-25 h-18 shrink-0 overflow-hidden border border-gray-200 block"
               title={item.title}
             >
               <img

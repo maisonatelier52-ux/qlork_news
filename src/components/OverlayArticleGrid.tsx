@@ -28,7 +28,7 @@ const OverlayArticleGrid: React.FC<OverlayArticleGridProps> = ({
     <section className={`bg-white ${className}`}>
       {heading && (
         <div className="flex items-center gap-2 mb-4 mt-4">
-          <h2 className="text-xl font-semibold text-gray-900">{heading}</h2>
+          <h2 className="text-[15px] font-semibold text-gray-900 font-libre">{heading}</h2>
           <span className="text-gray-500 text-lg">›</span>
         </div>
       )}
@@ -60,10 +60,10 @@ const OverlayArticleGrid: React.FC<OverlayArticleGridProps> = ({
 
                 {/* Content Overlay */}
                 <div className="absolute inset-0 flex flex-col justify-end p-3 sm:p-4 text-white">
-                  <div className="text-[11px] font-semibold uppercase tracking-wide mb-1 sm:mb-2">
+                  <div className="text-[11px] font-semibold font-sen tracking-tight leading-tight uppercase tracking-wide mb-1 sm:mb-2">
                     {item.topic}
                   </div>
-                  <h3 className="text-sm sm:text-base md:text-[23px] font-bold leading-[1.1] mb-1 sm:mb-2  transition-colors">
+                  <h3 className="text-[14px] sm:text-base md:text-[17px] font-bold font-libre leading-[1.1] mb-1 sm:mb-2  transition-colors">
                     {item.title}
                   </h3>
                   {item.excerpt && (
@@ -71,7 +71,7 @@ const OverlayArticleGrid: React.FC<OverlayArticleGridProps> = ({
                       {item.excerpt}
                     </p>
                   )}
-                  <div className="flex items-center justify-between text-[10px] sm:text-[11px]">
+                  <div className="flex items-center font-sen tracking-tight leading-tight justify-between text-[10px] sm:text-[12px]">
                     <span>{item.date}</span>
                   </div>
                 </div>

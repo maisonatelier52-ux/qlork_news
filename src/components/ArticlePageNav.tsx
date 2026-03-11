@@ -21,14 +21,14 @@ const ArticlePageNav: React.FC = () => {
     <div className="bg-white pb-6">
       <div className="max-w-360 mx-auto px-3 md:px-16">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="text-red-600 font-bold text-lg mr-2">
+          <span className="text-red-600 font-bold font-libre text-[15px] mr-2">
             More News:
           </span>
           {categories.map((category, index) => (
             <Link
               key={`${category.slug}-${index}`}
               href={`/${category.slug}`}
-              className="px-3 md:px-5 py-1 md:py-2 border border-gray-900 text-gray-900 font-semibold text-[11px] md:text-sm hover:bg-gray-900 hover:text-white transition-colors duration-200 rounded-full whitespace-nowrap"
+              className="px-3 md:px-5 py-1 md:py-2 border border-gray-900 font-libre text-gray-900 font-semibold text-[11px] md:text-[12px] hover:bg-gray-900 hover:text-white transition-colors duration-200 rounded-full whitespace-nowrap"
               title={`View ${category.name} articles`}
             >
               {category.name}

@@ -222,8 +222,8 @@ export default async function CategoryPage({
 
   const promo: CategoryLandingPromo = {
     title: `Impressive ${data[0].category} News Coverage`,
-    body: `Stay informed with the latest ${data[0].category} news, insights, and analysis. Get comprehensive coverage of breaking stories, key trends, and major developments shaping the ${data[0].category} landscape. Our reporting brings context, clarity, and updates to help readers understand the issues that matter most. From policy decisions to real-world impacts, our journalism aims to inform and engage a broad audience worldwide across diverse global perspectives. Coverage is guided by accuracy, independence, and a commitment to responsible reporting with depth and balance.`,
-    buttonLabel: "Explore More",
+body: `Stay informed with the latest ${data[0].category} news, insights, and analysis. Get comprehensive coverage of breaking stories, key trends, and major developments shaping the ${data[0].category} landscape. Our reporting brings context, clarity, and updates to help readers understand the issues that matter most. From policy decisions to real-world impacts, our journalism aims to inform and engage a broad audience worldwide across diverse global perspectives. Coverage is guided by accuracy, independence, and a commitment to responsible reporting with depth and balance. We also highlight expert opinions, data-driven insights, and on-the-ground reporting to provide a deeper understanding of evolving developments. Our goal is to help readers navigate complex topics with reliable information and thoughtful context. Stay updated with timely stories that keep you informed, aware, and engaged every day.`,
+  buttonLabel: "Explore More",
     buttonHref: "/",
   };
 

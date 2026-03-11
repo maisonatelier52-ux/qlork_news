@@ -52,7 +52,7 @@ const Footer: React.FC<FooterProps> = ({
       href: "https://substack.com/@qlork1",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-4 h-4"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Footer: React.FC<FooterProps> = ({
       href: "https://www.instagram.com/qlork_news/",
       icon: (
         <svg
-          className="w-5 h-5"
+          className="w-4 h-4"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -118,11 +118,10 @@ const Footer: React.FC<FooterProps> = ({
             </Link>
 
             {/* Description */}
-            <p className="text-sm text-gray-600 leading-relaxed">
-              Get breaking news, live updates, expert analysis,
+            <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+              Get breaking news, live updates, expert analysis, and real-time
               <br />
-              and real-time coverage on global events, business,
-              <br /> politics, technology, and more.
+               coverage on global events, business, politics, technology, and more.
             </p>
 
             {/* Social Icons */}
@@ -133,8 +132,7 @@ const Footer: React.FC<FooterProps> = ({
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-100 hover:bg-gray-700 rounded flex items-center justify-center text-gray-600 hover:text-white transition-colors duration-200"
-                  title={social.name}
+                title={social.name}
                 >
                   {social.icon}
                 </Link>
@@ -149,7 +147,7 @@ const Footer: React.FC<FooterProps> = ({
               <Link
                 href={aboutCompanyLink}
                 title="About Company"
-                className="inline-flex items-center text-red-700 font-semibold text-sm transition-colors"
+                className="inline-flex items-center font-libre text-red-700 font-semibold text-[13px] transition-colors"
               >
                 About Company
                 <svg
@@ -169,7 +167,7 @@ const Footer: React.FC<FooterProps> = ({
             </div>
 
             {/* Navigation Links */}
-            <div className="flex flex-wrap items-center gap-2 text-sm text-gray-700">
+            <div className="flex flex-wrap items-center font-sen tracking-tight leading-tight gap-2 text-[12px] text-gray-700">
               {navigationLinks.map((link, index) => (
                 <React.Fragment key={link.href}>
                   <Link
@@ -188,11 +186,11 @@ const Footer: React.FC<FooterProps> = ({
 
             {/* Newsletter Subscription */}
             <div className="space-y-4">
-              <p className="text-base font-semibold text-gray-900">
+              <p className="text-[13px] font-semibold font-libre text-gray-900">
                 {newsletterHeading}
               </p>
               {submitSuccess && (
-                <div className="p-2 bg-green-50 border border-green-200 text-green-800 rounded text-sm">
+                <div className="p-2 bg-green-50 border font-sen tracking-tight leading-tight border-green-200 text-green-800 rounded text-[13px]">
                   Successfully subscribed to our newsletter!
                 </div>
               )}
@@ -204,17 +202,17 @@ const Footer: React.FC<FooterProps> = ({
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder={newsletterPlaceholder}
-                    className="flex-1 px-4 py-2 bg-gray-100 border border-gray-200 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-1  focus:border-transparent"
+                    className="flex-1 px-4 py-2 bg-gray-100 border border-gray-200 text-gray-900 placeholder-gray-500 placeholder:font-sen placeholder:tracking-tight placeholder:leading-tight placeholder:text-[12px] focus:outline-none focus:ring-1  focus:border-transparent"
                     required
                   />
                   <button
                     type="submit"
-                    className="px-6 py-2 cursor-pointer bg-gray-900 hover:bg-gray-800 text-white font-medium transition-colors duration-200 whitespace-nowrap"
+                    className="px-6 py-2 cursor-pointer bg-gray-900 hover:bg-gray-800 text-white font-[15px] font-sen tracking-tight leading-tight transition-colors duration-200 whitespace-nowrap"
                   >
                     {newsletterButtonText}
                   </button>
                 </div>
-                <label className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+                <label className="flex items-center gap-2 text-[12px] font-sen tracking-tight leading-tight text-gray-600 cursor-pointer">
                   <input
                     type="checkbox"
                     checked={agreed}
@@ -233,7 +231,7 @@ const Footer: React.FC<FooterProps> = ({
       {/* Copyright Section */}
       <div className="border-t border-gray-200">
         <div className="max-w-360 mx-auto px-6 py-4">
-          <p className="text-[12px] md:text-sm text-gray-600 text-center">
+          <p className="text-[12px] md:text-[12px] font-sen tracking-tight leading-tight text-gray-600 text-center">
             {copyrightText}
           </p>
         </div>

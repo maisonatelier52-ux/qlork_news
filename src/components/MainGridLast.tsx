@@ -65,7 +65,7 @@ const MainGridLast: React.FC<MainGridProps> = ({
     <section className={className}>
       {heading && (
         <div className="flex items-center gap-2 mt-4 mb-4">
-          <h2 className="text-xl font-semibold text-gray-900">{heading}</h2>
+          <h2 className="text-[15px] font-semibold text-gray-900 font-libre">{heading}</h2>
           <span className="text-gray-500 text-lg">›</span>
         </div>
       )}
@@ -99,7 +99,7 @@ const MainGridLast: React.FC<MainGridProps> = ({
               <div className="w-3/5 md:w-full">
                 <div className="flex flex-col space-y-1">
                   <div className="flex items-center gap-2 text-[12px] text-gray-600">
-                    <span className="font-medium text-gray-700">
+                    <span className="font-medium text-gray-700 font-sen tracking-tight leading-tight">
                       {item.topic}
                     </span>
                   </div>
@@ -108,7 +108,7 @@ const MainGridLast: React.FC<MainGridProps> = ({
                     title={item.title}
                     className="block"
                   >
-                    <h3 className="text-sm md:text-md font-semibold text-gray-900 leading-snug  transition-colors">
+                    <h3 className="text-sm md:text-[12px] font-semibold font-libre text-gray-900 leading-snug  transition-colors">
                       {item.title}
                     </h3>
                   </Link>
@@ -128,7 +128,7 @@ const MainGridLast: React.FC<MainGridProps> = ({
             <button
               type="button"
               onClick={handleShowMore}
-              className="text-sm font-medium text-gray-700  transition-colors"
+              className="text-sm font-medium cursor-pointer text-gray-700 font-sen tracking-tight leading-tight transition-colors"
             >
               {showMoreLabel}
             </button>
@@ -137,7 +137,7 @@ const MainGridLast: React.FC<MainGridProps> = ({
             <button
               type="button"
               onClick={handleShowLess}
-              className="text-sm font-medium cursor-pointer text-gray-700  transition-colors"
+              className="text-sm font-medium cursor-pointer font-sen tracking-tight leading-tight text-gray-700  transition-colors"
             >
               {showLessLabel}
             </button>

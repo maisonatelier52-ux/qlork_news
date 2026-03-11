@@ -66,11 +66,11 @@ export default function PrivacyPolicyPage() {
         <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-5">
+          <h1 className="text-4xl md:text-5xl font-libre font-extrabold tracking-tight mb-5">
             Privacy <span className="text-gray-900">Policy</span>
           </h1>
           <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-[15px] font-sen tracking-tight leading-tight text-gray-600 max-w-2xl mx-auto">
    Your privacy matters. This policy explains how information is collected, used, and protected.
           </p>
         </div>
@@ -79,7 +79,7 @@ export default function PrivacyPolicyPage() {
         <div className="space-y-10">
           {/* Intro */}
           <div className="bg-orange-50 border border-orange-200 rounded-2xl p-8">
-            <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+            <p className="text-gray-700 text-[12px] md:text-[15px] font-sen tracking-tight leading-tight">
               Your privacy is important to us. This Privacy Policy explains how
               we collect, use, disclose, and safeguard your information when
               you visit our website or use our services. Please read carefully.
@@ -246,11 +246,11 @@ export default function PrivacyPolicyPage() {
               key={idx}
               className="border border-gray-200 rounded-2xl p-8 space-y-4"
             >
-              <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 flex items-center gap-3">
+              <h2 className="text-[15px] md:text-[20px] font-semibold font-libre text-gray-900 flex items-center gap-3">
                 <span className="w-1.5 h-6 bg-gray-900 rounded" />
                 {section.title}
               </h2>
-              <div className="text-gray-700 text-base md:text-lg leading-relaxed">
+              <div className="text-gray-700 text-[12px] font-sen tracking-tight leading-tight md:text-[15px]">
                 {section.content}
               </div>
             </div>

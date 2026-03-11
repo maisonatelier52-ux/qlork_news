@@ -29,7 +29,7 @@ const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
       <div className="max-w-360 mx-auto py-0 sm:py-8">
         {heading && (
           <div className="flex items-center gap-2 mb-3 sm:mb-4">
-            <h2 className="text-lg sm:text-xl font-semibold text-gray-900">
+            <h2 className="text-lg sm:text-[15px] font-semibold font-libre text-gray-900">
               {heading}
             </h2>
             <span className="text-gray-500 text-lg">›</span>
@@ -38,31 +38,24 @@ const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 items-start">
           {/* Left promo card */}
           <div className="lg:col-span-1">
-            <div className="bg-orange-50 border lg:h-[550px] border-orange-100 rounded-lg p-6 sm:p-8 flex flex-col justify-between h-full">
-              <div className="space-y-4">
-                <p className="text-sm font-semibold text-orange-700 uppercase tracking-wide">
+            <div className="bg-orange-50 border lg:h-[550px] border-orange-100 rounded-lg p-6 flex flex-col justify-between h-full">
+              <div className="space-y-3">
+                <p className="text-sm font-semibold font-sen tracking-tight leading-tight text-orange-700 uppercase tracking-wide">
                   World
                 </p>
-                <h3 className="text-2xl sm:text-[24px] font-black leading-tight text-red-900 whitespace-pre-line">
+                <h3 className="text-[18px] md:text-[20px] font-black font-libre leading-tight text-red-900 whitespace-pre-line">
                   Global Perspectives and World Affairs
                 </h3>
-                <p className="text-sm text-gray-700 leading-[1.4]">
-                  A closer look at the stories shaping our planet. From
-                  international developments and geopolitics to culture,
-                  climate, and social change, we explore the forces influencing
-                  life across borders. Our coverage connects global events with
-                  real-world impact, offering context, clarity, and diverse
-                  perspectives to help readers better understand an
-                  interconnected world. Through timely reporting and thoughtful
-                  storytelling, we bring the world closer to you every day
-                  worldwide.
+                <p className="text-sm text-gray-700 font-sen tracking-tight leading-tight">
+                 A closer look at the stories shaping our planet. From international developments and geopolitics to culture, climate, and social change, we explore the forces influencing life across borders. Our coverage connects global events with real-world impact, offering context, clarity, and diverse perspectives to help readers better understand an interconnected world. Through timely reporting and thoughtful storytelling, we bring the world closer to you every day worldwide. We highlight emerging trends, voices, and events that define our shared global future. Stay informed with insights that make complex international issues easier to understand.
+
                 </p>
               </div>
               <div className="mt-6">
                 <Link
                   href="/world"
                   title="world-category"
-                  className="inline-flex items-center justify-center border border-gray-900 px-6 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
+                  className="inline-flex text-[15px] font-semibold font-sen tracking-tight leading-tight items-center justify-center border border-gray-900 px-6 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
                 >
                   Explore More
                 </Link>

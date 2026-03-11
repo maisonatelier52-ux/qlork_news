@@ -21,7 +21,7 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author, reverse = false }) => {
       <div className={`md:flex ${reverse ? "md:flex-row-reverse" : ""}`}>
         {/* Left: Text */}
         <div className="md:w-2/3 p-6 md:p-16">
-          <h1 className="text-2xl md:text-4xl text-white font-black tracking-widest mb-4 md:mb-6">
+          <h1 className="text-[15px] md:text-[20px] font-libre text-white font-black tracking-widest mb-4 md:mb-6">
             {author.name.toUpperCase()}
           </h1>
 
@@ -30,14 +30,14 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author, reverse = false }) => {
             <Mail size={20} className="md:w-7 md:h-7" />
             <a
               href={`mailto:${author.email}`}
-              className="text-base md:text-lg font-medium hover:underline transition break-all"
+              className="text-[12px] md:text-[15px] font-medium font-sen tracking-tight leading-tight hover:underline transition break-all"
               title={`Email ${author.name}`}
             >
               {author.email}
             </a>
           </div>
 
-          <p className="text-sm md:text-lg leading-relaxed text-white mb-4 md:mb-6">
+          <p className="text-[12px] md:text-[15px] font-sen tracking-tight leading-tight text-white mb-4 md:mb-6">
             {author.bio}
           </p>
 

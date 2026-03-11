@@ -33,7 +33,6 @@ const buildLink = (feature: LandingFeature) =>
 const HomeLandingPart: React.FC<HomeLandingPartProps> = ({
   mainFeature,
   sidebarItems,
-  onSidebarBookmarkToggle,
 }) => {
   return (
     <section className="bg-white">
@@ -43,15 +42,15 @@ const HomeLandingPart: React.FC<HomeLandingPartProps> = ({
           <article className="lg:col-span-8 flex flex-col gap-3">
             <div className="flex items-center gap-2 text-[13px] font-semibold text-gray-700">
               <span className="w-3 h-3 rounded-full bg-red-600" />
-              <span>{mainFeature.topic}</span>
+              <span className="font-sen tracking-tight leading-tight">{mainFeature.topic}</span>
             </div>
             <Link href={buildLink(mainFeature)} title={mainFeature.title}>
-              <div className="text-[32px] sm:text-4xl font-bold leading-tight text-gray-900  transition-colors">
+              <div className="text-[20px] md:text-[25px] font-bold font-libre leading-tight text-gray-900  transition-colors">
                 {mainFeature.title}
               </div>
             </Link>
             <Link href={buildLink(mainFeature)} title={mainFeature.title}>
-              <div className="relative w-full h-[360px] sm:h-[420px] lg:h-[340px] overflow-hidden">
+              <div className="relative w-full h-[360px] sm:h-[420px] lg:h-[460px] overflow-hidden">
                 <Image
                   src={mainFeature.image}
                   alt={mainFeature.title}
@@ -65,7 +64,7 @@ const HomeLandingPart: React.FC<HomeLandingPartProps> = ({
                 />
               </div>
             </Link>
-            <p className="text-sm text-gray-700 leading-[1.3]">
+            <p className="text-[12.55px] text-gray-700 font-sen tracking-tight leading-tight">
               {mainFeature.shortdescription}
             </p>
           </article>

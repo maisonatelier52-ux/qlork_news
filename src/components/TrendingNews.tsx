@@ -42,12 +42,12 @@ export default function TrendingNews() {
     value.toLowerCase().trim().replace(/\s+/g, "-");
 
   return (
-    <div className="w-full overflow-hidden bg-black text-white border-y border-gray-800">
+    <div className="w-full overflow-hidden bg-black text-white border-y border-gray-800 mb-10">
       <div className="ticker-track flex whitespace-nowrap py-1.5">
         {tickerItems.map((item, index) => (
           <div key={index} className="flex items-center mx-8 gap-3 text-sm">
             <Link href={`/${normalizeCategory(item.label)}`} title={item.label}>
-              <span className="bg-red-700 text-white text-xs font-bold px-3 py-1 uppercase tracking-wider">
+              <span className="bg-red-700 text-white text-[10px] font-libre font-bold px-3 py-1 uppercase tracking-wider">
                 {item.label}
               </span>
             </Link>
@@ -55,7 +55,7 @@ export default function TrendingNews() {
               href={`/${normalizeCategory(item.label)}/${item.slug}`}
               title={item.label}
             >
-              <span className="text-gray-100 font-medium">{item.title}</span>
+              <span className="text-gray-100 text-[13px] font-sen tracking-tight leading-tight">{item.title}</span>
             </Link>
             <span className="text-gray-600 text-lg">|</span>
           </div>

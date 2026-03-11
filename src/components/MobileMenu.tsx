@@ -31,7 +31,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
         
         {/* Categories Title */}
         <div className="space-y-2">
-          <h3 className="text-sm font-bold text-gray-900">
+          <h3 className="text-sm font-bold font-libre  text-gray-900">
             Categories
           </h3>
           <div className="border-t border-gray-200" />
@@ -46,7 +46,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
               href={item.href}
               onClick={onClose}
               title={item.title}
-              className={`text-xs font-semibold transition-colors ${
+              className={`text-xs font-semibold font-sen tracking-tight leading-tight transition-colors ${
                 isActive(item.href)
                   ? "text-orange-500"
                   : "text-gray-800 hover:text-orange-500"
@@ -61,7 +61,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
         <div className="border-t border-gray-200" />
 
         {/* Footer Links */}
-        <div className="space-y-4 text-xs font-semibold text-gray-700">
+        <div className="space-y-4 text-xs font-semibold font-sen tracking-tight leading-tight text-gray-700">
           <div className="grid grid-cols-2 gap-4 text-left">
             <Link href="/about-us" onClick={onClose} className="hover:text-orange-500" title="about us">
               About Us
@@ -96,7 +96,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
 
   {/* Follow Us Row */}
   <div className="flex items-center justify-between border-b pb-5 border-gray-200">
-    <span className="text-xs font-semibold text-gray-700">
+    <span className="text-xs font-semibold font-sen tracking-tight leading-tight text-gray-700">
       Follow Us
     </span>
 

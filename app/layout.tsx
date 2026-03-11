@@ -1,6 +1,29 @@
 import type { Metadata } from "next";
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
+import { Libre_Baskerville } from 'next/font/google';
+import localFont from 'next/font/local'
+
+const sen = localFont({
+  src: [
+    {
+      path: '../public/fonts/Sen-Regular.woff2',
+      weight: '400',  
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Sen-Medium.woff2',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../public/fonts/Sen-Bold.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-sen'
+})
 
 const inter = Inter({
   subsets: ["latin"],
@@ -14,6 +37,12 @@ const merriweather = Merriweather({
   weight: ["400", "700"],
   variable: "--font-merriweather",
   display: "swap",
+});
+
+const libreBaskerville = Libre_Baskerville({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-libre-baskerville',
 });
 
 export const metadata: Metadata = {
@@ -134,7 +163,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.variable} ${merriweather.variable} antialiased`}
+        className={`${inter.variable} ${merriweather.variable} ${sen.variable} ${libreBaskerville.variable} antialiased`}
       >
         {children}
       </body>

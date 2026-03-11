@@ -41,10 +41,10 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
   };
 
   return (
-    <section className={`bg-white pt-8 ${className}`}>
+    <section className={`bg-white pt-0 ${className}`}>
       <div className="max-w-360 mx-auto px-3 md:px-16">
         <div className="flex items-center justify-between mb-4">
-          <h1 className="text-3xl md:text-4xl  capitalize font-bold text-gray-900">
+          <h1 className="text-[20px] md:text-[25px] font-libre capitalize font-bold text-gray-900">
             {categoryName}
           </h1>
           <button
@@ -68,7 +68,7 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
           </button>
         </div>
 
-        <p className="text-base text-gray-600 leading-tight mb-6 max-w-4xl">
+        <p className="text-[12px] md:text-[14px] text-gray-600 leading-tight font-sen tracking-tight leading-tight mb-6 max-w-4xl">
           {description}
         </p>
         <div className="flex items-center gap-6 flex-wrap">
@@ -87,7 +87,7 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
                 key={topic}
                 href={`/${topic.toLowerCase().replace(/\s+/g, "-")}`}
                 title="topic"
-                className="px-3 md:px-4 py-1.5 capitalize border border-gray-900 rounded-3xl text-[12px] md:text-sm font-bold text-gray-700 hover:text-white hover:bg-orange-700 hover:border-none transition-colors duration-200"
+                className="px-3 md:px-4 py-1 md:py-1.5 font-libre capitalize border border-gray-900 rounded-3xl text-[10px] md:text-[12px] font-bold text-gray-700 hover:text-white hover:bg-orange-700 hover:border-none transition-colors duration-200"
               >
                 {topic}
               </Link>

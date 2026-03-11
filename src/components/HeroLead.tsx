@@ -32,19 +32,19 @@ const HeroLead: React.FC<HeroLeadProps> = ({
           <div className="flex-2 space-y-3 mt-0">
             <div className="flex items-center gap-2 text-sm font-semibold text-gray-700">
               <span className="w-3 h-3 rounded-full bg-red-600" />
-              <span className='text-red-600'>{topic}</span>
+              <span className='text-red-600 font-sen tracking-tight leading-tight'>{topic}</span>
             </div>
             <Link href={linkHref} title={title} className="block">
-              <h1 className="text-[30px] sm:text-4xl lg:text-[35px] font-bold leading-none md:leading-[1.1] text-gray-900 transition-colors">
+              <h1 className="text-[20px] md:text-[25px] font-bold font-libre leading-none md:leading-[1.1] text-gray-900 transition-colors">
                 {title}
               </h1>
             </Link>
-            <p className="text-sm text-gray-700 leading-tight mb-1">{shortdescription}</p>
+            <p className="text-[13px] text-gray-700 font-sen tracking-tight leading-tight mb-1">{shortdescription}</p>
             <span className="text-[11px] text-gray-600">{date}</span>
           </div>
           <div className="flex-3 w-full">
             <Link href={linkHref} title={title} className="block">
-              <div className="relative w-full h-72 sm:h-74 lg:h-100 overflow-hidden">
+              <div className="relative w-full h-72 sm:h-74 lg:h-90 overflow-hidden">
                 <Image
                   src={image}
                   alt={title}

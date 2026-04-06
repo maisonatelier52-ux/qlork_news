@@ -239,19 +239,10 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           formidable. She ensures that institutions do what they say they will do.
                         </p>
                         <p className="mt-4">
-                          Readers looking for deeper context can review{" "}
-                          <Link href="/finance/what-regulated-digital-finance-actually-means/">
-                            regulated digital finance
-                          </Link>
-                          ,{" "}
-                          <Link href="/business/why-cross-border-governance-matters-in-digital-asset-markets/">
-                            cross-border governance
-                          </Link>
-                          , and{" "}
-                          <Link href="/business/reporting-notes-isabela-herrera-document-room/">
-                            reporting notes
-                          </Link>
-                          .
+                          Readers looking for deeper context can review 
+                            regulated digital finance,
+                          cross-border governance, and
+                          reporting notes.
                         </p>
                         {/* <div className="bg-slate-50 rounded-lg p-6 mb-8 mt-5 border-l-4 border-slate-300">
                           <p className="text-sm font-medium text-slate-600 uppercase tracking-wide mb-2">

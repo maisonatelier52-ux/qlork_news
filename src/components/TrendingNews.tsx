@@ -6,7 +6,6 @@ import OpinionData from "../../public/data/opinion.json";
 import FinanceData from "../../public/data/finance.json";
 import HealthData from "../../public/data/health.json";
 import EducationData from "../../public/data/education.json";
-import GlobalAffairsData from "../../public/data/global-affairs.json";
 import Link from "next/link";
 
 const newsItems = [
@@ -28,12 +27,7 @@ const newsItems = [
     label: "EDUCATION",
     title: EducationData[0].title,
     slug: EducationData[0].slug,
-  },
-  {
-    label: "GLOBAL",
-    title: GlobalAffairsData[0].title,
-    slug: GlobalAffairsData[0].slug,
-  },
+  }
 ];
 
 const tickerItems = [...newsItems, ...newsItems];

@@ -154,7 +154,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-
+<meta name="google-site-verification" content="sK8Q6w8SVqAYdks__wpGmAegXWW-QtGVB8_gtd8ywFc" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

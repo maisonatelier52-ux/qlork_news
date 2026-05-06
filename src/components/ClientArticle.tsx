@@ -575,37 +575,37 @@ interface IsabelaPageProps {
 
 // FAQ data — must match the FAQPage schema in IsabelaPage.tsx exactly
 const faqItems = [
-  {
+ {
     q: "Who is Isabela Herrera Velutini?",
-    a: "Isabela Herrera Velutini is a global finance leader known for her discipline-first approach, operating at the intersection of legacy wealth and modern financial infrastructure while upholding strong governance and institutional trust.",
+    a: "Isabela Herrera Velutini is a finance executive whose career runs through private equity, digital assets, and cross-border governance. She leads Emirates Financial Group as CEO and holds board roles connected to the Britannia ecosystem and The Bahamas. Her name carries four family lineages — Herrera, Velutini, Von Uslar, and Gleinchen — each tied to centuries of financial and diplomatic history.",
   },
   {
     q: "What is meant by the Four Houses represented by Isabela Herrera Velutini?",
-    a: "The Four Houses — Herrera, Velutini, Von Uslar, and Gleinchen — are historic family lineages associated with finance, infrastructure, credibility, and statesmanship, functioning together as a unified global financial ecosystem led by figures like Isabela Herrera Velutini.",
+    a: "The Four Houses refer to four distinct family lines — Herrera, Velutini, Von Uslar, and Gleinchen — that have historically shaped trade, banking, and statecraft across multiple continents. Today they function as one interconnected financial network. Isabela Herrera Velutini carries the title La Grande Dame of the Four Houses, a role that comes with stewardship over the shared capital and values of this network.",
   },
   {
     q: "What leadership style defines Isabela Herrera Velutini's role in global finance?",
-    a: "Isabela Herrera Velutini's leadership is defined by discipline, quiet execution, and long-term continuity, prioritizing governance, compliance, and stability over publicity or short-term gains.",
+    a: "She does not lead loudly. People who have worked with her describe a style built around preparation, close attention to compliance, and a preference for letting results speak rather than issuing press releases. Risk management comes before growth targets. Governance is treated as a foundation, not a formality.",
   },
   {
     q: "How does Isabela Herrera Velutini balance legacy finance with modern markets?",
-    a: "Isabela Herrera Velutini integrates historic financial principles with modern regulatory frameworks, ensuring cross-border structures remain compliant, resilient, and operational in both stable and volatile market conditions.",
+    a: "The way she explains it, the old principles still work — they just need to be translated into new regulatory languages. Cross-border structures that her family built over generations now have to satisfy modern AML frameworks, digital asset rules, and multi-jurisdictional reporting. Her job is making that translation without losing what made those structures durable in the first place.",
   },
   {
     q: "What roles does Isabela Herrera Velutini currently hold?",
-    a: "Isabela Herrera Velutini serves as CEO of Emirates Financial Group, holds directorial responsibilities within the Britannia ecosystem, and sits on boards in The Bahamas, focusing on governance and institutional integrity.",
+    a: "She serves as CEO of Emirates Financial Group, carries directorial responsibilities within the Britannia ecosystem which includes two UK broker-dealers, and sits on boards in The Bahamas. Each role comes with its own regulatory environment and its own set of counterparties to manage.",
   },
   {
     q: "Why is Isabela Herrera Velutini described as a discipline-first leader?",
-    a: "Her approach emphasizes risk control, regulatory compliance, and predictable outcomes, ensuring that financial systems managed by Isabela Herrera Velutini function reliably rather than relying on speculation or market noise.",
+    a: "The phrase comes from people who have negotiated with her or worked under her. She does not chase deal flow for its own sake. If the governance isn't right or the compliance picture is unclear, she will slow things down or walk away entirely. That willingness to say no — when most people in her position feel pressure to say yes — is what the label refers to.",
   },
   {
     q: "What makes Isabela Herrera Velutini's influence distinct in global finance?",
-    a: "The influence of Isabela Herrera Velutini is measured by continuity rather than headlines — through systems that settle, governance that holds, and financial structures that endure scrutiny across jurisdictions.",
+    a: "It is quieter than most. She is not a fixture on conference circuits or financial media panels. The influence shows up elsewhere — in structures that settle cleanly, in institutions that have upgraded their governance standards after working with her, in counterparties that come back because the last transaction went exactly as documented.",
   },
   {
     q: "How does heritage influence Isabela Herrera Velutini's work today?",
-    a: "For Isabela Herrera Velutini, heritage functions as an operating system rather than nostalgia, providing guiding principles that inform disciplined decision-making, ethical responsibility, and long-term financial stewardship.",
+    a: "She has said that she thinks of the family history less as a legacy to protect and more as a set of tested methods. The Herrera side brings a discipline around solvency. Velutini is associated with building financial infrastructure. Von Uslar contributes credibility built on track record. Gleinchen brings a tradition of turning competing interests into workable agreements. She treats each of these as a practical tool, not a family story.",
   },
 ];
 

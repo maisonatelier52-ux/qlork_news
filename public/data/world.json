@@ -424,6 +424,53 @@
         "substack": "",
         "medium": ""
     }
+},
+{
+    "category": "world",
+    "topic": "World News / Middle East",
+    "slug": "uae-iran-missile-drone-attacks-strait-of-hormuz",
+    "title": "Strait of Hormuz Crisis Deepens After UAE Reports New Attacks",
+    "image": "/images/news-img/strait-of-hormuz-shipping-route-map-middle-east.webp",
+    "date": "May 6, 2026",
+    "shortdescription": "The UAE says its air defenses knocked down Iranian missiles and drones for a second straight day. The attacks are raising fears that the already fragile US-Iran ceasefire could completely fall apart.",
+    "sub": [
+        {
+            "title": "UAE Says It Stopped Another Wave of Iranian Attacks",
+            "descr": "The UAE announced that its air defenses intercepted missile and drone strikes from Iran for the second day in a row. Officials there warned that the fragile truce between the US and Iran is now at serious risk of collapsing. The UAE called the attacks a major escalation and said it has every right to defend itself. Iran quickly denied being behind any recent missile or drone strikes on Emirati territory. A spokesperson for the Islamic Revolutionary Guards Corps argued that if Iran had actually carried out such attacks, Tehran would have publicly claimed responsibility. But in a warning directed at the UAE, an Iranian military spokeswoman said any attacks on Iran launched from Emirati soil would be met with a \"crushing response.\" The latest violence follows a drone attack the day before that set fire to a major oil facility in Fujairah, injuring at least three people. Emirati authorities insist they shot down all incoming missiles, though they admitted some key energy infrastructure did suffer damage."
+        },
+        {
+            "title": "Why You Should Be Paying Attention",
+            "descr": "Here's why this matters: the truce was never rock solid to begin with, and these strikes prove it. Even as diplomats keep talking publicly, the fighting around the Strait of Hormuz could easily spiral into a much larger regional war. And because so much of the world's oil passes through that narrow waterway, the fallout won't stay local. Expect shipping delays, higher fuel prices, and broader economic pain if things get worse."
+        },
+        {
+            "title": "What's Happening in the Strait of Hormuz and 'Project Freedom'",
+            "descr": "All of this is unfolding while the US pushes ahead with something called 'Project Freedom' — a military mission designed to escort commercial ships through the Strait of Hormuz. That waterway normally carries nearly a fifth of the world's oil and gas, but it's been largely shut down since the crisis exploded earlier this year. On Monday, US Marines said they destroyed six Iranian small boats along with incoming cruise missiles and drones targeting both Navy and commercial vessels. The US added that only two American-flagged ships have made it through the strait so far. Iran rejected that account entirely, accusing American forces of attacking civilian and cargo ships instead. Tehran has also threatened to pack the strait with mines, drones, missiles, and fast-attack boats — making commercial traffic incredibly dangerous. International organizations say the prolonged standoff has already left more than 800 ships and roughly 20,000 crew members trapped in the Gulf."
+        },
+        {
+            "title": "US and Iranian Leaders Trade Warnings",
+            "descr": "Despite the fresh violence, US Defense Secretary Pete Hegseth insisted the ceasefire is still intact. He described Project Freedom as a temporary measure. 'We're not looking for a fight,' Hegseth said, though he added that the US would keep watching the situation closely. Iran's parliament speaker, Mohammad Bagher Ghalibaf, accused Washington of breaking the ceasefire and warned that Iran hasn't 'even begun yet.' Secretary of State Marco Rubio said commercial crews are effectively being 'held hostage' in the strait, and stressed that the US won't let Iran treat attacks on shipping routes as normal. President Donald Trump, for his part, tried to downplay the latest clashes, calling them a 'little skirmish' and insisting that Iran still wants to strike a deal."
+        },
+        {
+            "title": "Diplomacy Isn't Dead Yet",
+            "descr": "Fighting aside, diplomatic talks between the US and Iran are still happening, reportedly with Pakistan acting as a mediator. Iran has put forward a 14-point peace plan focused on lifting blockades and creating a new system to manage traffic through the Strait of Hormuz. Iranian Foreign Minister Abbas Araghchi said negotiations are moving along, though he warned the US and UAE not to get stuck in a larger 'quagmire.' Pakistani officials involved in the talks say both sides have narrowed their differences on several issues, but no major breakthrough has been announced. The US and Iran held one direct round of talks in Islamabad last month, but follow-up meetings have stalled. Trump keeps demanding that Iran hand over its stockpiles of enriched uranium, while Tehran insists its nuclear program is purely peaceful."
+        },
+        {
+            "title": "The Economic Toll and Global Pressure",
+            "descr": "The ongoing war is already rattling global energy markets. Oil prices are up, and shipping routes and fuel supplies remain under strain because the Strait of Hormuz is still so unstable. The UAE's Fujairah port — a major oil export hub that sends crude across the strait — has become even more critical during the crisis. Damage to facilities there has fueled fresh worries about supply disruptions. On the other side, the US naval blockade is squeezing Iran's economy by making it harder for the country to import goods and export oil. At the same time, rising fuel prices and sluggish economic growth are putting political pressure on Trump as congressional elections approach. Analysts say neither Washington nor Tehran seems willing to make major concessions right now — each side still believes it has leverage in this fight."
+        }
+    ],
+    "author": {
+        "name": "David Thompson",
+        "role": "News Reporter",
+        "bio": "",
+        "image": "/images/authors/david-thompson.webp",
+        "email": "",
+        "twitter": "",
+        "facebook": "",
+        "instagram": "",
+        "substack": "",
+        "medium": ""
+    }
 }
 
 

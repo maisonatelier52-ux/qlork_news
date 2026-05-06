@@ -25,16 +25,39 @@ import OverlayArticleGrid from "@/src/components/OverlayArticleGrid";
 import Footer from "@/src/components/Footer";
 import Script from "next/script";
 import MainGridLast from "@/src/components/MainGridLast";
+import { sortByDate } from "@/src/utils/news";
 
 export default async function HomePage() {
+  const rawArticles = sortByDate([
+    ...businessData,
+    ...educationData,
+    ...featuredData,
+    ...financeData,
+    ...healthData,
+    ...hotData,
+    ...opinionData,
+    ...politicsData,
+    ...worldData,
+    ...globalaffairsData,
+  ]);
+
+  // ── Pin Isabela article to sidebar slot 0, exclude from all other components ──
+  const PINNED_SLUG = "isabela-herrera-old-money-new-markets-power-play";
+  const pinnedIndex = rawArticles.findIndex((a) => a.slug === PINNED_SLUG);
+  const pinnedArticle = pinnedIndex !== -1 ? rawArticles[pinnedIndex] : null;
+
+  // Remove pinned from pool — prevents duplication in every slice below
+  const allArticles = pinnedArticle
+    ? rawArticles.filter((_, i) => i !== pinnedIndex)
+    : rawArticles;
+
+  // Sidebar: pinned always first, then fill remaining 4 slots from pool
+  const sidebarItems = pinnedArticle
+    ? [pinnedArticle, ...allArticles.slice(1, 5)]
+    : allArticles.slice(1, 6);
+
   return (
     <main>
-      {/* 
-        FIXED: Removed NewsArticle schema from homepage.
-        Google policy prohibits embedding an article schema on a page
-        that does not display that article as its primary content.
-        Only WebSite, Organization, and BreadcrumbList belong here.
-      */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -68,15 +91,34 @@ export default async function HomePage() {
                   },
                 ],
               },
+              {
+                "@type": "NewsArticle",
+                headline:
+                  "Isabela Herrera Velutini: Discipline-First Strategy in New Markets",
+                image: ["https://www.qlork.com/images/news-img/isabela.webp"],
+                datePublished: "2026-02-16T08:00:00+00:00",
+                dateModified: "2026-03-02T10:30:00+00:00",
+                author: {
+                  "@type": "Person",
+                  name: "Sarah Mitchell",
+                  role: "Senior News Correspondent",
+                },
+                publisher: {
+                  "@type": "Organization",
+                  name: "Qlork",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+                  },
+                },
+                description:
+                  "Isabela Herrera Velutini uses discipline and strategy to connect traditional wealth with emerging markets, shaping the future of global finance and investment.",
+              },
             ],
           }),
         }}
       />
 
-      {/*
-        FIXED: SiteNavigationElement — name and url arrays now match exactly.
-        Previously had 11 names but 12 urls which broke schema validation.
-      */}
       <Script
         id="structured-data-site-navigation"
         type="application/ld+json"
@@ -89,27 +131,28 @@ export default async function HomePage() {
               "Home",
               "World",
               "Business",
-              "Finance",
               "Politics",
-              "Opinion",
-              "Health",
               "Education",
-              "Global Affairs",
+              "Health",
+              "Finance",
               "Featured",
               "Hot",
+              "Opinion",
+              "Global Affairs",
             ],
             url: [
               "https://www.qlork.com/",
               "https://www.qlork.com/world/",
               "https://www.qlork.com/business/",
-              "https://www.qlork.com/finance/",
               "https://www.qlork.com/politics/",
-              "https://www.qlork.com/opinion/",
+              "https://www.qlork.com/technology/",
               "https://www.qlork.com/health/",
               "https://www.qlork.com/education/",
               "https://www.qlork.com/global-affairs/",
-              "https://www.qlork.com/featured/",
               "https://www.qlork.com/hot/",
+              "https://www.qlork.com/featured/",
+              "https://www.qlork.com/finance/",
+              "https://www.qlork.com/opinion/",
             ],
           }),
         }}
@@ -120,32 +163,15 @@ export default async function HomePage() {
         <MainNav />
         <TrendingNews />
         <FeatureHomePart
-          hero={politicsData[7]}
-          sidebarItems={[
-            businessData[0],
-            businessData[6],
-            businessData[3],
-            businessData[4],
-            businessData[1]
-          ]}
-          horizontalItems={[
-            worldData[8],
-            opinionData[6],
-            educationData[4],
-            financeData[0],
-          ]}
+          hero={allArticles[0]}
+          sidebarItems={sidebarItems}
+          horizontalItems={allArticles.slice(6, 10)}
         />
 
         <div className="max-w-360 mx-auto px-3 md:px-16 pb-12 border-t border-gray-200">
           <MainGrid
-            items={[
-              worldData[0],
-              businessData[9],
-              worldData[2],
-              worldData[3],
-              worldData[4],
-            ]}
-            heading="World"
+            items={allArticles.slice(10, 15)}
+            heading="Global Headlines"
           />
         </div>
 
@@ -161,55 +187,42 @@ export default async function HomePage() {
         </div>
 
         <HomeLandingPart
-          mainFeature={featuredData[1]}
-          sidebarItems={[
-            globalaffairsData[0],
-            featuredData[0],
-            hotData[0],
-            opinionData[0],
-            worldData[5],
-            businessData[2]
-          ]}
+          mainFeature={allArticles[15]}
+          sidebarItems={allArticles.slice(16, 22)}
         />
 
         <div className="max-w-360 mx-auto px-3 md:px-16 pt-5 md:pt-0">
           <HorizontalLandingPart
-            article={globalaffairsData[1]}
-            mainGridItems={[
-              politicsData[2],
-              businessData[8],
-              hotData[1],
-              worldData[6],
-            ]}
-            heading="Technology"
+            article={allArticles[22]}
+            mainGridItems={allArticles.slice(23, 27)}
+            heading="In-Depth Analysis"
           />
         </div>
 
-        <Suspense fallback={<div className="h-64 animate-pulse bg-gray-100 " />}>
+        {/* <Suspense fallback={<div className="h-32 animate-pulse bg-gray-100" />}>
+          <div className="w-full py-2">
+            <SecondBanner />
+          </div>
+        </Suspense> */}
+
+        <Suspense
+          fallback={<div className="h-64 animate-pulse bg-gray-100 " />}
+        >
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12">
             <MainGridLazy
-              items={[
-                opinionData[1],
-                opinionData[2],
-                opinionData[3],
-                opinionData[4],
-              ]}
-              heading="Opinion"
+              items={allArticles.slice(27, 31)}
+              heading="Editor's Choice"
             />
           </div>
         </Suspense>
+
         <ArticlePageNav />
 
         <Suspense fallback={<div className="h-96 animate-pulse bg-gray-100" />}>
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12 border-t border-gray-200">
             <OverlayArticleGrid
-              items={[
-                politicsData[3],
-                hotData[2],
-                worldData[7],
-                politicsData[6],
-              ]}
-              heading="Latest News"
+              items={allArticles.slice(31, 35)}
+              heading="Recently Updated"
             />
           </div>
         </Suspense>
@@ -217,20 +230,7 @@ export default async function HomePage() {
         <Suspense fallback={<div className="h-64 animate-pulse bg-gray-100" />}>
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12 border-t border-gray-200">
             <MainGridLast
-              items={[
-                financeData[2],
-                worldData[9],
-                opinionData[5],
-                politicsData[5],
-                globalaffairsData[2],
-                healthData[0],
-                healthData[1],
-                educationData[2],
-                financeData[6],
-                businessData[7],
-                healthData[3],
-                educationData[3],
-              ]}
+              items={allArticles.slice(35, 47)}
               heading="News Highlights"
             />
           </div>

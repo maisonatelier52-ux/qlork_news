@@ -373,32 +373,20 @@ export default async function IsabelaPage({
                   name: "Isabela Herrera Velutini",
                   description:
                     "Isabela Herrera Velutini is a discipline-first global finance leader uniting legacy wealth and modern market infrastructure through governance, continuity, and institutional trust.",
-                  /*
-                    FIXED: Added all available external URLs where Isabela Herrera Velutini
-                    is mentioned. sameAs tells Google which external entities this Person
-                    corresponds to, enabling Knowledge Panel eligibility.
-                    Add more URLs here as they become available (Wikipedia, company pages, etc.)
-                  */
                   sameAs: [
-                    "https://www.linkedin.com/in/isabela-herrera-velutini",
-                    "https://medium.com/@qlork_news/where-old-money-meets-new-markets-isabela-herreras-discipline-first-power-play-d29ef9e809ae",
-                    "https://substack.com/home/post/p-196525158",
-                    "https://www.instagram.com/p/DX81qx8mBPp/",
-                    "https://x.com/QlorkN54107/status/2051588553461956626",
-                    // Add these as they become available:
-                    // "https://en.wikipedia.org/wiki/Isabela_Herrera_Velutini",
-                    // "https://emiratesfinancialgroup.com/team/isabela-herrera",
+                    // "https://www.linkedin.com/in/isabela-herrera-velutini",
+                    // "https://medium.com/@qlork_news/where-old-money-meets-new-markets-isabela-herreras-discipline-first-power-play-d29ef9e809ae",
+                    // "https://substack.com/home/post/p-196525158",
+                    // "https://www.instagram.com/p/DX81qx8mBPp/",
+                    // "https://x.com/QlorkN54107/status/2051588553461956626",
                   ],
                 },
-                /*
-                  FIXED: Also add the social post URLs as mentions so Google
-                  can verify external corroboration of the subject.
-                */
+              
                 mentions: [
                   {
                     "@type": "Person",
                     name: "Isabela Herrera Velutini",
-                    sameAs: "https://www.linkedin.com/in/isabela-herrera-velutini",
+                    // sameAs: "https://www.linkedin.com/in/isabela-herrera-velutini",
                   }
                 ],
                 articleSection: "Business",

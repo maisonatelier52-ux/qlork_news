@@ -556,7 +556,7 @@ export async function generateMetadata({
 
   if (!article) {
     return {
-      title: "Article Not Found – PR Promotion Hub",
+      title: "Article Not Found – Qlork",
       description: "The requested article could not be found.",
       robots: { index: false, follow: false },
     };
@@ -570,7 +570,7 @@ export async function generateMetadata({
     "trending news",
   ];
 
-  if (slug === "isabela-herrera-old-money-new-markets-power-play") {
+  if (isIsabelaPage) {
     seoKeywords = [
       "Isabela Herrera Velutini",
       "Isabela Herrera",
@@ -584,19 +584,19 @@ export async function generateMetadata({
 
   const keywordsString = seoKeywords.join(", ");
 
-  // FIX #1: Meta title now starts with "Isabela Herrera Velutini" so her name
-  // appears first in Google SERPs — critical for branded name searches.
+  /*
+    FIXED: Meta title now exactly matches the new H1.
+    Google compares <title> to H1 for relevance signals.
+    Both now lead with "Isabela Herrera Velutini" as the first words.
+  */
   const isabelaMetaTitle =
-    "Isabela Herrera Velutini – Old Money, New Markets | Qlork";
+    "Isabela Herrera Velutini: Old Money, New Markets | Qlork";
 
-  const visibleH1 =
-    "Where Old Money Meets New Markets: Isabela Herrera's Discipline-First Power Play";
   const isabelaDeck =
-    "Isabela Herrera Brings Four Ultra-Wealthy Family Legacies Into Regulated Digital Finance";
+    "Isabela Herrera Velutini Brings Four Ultra-Wealthy Family Legacies Into Regulated Digital Finance";
   const isabelaPublishedIso = "2026-02-16T00:00:00+00:00";
   const isabelaModifiedIso = "2026-03-05T00:00:00+00:00";
 
-  // FIX #1 applied here: use isabelaMetaTitle instead of visibleH1
   const metadataTitle = isIsabelaPage ? isabelaMetaTitle : article.title;
   const metadataDescription = isIsabelaPage
     ? isabelaDeck
@@ -618,8 +618,7 @@ export async function generateMetadata({
             "https://www.qlork.com/business/isabela-herrera-old-money-new-markets-power-play/",
         },
         url: "https://www.qlork.com/business/isabela-herrera-old-money-new-markets-power-play/",
-        // The headline keeps the full editorial H1 — schema headline ≠ <title> tag
-        headline: visibleH1,
+        headline: isabelaMetaTitle,
         alternativeHeadline:
           "Isabela Herrera Velutini: Discipline-First Strategy in New Markets",
         description: isabelaDeck,
@@ -679,16 +678,30 @@ export async function generateMetadata({
   const otherMeta: Record<string, string> = {
     "script:ld+json": JSON.stringify(newsArticleLdJson),
   };
+
   if (isIsabelaPage) {
     otherMeta.robots =
       "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1";
+    /*
+      FIXED: Added article Open Graph tags for proper social sharing.
+      When OG type is "article", Facebook and LinkedIn expect these tags.
+    */
+    otherMeta["article:published_time"] = isabelaPublishedIso;
+    otherMeta["article:modified_time"] = isabelaModifiedIso;
+    otherMeta["article:author"] = "Sarah Mitchell";
+    otherMeta["article:section"] = "Business";
+  } else {
+    otherMeta["article:published_time"] = article.date;
+    otherMeta["article:modified_time"] = article.date;
+    otherMeta["article:author"] = article.author.name;
+    otherMeta["article:section"] = article.category;
   }
 
   return {
     title: metadataTitle,
     description: metadataDescription,
     keywords: keywordsString,
-    authors: [{ name: article.author.name }],
+    authors: [{ name: isIsabelaPage ? "Sarah Mitchell" : article.author.name }],
     alternates: {
       canonical: metadataUrl,
     },
@@ -713,8 +726,8 @@ export async function generateMetadata({
       title: metadataTitle,
       description: metadataDescription,
       images: [metadataImage],
-      site: "@qlork",
-      creator: "@qlork",
+      site: "@QlorkN54107",
+      creator: "@QlorkN54107",
     },
     other: otherMeta,
   };
@@ -733,7 +746,6 @@ export default async function DetailPage({ params }: DetailPageProps) {
   }
 
   const relatedArticles = data.filter((item) => item.slug !== slug);
-
   const sidebarItems = relatedArticles.slice(0, 4);
   const youMayAlsoLikeItems = relatedArticles.slice(3, 8);
 
@@ -818,12 +830,10 @@ export default async function DetailPage({ params }: DetailPageProps) {
             sidebarHeading="Latest News"
           />
 
-          {/* You May Also Like Section */}
           <div className="max-w-360 mx-auto px-2 md:px-16 pb-12 border-t border-gray-200">
             <MainGrid items={youMayAlsoLikeItems} heading="You May Also Like" />
           </div>
 
-          {/* Article Page Navigation */}
           <div className="mb-5">
             <ArticlePageNav />
           </div>

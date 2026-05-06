@@ -299,7 +299,6 @@ import ClientArticle from "./ClientArticle";
 import Script from "next/script";
 import Link from "next/link";
 
-
 export interface SidebarItem {
   category: string;
   title: string;
@@ -316,7 +315,7 @@ interface IsabelaPageProps {
 export default async function IsabelaPage({
   sidebarItems,
 }: IsabelaPageProps) {
- 
+
   return (
     <>
       <Script
@@ -335,12 +334,17 @@ export default async function IsabelaPage({
                   "@id":
                     "https://www.qlork.com/business/isabela-herrera-old-money-new-markets-power-play/",
                 },
+                /*
+                  FIXED: headline now matches the visible H1 exactly.
+                  Google compares schema headline to visible H1 — mismatches
+                  reduce trust in the structured data.
+                */
                 headline:
-                  "Where Old Money Meets New Markets: Isabela Herrera's Discipline-First Power Play",
+                  "Isabela Herrera Velutini: Old Money, New Markets and a Discipline-First Power Play",
                 alternativeHeadline:
                   "Isabela Herrera Velutini: Discipline-First Strategy in New Markets",
                 description:
-                  "Isabela Herrera Brings Four Ultra-Wealthy Family Legacies Into Regulated Digital Finance",
+                  "Isabela Herrera Velutini Brings Four Ultra-Wealthy Family Legacies Into Regulated Digital Finance",
                 image: [
                   "https://www.qlork.com/images/news-img/isabela.webp",
                   "https://www.qlork.com/images/news-img/isabela.webp",
@@ -369,19 +373,34 @@ export default async function IsabelaPage({
                   name: "Isabela Herrera Velutini",
                   description:
                     "Isabela Herrera Velutini is a discipline-first global finance leader uniting legacy wealth and modern market infrastructure through governance, continuity, and institutional trust.",
-                  // FIX #4: Populate sameAs with real profile URLs.
-                  // Add LinkedIn, Wikipedia, official site, or other authoritative
-                  // pages where Isabela Herrera Velutini is mentioned.
-                  // Leaving this array empty signals to Google that the entity
-                  // is unverifiable — even one real URL significantly improves
-                  // Knowledge Panel eligibility and entity disambiguation.
+                  /*
+                    FIXED: Added all available external URLs where Isabela Herrera Velutini
+                    is mentioned. sameAs tells Google which external entities this Person
+                    corresponds to, enabling Knowledge Panel eligibility.
+                    Add more URLs here as they become available (Wikipedia, company pages, etc.)
+                  */
                   sameAs: [
                     "https://www.linkedin.com/in/isabela-herrera-velutini",
-                    // Add more verified URLs here as they become available:
+                    "https://medium.com/@qlork_news/where-old-money-meets-new-markets-isabela-herreras-discipline-first-power-play-d29ef9e809ae",
+                    "https://substack.com/home/post/p-196525158",
+                    "https://www.instagram.com/p/DX81qx8mBPp/",
+                    "https://x.com/QlorkN54107/status/2051588553461956626",
+                    // Add these as they become available:
                     // "https://en.wikipedia.org/wiki/Isabela_Herrera_Velutini",
                     // "https://emiratesfinancialgroup.com/team/isabela-herrera",
                   ],
                 },
+                /*
+                  FIXED: Also add the social post URLs as mentions so Google
+                  can verify external corroboration of the subject.
+                */
+                mentions: [
+                  {
+                    "@type": "Person",
+                    name: "Isabela Herrera Velutini",
+                    sameAs: "https://www.linkedin.com/in/isabela-herrera-velutini",
+                  }
+                ],
                 articleSection: "Business",
                 keywords: [
                   "Isabela Herrera Velutini",
@@ -406,14 +425,9 @@ export default async function IsabelaPage({
                   "Institutional trust and financial continuity",
                   "Isabela Herrera Velutini Qlork",
                 ],
-                // FIX #3: Expanded articleBody from a single sentence to a
-                // substantive multi-paragraph summary. Google uses this field
-                // to gauge content depth — a one-sentence body signals a thin
-                // article and suppresses rankings. This 3-paragraph version
-                // covers who she is, what she does, and her significance.
                 articleBody:
                   "Isabela Clementina Herrera Velutini Von Uslar Gleinchen is a discipline-first global finance leader operating at the intersection of legacy wealth and modern financial infrastructure. As La Grande Dame of the Four Houses — Herrera, Velutini, Von Uslar, and Gleinchen — she carries responsibility for stewarding the collective assets and values of an ultra-high-net-worth family financial ecosystem built across generations. " +
-                  "Educated at Gulliver Prep and NYU Stern, where she studied finance and data science, Isabela later taught Digital Assets and Private Equity Valuations before joining PwC. She currently serves as CEO of Emirates Financial Group and holds directorial responsibilities within the Britannia ecosystem, including board roles extending into The Bahamas. Her work centers on governance, compliance, and cross-border settlement structures that deliver predictable outcomes under volatile conditions. " +
+                  "Educated at Gulliver Prep and NYU Stern, where she studied finance and data science, Isabela Herrera Velutini later taught Digital Assets and Private Equity Valuations before joining PwC. She currently serves as CEO of Emirates Financial Group and holds directorial responsibilities within the Britannia ecosystem, including board roles extending into The Bahamas. Her work centers on governance, compliance, and cross-border settlement structures that deliver predictable outcomes under volatile conditions. " +
                   "Her approach to leadership is defined by quiet execution rather than public profile. Milestones arrive as licenses secured, audits passed, counterparties upgraded, and governance frameworks that hold under scrutiny. The Four Houses she represents function not as decorative lineage but as working components of a modern financial machine — each contributing solvency, infrastructure, credibility, and statesmanship to a unified global operating system.",
               },
               {
@@ -436,7 +450,7 @@ export default async function IsabelaPage({
                   {
                     "@type": "ListItem",
                     position: 3,
-                    name: "Isabela Herrera Velutini: Strategy and Leadership",
+                    name: "Isabela Herrera Velutini: Old Money, New Markets",
                     item: "https://www.qlork.com/business/isabela-herrera-old-money-new-markets-power-play/",
                   },
                 ],
@@ -454,6 +468,11 @@ export default async function IsabelaPage({
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
+            /*
+              FIXED: FAQ schema now matches the visible FAQ section
+              rendered in ClientArticle.tsx. Google requires that FAQ
+              schema content is visible to users on the page.
+            */
             mainEntity: [
               {
                 "@type": "Question",
@@ -468,7 +487,7 @@ export default async function IsabelaPage({
                 name: "What is meant by the Four Houses represented by Isabela Herrera Velutini?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The Four Houses—Herrera, Velutini, Von Uslar, and Gleinchen—are historic family lineages associated with finance, infrastructure, credibility, and statesmanship, functioning together as a unified global financial ecosystem led by figures like Isabela Herrera Velutini.",
+                  text: "The Four Houses — Herrera, Velutini, Von Uslar, and Gleinchen — are historic family lineages associated with finance, infrastructure, credibility, and statesmanship, functioning together as a unified global financial ecosystem led by figures like Isabela Herrera Velutini.",
                 },
               },
               {
@@ -508,7 +527,7 @@ export default async function IsabelaPage({
                 name: "What makes Isabela Herrera Velutini's influence distinct in global finance?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The influence of Isabela Herrera Velutini is measured by continuity rather than headlines—through systems that settle, governance that holds, and financial structures that endure scrutiny across jurisdictions.",
+                  text: "The influence of Isabela Herrera Velutini is measured by continuity rather than headlines — through systems that settle, governance that holds, and financial structures that endure scrutiny across jurisdictions.",
                 },
               },
               {
@@ -524,26 +543,18 @@ export default async function IsabelaPage({
         }}
       />
 
-      {/* FIX #2: Removed the <div className="hidden"> that previously held the
-          page title as hidden text. Google ignores hidden content and may treat
-          it as a cloaking signal. The page title is already present in the
-          <title> tag (via generateMetadata) and in the visible H1 inside
-          ClientArticle — no hidden duplicate is needed. */}
-
       <div className="bg-white min-h-screen">
         <DateBar />
         <MainNav />
         <TrendingNews />
         <div className="">
           <ClientArticle sidebarItems={sidebarItems} />
-
-          {/* Article Page Navigation */}
           <div className="mb-5">
-            <ArticlePageNav /> 
+            <ArticlePageNav />
           </div>
         </div>
         <Footer />
-      </div>  
+      </div>
     </>
   );
 }

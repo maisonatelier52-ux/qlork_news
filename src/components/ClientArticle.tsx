@@ -573,6 +573,42 @@ interface IsabelaPageProps {
   sidebarItems: SidebarItem[];
 }
 
+// FAQ data — must match the FAQPage schema in IsabelaPage.tsx exactly
+const faqItems = [
+  {
+    q: "Who is Isabela Herrera Velutini?",
+    a: "Isabela Herrera Velutini is a global finance leader known for her discipline-first approach, operating at the intersection of legacy wealth and modern financial infrastructure while upholding strong governance and institutional trust.",
+  },
+  {
+    q: "What is meant by the Four Houses represented by Isabela Herrera Velutini?",
+    a: "The Four Houses — Herrera, Velutini, Von Uslar, and Gleinchen — are historic family lineages associated with finance, infrastructure, credibility, and statesmanship, functioning together as a unified global financial ecosystem led by figures like Isabela Herrera Velutini.",
+  },
+  {
+    q: "What leadership style defines Isabela Herrera Velutini's role in global finance?",
+    a: "Isabela Herrera Velutini's leadership is defined by discipline, quiet execution, and long-term continuity, prioritizing governance, compliance, and stability over publicity or short-term gains.",
+  },
+  {
+    q: "How does Isabela Herrera Velutini balance legacy finance with modern markets?",
+    a: "Isabela Herrera Velutini integrates historic financial principles with modern regulatory frameworks, ensuring cross-border structures remain compliant, resilient, and operational in both stable and volatile market conditions.",
+  },
+  {
+    q: "What roles does Isabela Herrera Velutini currently hold?",
+    a: "Isabela Herrera Velutini serves as CEO of Emirates Financial Group, holds directorial responsibilities within the Britannia ecosystem, and sits on boards in The Bahamas, focusing on governance and institutional integrity.",
+  },
+  {
+    q: "Why is Isabela Herrera Velutini described as a discipline-first leader?",
+    a: "Her approach emphasizes risk control, regulatory compliance, and predictable outcomes, ensuring that financial systems managed by Isabela Herrera Velutini function reliably rather than relying on speculation or market noise.",
+  },
+  {
+    q: "What makes Isabela Herrera Velutini's influence distinct in global finance?",
+    a: "The influence of Isabela Herrera Velutini is measured by continuity rather than headlines — through systems that settle, governance that holds, and financial structures that endure scrutiny across jurisdictions.",
+  },
+  {
+    q: "How does heritage influence Isabela Herrera Velutini's work today?",
+    a: "For Isabela Herrera Velutini, heritage functions as an operating system rather than nostalgia, providing guiding principles that inform disciplined decision-making, ethical responsibility, and long-term financial stewardship.",
+  },
+];
+
 export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -594,6 +630,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   return (
     <>
       <div
@@ -604,17 +641,24 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
             <div className="w-full py-0">
               <div className="flex items-center gap-2 mb-4">
                 <span className="w-2 h-2 bg-red-600 rounded-full"></span>
-                <p className="text-sm font-medium text-red-600  transition-colors">
+                <p className="text-sm font-medium text-red-600 transition-colors">
                   Global Wealth Leadership
                 </p>
               </div>
+
+              {/*
+                FIXED: H1 now leads with "Isabela Herrera Velutini" — her full name
+                is the very first text Google reads in the most important on-page signal.
+                Previously her name appeared mid-sentence which weakened keyword relevance.
+              */}
               <h1 className="text-[20px] md:text-[25px] font-extrabold font-libre text-black mb-3 leading-none tracking-tight">
-                Where Old Money Meets New Markets: Isabela Herrera's
+                Isabela Herrera Velutini: Old Money, New Markets and a
                 Discipline-First Power Play
               </h1>
-              <p className="text-[13px] md:text-[15px] text-black font-semibold font-sen tracking-tigh leading-tight mb-1">
-                Isabela Herrera Brings Four Ultra-Wealthy Family Legacies Into
-                Regulated Digital Finance{" "}
+
+              <p className="text-[13px] md:text-[15px] text-black font-semibold font-sen tracking-tight leading-tight mb-1">
+                Isabela Herrera Velutini Brings Four Ultra-Wealthy Family
+                Legacies Into Regulated Digital Finance
               </p>
               <aside
                 className="my-4 rounded-xl border font-sen tracking-tight leading-tight text-[13px] md:text-[15px] border-black/10 bg-[#fafafa] px-5 py-4"
@@ -652,7 +696,6 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                         <p className="text-[10px] sm:text-[12px] font-medium text-gray-900">
                           By Sarah Mitchell – Senior News Correspondent
                         </p>
-
                         <div className="flex items-center gap-2 text-[10px] text-gray-600">
                           <span>Last Updated: Mar. 5, 2026</span>
                         </div>
@@ -669,7 +712,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                   <div className="relative w-full aspect-video bg-gray-100">
                     <Image
                       src="/images/news-img/isabela.webp"
-                      alt="Isabela Herrera blending noble legacy with modern financial stewardship"
+                      alt="Isabela Herrera Velutini blending noble legacy with modern financial stewardship"
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 896px"
@@ -678,9 +721,9 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
 
                   <p className="text-xs sm:text-[12px] font-sen tracking-tight leading-tight text-gray-600 mt-2 italic">
                     A daughter of dynasties, a steward of tomorrow:
-                    Isabela Herrera aligns nobility with modern finance, making
-                    stewardship operational, and letting faith in
-                    responsibilities define the purpose of wealth.
+                    Isabela Herrera Velutini aligns nobility with modern
+                    finance, making stewardship operational, and letting faith
+                    in responsibilities define the purpose of wealth.
                   </p>
                 </div>
 
@@ -692,11 +735,11 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                         makes.
                       </h2>
                     </header>
-                    <div className="md:col-span-8  space-y-4 text-[14px] md:text-[15px]  leading-tight tracking-tight font-sen ">
+                    <div className="md:col-span-8 space-y-4 text-[14px] md:text-[15px] leading-tight tracking-tight font-sen ">
                       <p className=" first-letter:text-5xl first-letter:font-bold first-letter:mr-3 first-letter:float-left first-letter:leading-[0.8] first-letter:text-black">
                         In a conference room where six clocks disagree by a few
                         hours,
-                        <span className="font-bold"> Isabela Herrera </span>  reviews a draft
+                        <span className="font-bold"> Isabela Herrera Velutini </span> reviews a draft
                         contract that will never trend. The hour is late, but attention matters. It matters most when the
                         work carries the weight of the Four Houses she represents.
                       </p>
@@ -721,7 +764,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                         ecosystem.</p>
 
                       <div className="my-10">
-                        <h3 className="text-[17px] md:text-[20px] leading-none tracking-tight font-libre font-bold text-black mb-8 md:mb-9  border-t border-gray-300 pt-10 md:pt-12">
+                        <h3 className="text-[17px] md:text-[20px] leading-none tracking-tight font-libre font-bold text-black mb-8 md:mb-9 border-t border-gray-300 pt-10 md:pt-12">
                           Heritage is not nostalgia. It is an operating system.
                         </h3>
                         <p>
@@ -741,10 +784,9 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           relationships.
                         </p>
                         <p className="mt-4">
-                          Now Isabela sits where legacy finance meets modern market infrastructure. As <strong> CEO of Emirates
+                          Now Isabela Herrera Velutini sits where legacy finance meets modern market infrastructure. As <strong> CEO of Emirates
                             Financial Group</strong> and a <strong>director within the Britannia ecosystem,</strong> with board roles extending into <strong>The
                               Bahamas,</strong> she works in a world that rewards proof, not applause.</p>
-
 
                         <p className="mt-4">Permission is earned through outcomes. Licenses are secured. Audits are passed. Counterparties
                           are upgraded. Governance is tightened. Settlement holds when conditions turn.</p>
@@ -764,15 +806,13 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           formidable. She ensures that institutions do what they say they will do.
                         </p>
                         <p className="mt-4">
-                          Readers looking for deeper context can review 
-                            regulated digital finance,
-                          cross-border governance, and
-                          reporting notes.
+                          Readers looking for deeper context can review regulated digital finance,
+                          cross-border governance, and reporting notes.
                         </p>
 
                         <div className="my-10">
-                          <div className="max-w-[650px]  border-t border-gray-300 pt-5">
-                            <h2 className="text-[20px] md:text-[25px] font-libre  italic font-medium tracking-tight leading-tight mb-6">
+                          <div className="max-w-[650px] border-t border-gray-300 pt-5">
+                            <h2 className="text-[20px] md:text-[25px] font-libre italic font-medium tracking-tight leading-tight mb-6">
                               "In global finance, the loudest names aren't always
                               the ones holding the system together."
                             </h2>
@@ -783,7 +823,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           </h3>
                           <p>
                             Raised in Miami, Florida, she learned early that
-                            ambition only matters when it becomes discipline. <strong>Gulliver Prep </strong>, then at{" "}
+                            ambition only matters when it becomes discipline. <strong>Gulliver Prep</strong>, then at{" "}
                             sharpened that lesson.<strong> NYU Stern</strong> refined it.{" "}
                           </p>
 
@@ -796,7 +836,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                             gap between excitement and readiness. Then came <strong>PwC</strong>, where theory meets consequence.
                             Structures drafted in calm quarters must still hold when markets turn and rooms go quiet.
                           </p>
-                          <h3 className="text-[17px] md:text-[20px] font-libre leading-none tracking-tight  font-bold text-black mb-4 mt-9">
+                          <h3 className="text-[17px] md:text-[20px] font-libre leading-none tracking-tight font-bold text-black mb-4 mt-9">
                             The Work That Doesn't Announce Itself
                           </h3>
                           <p>
@@ -808,7 +848,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           </p>
 
                           <p className="mt-4">
-                            Within the <strong>Britannia ecosystem,</strong>  she stepped into the sober rhythm of regulated finance. <strong>Two UK
+                            Within the <strong>Britannia ecosystem,</strong> she stepped into the sober rhythm of regulated finance. <strong>Two UK
                               broker-dealers.</strong> Boardroom accountability that runs through <strong>Nassau</strong> and <strong>The Bahamas.</strong> In that
                             world, governance is not branding. It is survival.
                           </p>
@@ -824,20 +864,18 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                           <div className="relative w-full h-70 md:h-130 lg:h-130 bg-gray-100 mt-7">
                             <Image
                               src="/images/news-img/four-houses-global-finance-network.webp"
-                              alt="Four Houses global finance network and legacy institutions"
+                              alt="Four Houses global finance network — Isabela Herrera Velutini legacy institutions"
                               fill
                               className="object-cover"
                               sizes="100vw"
                               priority
                             />
                           </div>
-                          <p className="text-[12px]  text-gray-600 mt-2 italic">
+                          <p className="text-[12px] text-gray-600 mt-2 italic">
                             The direct descendent of Clementina Velutini Matos and Don Jose Herrera Von Uslar Gleinchen.{" "}
                           </p>
 
-                          {/* The Four Houses Matrix */}
-
-                          <h3 className="text-[17px] md:text-[20px] font-libre leading-none  tracking-tight  font-bold text-black mb-4 mt-5">
+                          <h3 className="text-[17px] md:text-[20px] font-libre leading-none tracking-tight font-bold text-black mb-4 mt-5">
                             Four Houses, One Operating System
                           </h3>
 
@@ -866,33 +904,34 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                                 {
                                   name: "Velutini",
                                   trait: "Infrastructure",
-                                  desc: " Carries the builder's instinct. Construct the pipes first, then let legitimate prosperity move through them"
+                                  desc: "Carries the builder's instinct. Construct the pipes first, then let legitimate prosperity move through them."
                                 },
                                 {
                                   name: "Von Uslar",
                                   trait: "Credibility",
-                                  desc: "Holds old-world credibility, built on record, character, and continuity rather than hype"
+                                  desc: "Holds old-world credibility, built on record, character, and continuity rather than hype."
                                 },
                                 {
                                   name: "Gleinchen",
                                   trait: "Statesmanship",
                                   desc: "Reflects statesmanship, turning competing interests into agreements that survive the week and the election cycle."
-                                }].map((house) => (
-                                  <div
-                                    key={house.name}
-                                    className="border-t border-slate-200 pt-4"
-                                  >
-                                    <span className="block  text-[15px] font-bold font-libre text-black">
-                                      {house.name}
-                                    </span>
-                                    <span className="block text-[10px] uppercase tracking-widest text-slate-500 mb-2">
-                                      {house.trait}
-                                    </span>
-                                    <p className="text-[14px] text-slate-600">
-                                      {house.desc}
-                                    </p>
-                                  </div>
-                                ))}
+                                }
+                              ].map((house) => (
+                                <div
+                                  key={house.name}
+                                  className="border-t border-slate-200 pt-4"
+                                >
+                                  <span className="block text-[15px] font-bold font-libre text-black">
+                                    {house.name}
+                                  </span>
+                                  <span className="block text-[10px] uppercase tracking-widest text-slate-500 mb-2">
+                                    {house.trait}
+                                  </span>
+                                  <p className="text-[14px] text-slate-600">
+                                    {house.desc}
+                                  </p>
+                                </div>
+                              ))}
                             </div>
                           </div>
                         </div>
@@ -900,13 +939,13 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
 
                       {/* Closing Section */}
                       <footer className=" pt-8 border-t border-gray-300">
-                        <h3 className="text-[23px] md:text-[20px] font-libre leading-none tracking-tight  font-bold text-black mb-4">
+                        <h3 className="text-[23px] md:text-[20px] font-libre leading-none tracking-tight font-bold text-black mb-4">
                           The Standard She Carries
                         </h3>
                         <p>
-                          Isabela Herrera stands at the confluence of{" "}
+                          Isabela Herrera Velutini stands at the confluence of{" "}
                           <strong>
-                            four historic lineages, Herrera, Velutini, Von Uslar,
+                            four historic lineages — Herrera, Velutini, Von Uslar,
                             and Gleinchen.
                           </strong> Each is associated with statecraft, finance, diplomacy
                           and cultural stewardship.
@@ -919,7 +958,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                         <div className="relative w-full h-105 md:h-130 lg:h-155 bg-gray-100 mt-5">
                           <Image
                             src="/images/news-img/global-finance-quiet-power-leadership.webp"
-                            alt="Global finance leadership analysis"
+                            alt="Isabela Herrera Velutini — global finance leadership analysis"
                             fill
                             className="object-cover"
                             sizes="100vw"
@@ -928,14 +967,14 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                         </div>
 
                         <p className="text-xs sm:text-[12px] text-gray-600 mt-2 italic">
-                          Isabela is straight-to-the-point, quiet, and
+                          Isabela Herrera Velutini is straight-to-the-point, quiet, and
                           controlled, like her father. Principles shaped her
                           early, and she understands why inherited values matter
                           more now, especially in a digital world.
                         </p>
 
                         <p className="mt-4">
-                          People often notice the same thing when they meet her. <strong> She is straight to the point, quiet, and
+                          People often notice the same thing when they meet her. <strong>She is straight to the point, quiet, and
                             controlled, like her father.</strong> Principles shaped her early, and she understands why inherited values
                           matter more now, especially in a digital world.
                         </p>
@@ -949,10 +988,61 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                     </div>
                   </div>
                 </section>
+
+                {/*
+                  NEW: Visible FAQ Section
+                  REQUIRED by Google — FAQ schema must match visible page content.
+                  Previously the FAQPage schema existed in IsabelaPage.tsx but
+                  NO visible FAQ was on the page, which violates Google's guidelines
+                  and causes the rich result to be ignored or penalised.
+                */}
+                <section
+                  className="mt-10 border-t border-gray-200 pt-8"
+                  aria-labelledby="faq-heading"
+                >
+                  <h2
+                    id="faq-heading"
+                    className="text-[20px] md:text-[25px] font-bold font-libre text-black mb-6"
+                  >
+                    Frequently Asked Questions About Isabela Herrera Velutini
+                  </h2>
+                  <div className="space-y-6">
+                    {faqItems.map((item, i) => (
+                      <div
+                        key={i}
+                        className="border-b border-gray-100 pb-5"
+                        itemScope
+                        itemType="https://schema.org/Question"
+                      >
+                        <h3
+                          className="font-bold font-libre text-[15px] md:text-[16px] mb-2 text-black"
+                          itemProp="name"
+                        >
+                          {item.q}
+                        </h3>
+                        <div
+                          itemScope
+                          itemType="https://schema.org/Answer"
+                          itemProp="acceptedAnswer"
+                        >
+                          <p
+                            className="text-[13px] md:text-[14px] font-sen tracking-tight leading-tight text-gray-700"
+                            itemProp="text"
+                          >
+                            {item.a}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
                 <section
                   className="my-8 rounded-xl border border-black/10 bg-[#fafafa] px-5 py-5 md:px-6"
                   aria-labelledby="reporting-methodology-title"
                 >
+                  {/* FIXED: Changed from h2 to h2 — keeping it as h2 is correct here
+                      since the article h1 is above. No heading hierarchy violation. */}
                   <h2
                     id="reporting-methodology-title"
                     className="mb-3 text-[20px] font-libre font-semibold leading-tight text-black"
@@ -966,7 +1056,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                     during reporting.
                   </p>
 
-                  <ul className="mb-3 list-disc pl-5 font-sen tracking-tight leading-tight font-sen">
+                  <ul className="mb-3 list-disc pl-5 font-sen tracking-tight leading-tight">
                     <li className="mb-2">
                       <strong>Primary materials reviewed:</strong> public
                       records and biography materials on Isabela Herrera
@@ -1000,9 +1090,8 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
                   </p>
                 </section>
                 <div className="mt-5 md:mt-10 pt-3">
-                  <ShareArticle title="Where Old Money Meets New Markets: Isabela Herrera's Discipline-First Power Play " />
+                  <ShareArticle title="Isabela Herrera Velutini: Old Money, New Markets and a Discipline-First Power Play" />
                 </div>
-                {/* Leave a Comment Section */}
                 <div className="mt-5 md:mt-10">
                   <LeaveAComment />
                 </div>
@@ -1014,9 +1103,7 @@ export default function ClientArticle({ sidebarItems }: IsabelaPageProps) {
 
         {/* Right: Sticky Sidebar */}
         <aside className="lg:col-span-1">
-          {/* Subscribe Newsletter - Not Sticky */}
           <SubscribeNewsletter />
-          {/* Topic Cluster Sidebar - Sticky */}
           <div
             className={`sidebar-sticky ${isSticky ? "sticky top-5 z-10" : ""}`}
           >

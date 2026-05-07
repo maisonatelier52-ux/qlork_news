@@ -471,5 +471,44 @@
       "substack": "",
       "medium": ""
     }
+  },
+  {
+    "category": "politics",
+    "topic": "Congressional Redistricting",
+    "slug": "tennessee-republicans-vote-carve-up-memphis-black-district-trump-house-majority",
+    "title": "Tennessee GOP Pushes to Carve Up Memphis District in Trump’s Push for House Control",
+    "image": "/images/news-img/tennessee-redistricting-map-vote-legislator-thumbs-down.webp",
+    "date": "May 7, 2026",
+    "shortdescription": "Republican lawmakers in Tennessee are moving swiftly to adopt a new congressional map that would dismantle the state’s only majority-Black district centered on Memphis. The proposal, encouraged by former President Donald Trump, aims to flip a Democratic seat to GOP control as part of a broader Southern strategy to hold a narrow House majority. Protesters disrupted hearings Wednesday, but Republicans advanced the plan ahead of Thursday’s expected vote.",
+    "sub": [
+      {
+        "title": "Late-Night Hearings and Public Outcry Over Memphis Map",
+        "descr": "Tennessee’s Republican-led legislature is barreling toward a final vote Thursday on a controversial new U.S. House map that would effectively split up the majority-Black city of Memphis across multiple districts. The move, which has drawn sharp condemnation from civil rights groups and Democrats, is widely seen as an effort to unseat the state’s lone Democratic representative and give the GOP a better shot at protecting its slim House majority in November’s midterm elections.\n\nDuring often-heated legislative hearings on Wednesday, protesters repeatedly interrupted proceedings, chanting and holding signs that read “Protect Our Vote” and “Hands Off Memphis.” Despite the disruption, Republican committee members pushed the redistricting bills forward, setting the stage for what is expected to be a party-line vote in both the full House and Senate as early as Thursday afternoon.\n\nThe proposed map carves up the current 9th Congressional District, which has long been anchored by Memphis and its majority-Black population. Under the new lines, Black voters would be scattered into three surrounding districts that lean heavily Republican, effectively diluting their political power. GOP leaders argue the changes are based on population shifts and political considerations — not race — but critics say the pattern is impossible to ignore."
+      },
+      {
+        "title": "Playing Catch-Up With a Supreme Court Ruling",
+        "descr": "The timing of Tennessee’s redistricting push is no accident. Republican strategists in multiple Southern states are moving quickly to take advantage of a recent U.S. Supreme Court decision that weakened a key provision of the Voting Rights Act. The court ruled that Louisiana had relied too heavily on race when it created a second majority-Black House district, upending decades of legal precedent that had protected such districts from being dismantled.\n\nThat ruling opened the door for states like Tennessee, Alabama, and South Carolina to redraw maps in the middle of the decade — something that was once considered legally risky. Tennessee’s current map was only upheld by the state Supreme Court in April 2022, which rejected a challenge at the time because the election was too close. But with the high court’s new guidance, Republicans feel emboldened to try again.\n\n“This is Black vote dilution at an industrial scale,” said Sekou Franklin, a political science professor at Middle Tennessee State University who works with the Tennessee branch of the NAACP. Franklin and other activists argue that the GOP is using the Supreme Court’s ruling as a political weapon, not a legal necessity. Democrats have also pointed out that the August 6 primary is now less than three months away, warning that changing district lines this late will cause chaos for both candidates and voters trying to figure out where they can cast ballots."
+      },
+      {
+        "title": "A Broader Southern Strategy to Flip Seats",
+        "descr": "Tennessee isn’t acting alone. Across the South, Republican lawmakers are racing to lock in new congressional maps before the November midterms. In Alabama, the state House has already passed legislation that would trigger special congressional primaries if courts allow the state to set aside a federal court-ordered map that created a second district with a near-majority of Black voters. That map helped elect Democrat Shomari Figures in 2024, and Republicans want to erase that gain.\n\nDuring a fiery four-hour debate in Alabama’s House, Democratic Representative Juandalynn Givan compared the GOP’s effort to the poll taxes and literacy tests of the Jim Crow era — specifically calling out a grotesque practice where Black voters were forced to guess the number of jelly beans in a jar to register. “It is a calculated political maneuver born out of fear,” Givan said. “A fear of Black people and, most importantly, Black political power.”\n\nMeanwhile, South Carolina’s Republican-led Senate is expected to take up a resolution Thursday that would allow lawmakers to return after their regular session ends specifically to redraw congressional districts. That state’s only Democratic-held seat is squarely in the GOP’s crosshairs. Democratic Representative Justin Bamberg told his Republican colleagues during debate that he actually felt sorry for them, saying they were abandoning their principles just to follow the whims of former President Trump.\n\n“The president of the United States is a very powerful man,” Bamberg said. “Wields a heavy, heavy thumb — Truth Social, X, Meta, Instagram. To be honest, I don’t envy our Republican colleagues.”"
+      },
+      {
+        "title": "What Happens Next in Tennessee",
+        "descr": "Assuming the Tennessee map passes the full legislature on Thursday — as most political observers expect — it will then head to Republican Governor Bill Lee’s desk. Lee has not publicly committed to signing the bill, but he has also not voiced any opposition, and the GOP holds a supermajority that could override a veto if necessary.\n\nThe package of bills does more than just redraw lines. It also repeals a state law that explicitly prohibited mid-decade redistricting, removing a legal barrier that might have been used to challenge the move in state court. Additionally, the legislation reopens the candidate qualifying window, giving new candidates a chance to enter the primary and allowing existing candidates to switch districts if the map changes where they live.\n\nDemocrats have vowed to sue, arguing that the map violates the Voting Rights Act even under the Supreme Court’s narrower interpretation. But with time running short before the August primary, any legal challenge faces an uphill battle to stop the map from being used this year. For now, civil rights groups are focused on public pressure, hoping that sustained protests and media attention might push a few Republican moderates to reconsider.\n\nWhether that happens remains to be seen. But one thing is clear: Tennessee has become the latest battlefield in a national redistricting war that could determine control of Congress for the next two years, and the fight over Memphis is far from over."
+      }
+    ],
+    "author": {
+      "name": "Sarah Mitchell",
+      "role": "Senior Political Correspondent",
+      "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
+      "image": "/images/authors/sarah-mitchell.webp",
+      "email": "sarah.mitchell@newswebsite.com",
+      "twitter": "@sarahmitchellreports",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

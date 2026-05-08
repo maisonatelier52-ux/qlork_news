@@ -23,7 +23,7 @@ const   SubscribeNewsletter: React.FC = () => {
     // },
     {
       name: "Substack",
-      href: "https://substack.com/@qlork1",
+      href: "https://substack.com/@qlorknews",
       icon: (
         <svg
           className="w-4 h-4"

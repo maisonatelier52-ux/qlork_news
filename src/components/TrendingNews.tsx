@@ -12,8 +12,8 @@ const newsItems = [
   { label: "WORLD", title: WorldData[0].title, slug: WorldData[0].slug },
   {
     label: "BUSINESS",
-    title: BusinessData[0].title,
-    slug: BusinessData[0].slug,
+    title: BusinessData[1].title,
+    slug: BusinessData[1].slug,
   },
   {
     label: "POLITICS",

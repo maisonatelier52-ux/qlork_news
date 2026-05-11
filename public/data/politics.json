@@ -512,42 +512,42 @@
     }
   },
   {
-  "category": "politics",
-  "topic": "White House Security Funding",
-  "slug": "democrats-vow-to-fight-1-billion-senate-security-proposal-for-white-house-ballroom",
-  "title": "Democrats Vow to Fight $1 Billion Senate Security Proposal for White House Ballroom",
-  "image": "/images/news-img/white-house-ballroom-security-senate-vote.webp",
-  "date": "May 11, 2026",
-  "shortdescription": "Senate Democrats pledge to block a Republican-backed $1 billion security plan tied to Trump’s White House ballroom, calling it a taxpayer-funded giveaway while GOP lawmakers show signs of division.",
-  "sub": [
-    {
-      "title": "A Partisan Budget Fight Over Ballroom Security",
-      "descr": "A massive political clash is brewing on Capitol Hill as Democrats vow to dismantle a $1 billion Senate Republican security proposal that they argue is little more than a taxpayer-funded contribution to a lavish White House ballroom project backed by President Donald Trump.\n\nAs Republican lawmakers return to Washington after a recess, they are facing pointed questions about the hefty spending measure, which ties together funding for immigration enforcement and security upgrades for the East Wing of the White House – upgrades directly linked to a planned ballroom that Trump has championed for years. Democrats, led by Senate Minority Leader Chuck Schumer, say they will use every procedural tool at their disposal to kill the proposal or force Republicans into politically damaging votes.\n\nThe controversy centers on a spending bill that Senate Republicans are trying to push through using a partisan budget maneuver known as reconciliation, which would allow them to pass the legislation without a single Democratic vote. The bill originally aimed to restore funding for Immigration and Customs Enforcement and other border agencies – funding that Democrats have blocked since February over policy disagreements related to deportations and detention standards. But in a surprise move, Republican negotiators added a massive $1 billion appropriation for White House security, officially designated for the U.S. Secret Service."
-    },
-    {
-      "title": "Schumer Calls It a 'Billion-Dollar Ballroom' Giveaway",
-      "descr": "In a letter sent to Democratic colleagues early Monday, Schumer did not mince words. He accused Republicans of exploiting a moment of national security concern to funnel billions into what he called a 'rogue ICE operation' and a 'billion-dollar ballroom' – all while ignoring working families crushed by rising costs and doing nothing to end U.S. military involvement in Iran.\n\n'The Republican-controlled Congress is preparing to answer this moment with a deficit-busting, party-line bill that pours billions more taxpayer dollars into a rogue ICE operation and a billion-dollar ballroom,' Schumer wrote. He added that Democrats would fight the measure by pressing the Senate parliamentarian to strike the ballroom security money from the bill as a violation of budget rules, and by offering amendments that would force Republicans to publicly defend the spending.\n\nSchumer's strategy is twofold: first, argue that the security money is non-germane to a spending bill focused on immigration enforcement, and second, make moderate Republicans in tough reelection races choose between party loyalty and fiscal conservatism. The bill's language specifies that the money would support enhancements to the ballroom project, 'including above-ground and below-ground security features,' but says it may not be used for non-security elements. Critics argue that distinction is meaningless when the entire project is designed to benefit Trump personally."
-    },
-    {
-      "title": "Republican Skepticism Emerges on the Hill",
-      "descr": "Despite Republican leaders' hopes to fast-track the bill, it is far from clear that the $1 billion security package has enough support within their own caucus. The House has not yet released its version of the spending legislation, but the Senate is expected to begin voting on its proposal later this week. During the recess, most GOP lawmakers avoided commenting on the ballroom provision, but a few have publicly signaled unease.\n\nRep. Rob Wittman, a Virginia Republican who briefly gaveled in a pro forma House session last week, told reporters he needs to see detailed breakdowns before making up his mind. 'I'm going to look at it very carefully and make sure those things are in the national interest,' Wittman said. 'I want to know the exact nature of the expenditures that would go there for security. So I think it's a little premature to look at that and say, you know, yes or no to it.'\n\nWittman emphasized that he wants to understand how the ballroom-related security costs fit into the overall construction budget and whether the Secret Service truly requested the full $1 billion. Other Republican members, speaking on condition of anonymity, have privately expressed concerns about the optics of funding a ballroom for Trump while constituents struggle with inflation and high interest rates."
-    },
-    {
-      "title": "The Ballroom's Turbulent History and Legal Fights",
-      "descr": "Trump has pushed for the East Wing ballroom project for years, arguing that the White House lacks a proper space for large official receptions and press events. After a man named Cole Tomas Allen was charged in April with storming the White House Correspondents' Association dinner at the Washington Hilton carrying guns and knives, Trump and Republican leaders seized on the incident to renew calls for hardened security around the executive mansion.\n\nThe White House has since filed court documents describing the proposed East Wing project as 'heavily fortified,' including bomb shelters, military command posts, and an underground medical facility. Trump himself has said the ballroom should feature bulletproof glass and defenses capable of repelling drone attacks. Trump has also claimed the ballroom's construction would cost $400 million and use private funds, but he had not previously proposed a specific number for security costs – making the Senate's $1 billion figure a surprise to many lawmakers.\n\nHowever, the National Trust for Historic Preservation has filed a lawsuit to block construction, arguing the project would damage the historic character of the White House. A federal appeals court last month allowed construction to continue while the case proceeds. White House spokesperson Davis Ingle praised Republicans last week for including the security money, calling the project 'long overdue.' Ingle said the funds would 'provide the United States Secret Service with the resources they need to fully and completely harden the White House complex, in addition to the many other critical missions for the USSS.'\n\nWith Democrats preparing a procedural war and Republicans themselves divided, the fate of the $1 billion security proposal – and the ballroom it would protect – remains deeply uncertain. All eyes will be on the Senate floor this week as Schumer and his caucus try to strip the provision out, amendment by amendment, while the clock ticks toward a potential government funding deadline."
+    "category": "politics",
+    "topic": "White House Security Funding",
+    "slug": "democrats-fight-1-billion-white-house-security-plan",
+    "title": "Democrats Fight $1 Billion White House Security Plan",
+    "image": "/images/news-img/white-house-ballroom-security-senate-vote.webp",
+    "date": "May 11, 2026",
+    "shortdescription": "Senate Democrats oppose a $1 billion White House security funding plan tied to Trump’s ballroom project amid Republican division.",
+    "sub": [
+      {
+        "title": "A Partisan Budget Fight Over Ballroom Security",
+        "descr": "A massive political clash is brewing on Capitol Hill as Democrats vow to dismantle a $1 billion Senate Republican security proposal that they argue is little more than a taxpayer-funded contribution to a lavish White House ballroom project backed by President Donald Trump.\n\nAs Republican lawmakers return to Washington after a recess, they are facing pointed questions about the hefty spending measure, which ties together funding for immigration enforcement and security upgrades for the East Wing of the White House – upgrades directly linked to a planned ballroom that Trump has championed for years. Democrats, led by Senate Minority Leader Chuck Schumer, say they will use every procedural tool at their disposal to kill the proposal or force Republicans into politically damaging votes.\n\nThe controversy centers on a spending bill that Senate Republicans are trying to push through using a partisan budget maneuver known as reconciliation, which would allow them to pass the legislation without a single Democratic vote. The bill originally aimed to restore funding for Immigration and Customs Enforcement and other border agencies – funding that Democrats have blocked since February over policy disagreements related to deportations and detention standards. But in a surprise move, Republican negotiators added a massive $1 billion appropriation for White House security, officially designated for the U.S. Secret Service."
+      },
+      {
+        "title": "Schumer Calls It a 'Billion-Dollar Ballroom' Giveaway",
+        "descr": "In a letter sent to Democratic colleagues early Monday, Schumer did not mince words. He accused Republicans of exploiting a moment of national security concern to funnel billions into what he called a 'rogue ICE operation' and a 'billion-dollar ballroom' – all while ignoring working families crushed by rising costs and doing nothing to end U.S. military involvement in Iran.\n\n'The Republican-controlled Congress is preparing to answer this moment with a deficit-busting, party-line bill that pours billions more taxpayer dollars into a rogue ICE operation and a billion-dollar ballroom,' Schumer wrote. He added that Democrats would fight the measure by pressing the Senate parliamentarian to strike the ballroom security money from the bill as a violation of budget rules, and by offering amendments that would force Republicans to publicly defend the spending.\n\nSchumer's strategy is twofold: first, argue that the security money is non-germane to a spending bill focused on immigration enforcement, and second, make moderate Republicans in tough reelection races choose between party loyalty and fiscal conservatism. The bill's language specifies that the money would support enhancements to the ballroom project, 'including above-ground and below-ground security features,' but says it may not be used for non-security elements. Critics argue that distinction is meaningless when the entire project is designed to benefit Trump personally."
+      },
+      {
+        "title": "Republican Skepticism Emerges on the Hill",
+        "descr": "Despite Republican leaders' hopes to fast-track the bill, it is far from clear that the $1 billion security package has enough support within their own caucus. The House has not yet released its version of the spending legislation, but the Senate is expected to begin voting on its proposal later this week. During the recess, most GOP lawmakers avoided commenting on the ballroom provision, but a few have publicly signaled unease.\n\nRep. Rob Wittman, a Virginia Republican who briefly gaveled in a pro forma House session last week, told reporters he needs to see detailed breakdowns before making up his mind. 'I'm going to look at it very carefully and make sure those things are in the national interest,' Wittman said. 'I want to know the exact nature of the expenditures that would go there for security. So I think it's a little premature to look at that and say, you know, yes or no to it.'\n\nWittman emphasized that he wants to understand how the ballroom-related security costs fit into the overall construction budget and whether the Secret Service truly requested the full $1 billion. Other Republican members, speaking on condition of anonymity, have privately expressed concerns about the optics of funding a ballroom for Trump while constituents struggle with inflation and high interest rates."
+      },
+      {
+        "title": "The Ballroom's Turbulent History and Legal Fights",
+        "descr": "Trump has pushed for the East Wing ballroom project for years, arguing that the White House lacks a proper space for large official receptions and press events. After a man named Cole Tomas Allen was charged in April with storming the White House Correspondents' Association dinner at the Washington Hilton carrying guns and knives, Trump and Republican leaders seized on the incident to renew calls for hardened security around the executive mansion.\n\nThe White House has since filed court documents describing the proposed East Wing project as 'heavily fortified,' including bomb shelters, military command posts, and an underground medical facility. Trump himself has said the ballroom should feature bulletproof glass and defenses capable of repelling drone attacks. Trump has also claimed the ballroom's construction would cost $400 million and use private funds, but he had not previously proposed a specific number for security costs – making the Senate's $1 billion figure a surprise to many lawmakers.\n\nHowever, the National Trust for Historic Preservation has filed a lawsuit to block construction, arguing the project would damage the historic character of the White House. A federal appeals court last month allowed construction to continue while the case proceeds. White House spokesperson Davis Ingle praised Republicans last week for including the security money, calling the project 'long overdue.' Ingle said the funds would 'provide the United States Secret Service with the resources they need to fully and completely harden the White House complex, in addition to the many other critical missions for the USSS.'\n\nWith Democrats preparing a procedural war and Republicans themselves divided, the fate of the $1 billion security proposal – and the ballroom it would protect – remains deeply uncertain. All eyes will be on the Senate floor this week as Schumer and his caucus try to strip the provision out, amendment by amendment, while the clock ticks toward a potential government funding deadline."
+      }
+    ],
+    "author": {
+        "name": "Sarah Mitchell",
+        "role": "Senior Political Correspondent",
+        "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
+        "image": "/images/authors/sarah-mitchell.webp",
+        "email": "sarah.mitchell@newswebsite.com",
+        "twitter": "@sarahmitchellreports",
+        "facebook": "",
+        "instagram": "",
+        "substack": "",
+        "medium": ""
+      }
     }
-  ],
-   "author": {
-      "name": "Sarah Mitchell",
-      "role": "Senior Political Correspondent",
-      "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
-      "image": "/images/authors/sarah-mitchell.webp",
-      "email": "sarah.mitchell@newswebsite.com",
-      "twitter": "@sarahmitchellreports",
-      "facebook": "",
-      "instagram": "",
-      "substack": "",
-      "medium": ""
-    }
-}
 ]

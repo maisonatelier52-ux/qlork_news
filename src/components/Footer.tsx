@@ -27,6 +27,7 @@ const Footer: React.FC<FooterProps> = ({
     { text: "Our Team", href: "/our-team" },
     { text: "Privacy Policy", href: "/privacy-policy" },
     { text: "Terms & Conditions", href: "/terms-and-conditions" },
+     { text: "Contact", href: "/contact" },
   ],
   newsletterHeading = "Subscribe Now for Real-time Updates on the Latest Stories!",
   newsletterPlaceholder = "Your email address",

@@ -39,27 +39,42 @@ const MainGridLast: React.FC<MainGridProps> = ({
   showLessLabel = "Show Less ←",
   className = "",
 }) => {
-  const initialCount = initialRows * 9;
+  const initialCount = 8;
   const [visibleCount, setVisibleCount] = useState(initialCount);
   const itemsToShow = items.slice(0, visibleCount);
   const hasMore = items.length > visibleCount;
   const hasLess = visibleCount > initialCount;
 
-  const handleShowMore = () => {
-    if (onShowMore) {
-      onShowMore();
-    } else {
-      setVisibleCount((prev) => Math.min(prev + 5, items.length));
-    }
-  };
+  // const handleShowMore = () => {
+  //   if (onShowMore) {
+  //     onShowMore();
+  //   } else {
+  //     setVisibleCount((prev) => Math.min(prev + 5, items.length));
+  //   }
+  // };
 
+  const handleShowMore = () => {
+  if (onShowMore) {
+    onShowMore();
+  } else {
+    setVisibleCount(items.length); // show all remaining items
+  }
+};
+
+  // const handleShowLess = () => {
+  //   if (onShowLess) {
+  //     onShowLess();
+  //   } else {
+  //     setVisibleCount(initialCount);
+  //   }
+  // };
   const handleShowLess = () => {
-    if (onShowLess) {
-      onShowLess();
-    } else {
-      setVisibleCount(initialCount);
-    }
-  };
+  if (onShowLess) {
+    onShowLess();
+  } else {
+    setVisibleCount(initialCount); // back to 8 items
+  }
+};
 
   return (
     <section className={className}>

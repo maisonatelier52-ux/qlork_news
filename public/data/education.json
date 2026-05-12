@@ -444,5 +444,57 @@
       "substack": "",
       "medium": ""
     }
+  },
+
+  {
+    "category": "education",
+    "topic": "Educational Leadership And Access",
+    "slug": "jalen-rose-quiet-unpaid-regular-detroit-high-school",
+    "title": "Jalen Rose Is a Quiet, Unpaid Regular at His Detroit High School",
+    "image": "/images/news-img/jalen-rose-jrla-detroit-high-school-students.webp",
+    "date": "May 12, 2026",
+    "shortdescription": "Former NBA star Jalen Rose doesn't just lend his name to the Jalen Rose Leadership Academy in Detroit—he shows up weekly, unpaid, greeting students, helping with disputes, and personally raising funds to keep the public charter school running.",
+    "sub": [
+      {
+        "title": "A Familiar Presence in the Hallways",
+        "descr": "Detroit, MI – On a crisp morning in northwest Detroit, a familiar lanky figure pushes through the metal doors of the Jalen Rose Leadership Academy (JRLA). He isn’t arriving for a photo op or a ceremonial ribbon-cutting. He’s there to work—unpaid—just as he has been for over a decade. Jalen Rose, the former NBA guard and iconic member of the University of Michigan’s “Fab Five,” doesn’t just lend his name to this public charter high school. He walks its hallways like a building principal. He hugs students heading to first period. He leans against lockers to chat with custodians and cafeteria staff. On this particular morning, he winds through the lunchroom—which also awkwardly doubles as a basketball court, with hoops folding out from walls far lower than any regulation rim—and greets each teenager like a favorite uncle."
+      },
+      {
+        "title": "Students Sometimes Don't Know He's Famous",
+        "descr": "The academy opened in 2011, four years after Rose retired from professional basketball. But what most outsiders don’t realize is that Rose never left. He isn’t a distant celebrity benefactor who writes a check each year. According to Jazmine Allen, the school’s principal and superintendent, Rose is a regular fixture—so regular that new students sometimes don’t even know he’s famous. “For the first few months, I kept asking, ‘Who is this tall guy everybody keeps high-fiving?’” recalls Cierra Gee, a senior who recently moved from New Jersey to Detroit and chose JRLA after touring several schools. Gee, who has since been accepted to 37 colleges, admits she didn’t recognize Rose’s name at first. “My dad finally said, ‘That’s Jalen Rose. Go get a picture.’ I just thought he was some cool, tall dude. He doesn’t walk around with any sense of entitlement.”"
+      },
+      {
+        "title": "Honoring His Mother’s Struggle",
+        "descr": "That humility runs through everything Rose does at the school. He is not only the founder and board president—he effectively works there without a paycheck. When he recently delivered the commencement address at the University of Michigan, he also donated his time. He called that speaking spot his true “Mama, I made it” moment, a phrase he shared with graduates at Michigan Stadium on May 2. His mother, Jeanne Rose, raised him in poverty in Detroit, hiding a shoebox of unpaid bills in a closet. She died in 2021, and Jalen has said that building a school is his way of honoring her struggle."
+      },
+      {
+        "title": "Isiah Thomas Donates After Seeing Rose's Effort",
+        "descr": "The school itself runs on open enrollment, tuition-free, with limited state funding. Rose personally helps raise money to keep the lights on. That effort caught the attention of Basketball Hall of Famer Isiah Thomas, who was so moved that he donated to the academy. A small plaque outside one classroom recognizes Thomas’s contribution. “It would’ve been so much easier for Jalen to just build a gym—a place for kids to play and have fun,” Thomas said in a recent interview. “Instead, he took on the challenge of opening a real school. He’s building minds, not just bodies. And he does it independently, raising funds every step of the way.”"
+      },
+      {
+        "title": "A College Prep Culture With Blazers and Ivy League Pennants",
+        "descr": "Inside JRLA, the culture feels closer to a small college prep academy than a typical Detroit public school. Ivy League pennants line the hallways to push students to aim high. Cell phones are restricted. The dress code requires blazers, collared shirts, and khaki pants. Rose himself can often be found walking those halls, chatting with teachers about lesson plans or helping settle hallway disagreements between students."
+      },
+      {
+        "title": "A Complicated Past That Fuels His Mission",
+        "descr": "Rose has a complicated personal history that fuels his mission. He never knew his father, Jimmy Walker, the No. 1 overall pick in the 1967 NBA draft, until he attended Walker’s funeral in 2007. Walker wore No. 24 as a pro; Jalen deliberately wore No. 42 in high school and No. 5 at Michigan—numbers that symbolized the opposite of his absent father. He helped Detroit Southwestern High win back-to-back state championships in 1990 and 1991 alongside future NBA players Voshon Lenard and Howard Eisley. Later, as the point guard and vocal leader of Michigan’s Fab Five, he led the Wolverines to consecutive NCAA finals in 1992 and 1993. After a 13-year NBA career that earned him over $100 million, plus modern success as a TV analyst, podcast host, and executive producer, Rose could easily rest. Instead, he’s currently exploring how to move his school out of an old elementary school and into a former hospital—a massive logistical and financial challenge he’s tackling personally."
+      },
+      {
+        "title": "'He's Still Out Front—Just Now, It's for These Kids'",
+        "descr": "Jimmy King, another member of the Fab Five, stood in a JRLA hallway recently and summed up his old teammate: “Jalen has always been the mouthpiece for us,” King said. “He’s been the one out front. That never stopped. He’s still out front—just now, it’s for these kids.” Outside the school, Rose is also known for handing out free food to neighbors when they pull up. Inside, he’s just the tall guy who shows up every week, asks how your grades are, and doesn’t take a dime for it. In an era of performative philanthropy, Jalen Rose has built something far rarer: a school where his presence isn’t a event. It’s just Tuesday."
+      }
+    ],
+    "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

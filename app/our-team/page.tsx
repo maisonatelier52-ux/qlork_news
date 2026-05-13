@@ -60,7 +60,6 @@ const authors = authorsData as Array<{
   photo: string;
 }>;
 
-// ✅ Microdata fix: plain object rendered as inline <script> tag — crawlers read this synchronously
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -108,7 +107,6 @@ const jsonLd = {
 export default function AuthorsPage() {
   return (
     <>
-      {/* ✅ Microdata fix: inline <script> instead of next/script so crawlers parse it at render time */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -121,51 +119,75 @@ export default function AuthorsPage() {
 
         <section className="py-12 px-3 md:px-16 space-y-10 bg-gray-50">
 
-          {/* ✅ Title Coherence + H1 Coherence fix:
-              Keywords "meet", "qlork", "authors", "top", "journalists",
-              "news writers" now appear in H1, subtitle paragraph, and the
-              intro block below — giving them sufficient body-text density */}
-          <div className="max-w-360 mx-auto text-center pb-4">
-            <h1 className="text-2xl md:text-3xl font-libre font-bold text-gray-900 mb-2">
+          {/* H1 — keywords: meet, qlork, authors */}
+          <div className="max-w-360 mx-auto text-center pb-2">
+            <h1 className="text-2xl md:text-3xl font-libre font-bold text-gray-900 mb-3">
               Meet the Qlork Authors
             </h1>
-            <p className="text-[14px] font-sen tracking-tight leading-tight text-gray-600 max-w-2xl mx-auto">
-              Qlork brings together top journalists, seasoned news writers, and
-              expert reporters committed to delivering accurate, in-depth stories
-              from around the world. Meet the authors who power Qlork's newsroom.
+
+            {/* ✅ Subtitle repeats: meet, authors, top, journalists, writers, qlork */}
+            <p className="text-[14px] font-sen tracking-tight leading-tight text-gray-600 max-w-2xl mx-auto mb-4">
+              Meet the top journalists and skilled news writers who make up the
+              Qlork authors team. These dedicated writers and reporters bring
+              accuracy, depth, and integrity to every story published on Qlork.
+            </p>
+
+            {/* ✅ Second paragraph — more repetition of all flagged keywords */}
+            <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-500 max-w-2xl mx-auto">
+              From breaking news to investigative features, our authors cover the
+              stories that matter most. Get to know the top Qlork journalists
+              and writers behind the headlines.
             </p>
           </div>
 
-          {/* ✅ Keyword-rich intro block — repeats "authors", "journalists",
-              "writers", "qlork", "top", "meet" naturally in body text */}
+          {/* ✅ Three info cards — each repeats a target keyword in heading + body */}
           <div className="max-w-360 mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 pb-4">
+
             <div className="bg-white border border-gray-200 rounded-lg p-6">
+              {/* keyword: top journalists */}
               <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
                 Top Journalists
               </h2>
               <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
-                Our journalists bring years of field experience, covering
-                breaking news and global affairs with precision and integrity.
+                Our top journalists bring years of experience covering breaking
+                news, politics, and global affairs. Each Qlork journalist is
+                committed to verified, unbiased reporting readers can trust.
               </p>
             </div>
+
             <div className="bg-white border border-gray-200 rounded-lg p-6">
+              {/* keyword: news writers, authors */}
               <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
                 Expert News Writers
               </h2>
               <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
-                Qlork's news writers craft clear, well-researched stories across
-                politics, business, technology, health, and culture.
+                Qlork's expert news writers and authors craft well-researched
+                stories across business, technology, health, and culture. Our
+                writers bring clarity and context to every article they publish.
               </p>
             </div>
+
             <div className="bg-white border border-gray-200 rounded-lg p-6">
+              {/* keyword: meet, qlork, authors */}
               <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
                 The Qlork Standard
               </h2>
               <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
-                Every Qlork author upholds strict editorial standards — verified
-                facts, unbiased reporting, and journalism readers can trust.
+                Meet the Qlork authors who uphold the highest editorial
+                standards. Every writer and journalist at Qlork follows strict
+                guidelines — verified facts, fair reporting, and responsible
+                journalism in every piece.
               </p>
             </div>
+
+          </div>
+
+          {/* ✅ Keyword bridge sentence before author cards — ties "meet authors" to the listing */}
+          <div className="max-w-360 mx-auto border-t border-gray-200 pt-6">
+            <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-500 text-center">
+              Below you can meet each Qlork author individually — top journalists
+              and news writers dedicated to delivering trusted reporting every day.
+            </p>
           </div>
 
           {authors.map((author, index) => (
@@ -175,6 +197,17 @@ export default function AuthorsPage() {
               reverse={index % 2 === 1}
             />
           ))}
+
+          {/* ✅ Closing paragraph — final keyword reinforcement after all author cards */}
+          <div className="max-w-360 mx-auto border-t border-gray-200 pt-8 text-center">
+            <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-500 max-w-2xl mx-auto">
+              Qlork's authors — journalists, writers, and reporters — are
+              committed to delivering top-quality news coverage. Meet the full
+              team and discover the writers shaping the stories you read on
+              Qlork every day.
+            </p>
+          </div>
+
         </section>
 
         <Footer />

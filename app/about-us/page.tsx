@@ -1,20 +1,52 @@
+import { Metadata } from "next";
 import DateBar from "@/src/components/DateBar";
 import Footer from "@/src/components/Footer";
 import MainNav from "@/src/components/MainNav";
 import TrendingNews from "@/src/components/TrendingNews";
-import Script from "next/script";
 
-// ✅ Fix 1: Canonical URL via Next.js metadata
-export const metadata = {
+// ✅ Fix 1: Meta description trimmed to 157 chars (under 160 limit)
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.qlork.com"),
   title: "About Qlork – Breaking News, Latest Headlines & In-Depth Stories",
   description:
-    "Qlork is a trusted digital news platform delivering breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
+    "Discover Qlork – your trusted source for breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
   alternates: {
-    canonical: "https://www.qlork.com/about", // 🔁 replace with your actual domain
+    canonical: "https://www.qlork.com/about-us",
+  },
+  openGraph: {
+    title: "About Qlork – Breaking News, Latest Headlines & In-Depth Stories",
+    description:
+      "Discover Qlork – your trusted source for breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
+    url: "https://www.qlork.com/about-us",
+    siteName: "Qlork",
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+        width: 1200,
+        height: 630,
+        alt: "About Qlork – Digital News Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Qlork – Breaking News, Latest Headlines & In-Depth Stories",
+    description:
+      "Discover Qlork – your trusted source for breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
+    images: ["https://www.qlork.com/images/news-img/qlork-logo.webp"],
+  },
+  robots: { index: true, follow: true },
+  icons: {
+    icon: "/images/qlork-favIcon.webp",
+    shortcut: "/images/qlork-favIcon.webp",
+    apple: "/images/qlork-favIcon.webp",
   },
 };
 
-// ✅ Fix 2: JSON-LD schema (Organization + WebPage microdata)
+// ✅ Fix 2: JSON-LD as a plain object — rendered via dangerouslySetInnerHTML
+// on a real <script> tag so SEO crawlers can read it (next/script defers loading)
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -23,17 +55,26 @@ const jsonLd = {
       "@id": "https://www.qlork.com/#organization",
       name: "Qlork",
       url: "https://www.qlork.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+      },
       description:
         "A modern digital news platform delivering clear, credible, and timely journalism.",
-      sameAs: [],
+      sameAs: [
+        "https://substack.com/@qlorknews",
+        "https://www.instagram.com/qlork_news/",
+        "https://x.com/QlorkN54107",
+        "https://medium.com/@qlork_news",
+      ],
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.qlork.com/about#webpage",
-      url: "https://www.qlork.com/about",
+      "@id": "https://www.qlork.com/about-us#webpage",
+      url: "https://www.qlork.com/about-us",
       name: "About Qlork – Breaking News, Latest Headlines & In-Depth Stories",
       description:
-        "Qlork is a trusted digital news platform delivering breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
+        "Discover Qlork – your trusted source for breaking news, the latest headlines, and in-depth stories on politics, technology, business, and global affairs.",
       isPartOf: { "@id": "https://www.qlork.com/#organization" },
       breadcrumb: {
         "@type": "BreadcrumbList",
@@ -48,7 +89,7 @@ const jsonLd = {
             "@type": "ListItem",
             position: 2,
             name: "About",
-            item: "https://www.qlork.com/about",
+            item: "https://www.qlork.com/about-us",
           },
         ],
       },
@@ -59,9 +100,8 @@ const jsonLd = {
 export default function AboutSection() {
   return (
     <>
-      {/* ✅ Fix 2: Inject JSON-LD schema */}
-      <Script
-        id="about-jsonld"
+      {/* ✅ Fix 2: Inline <script> tag — crawlers read this synchronously unlike next/script */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
@@ -78,7 +118,6 @@ export default function AboutSection() {
             About <span className="text-gray-900">Qlork</span>
           </h1>
           <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
-          {/* ✅ Fix 1: Added "latest headlines" and "breaking news" keywords */}
           <p className="text-[15px] text-gray-600 max-w-2xl font-sen tracking-tight leading-tight mx-auto">
             A modern digital news platform delivering breaking news, the latest
             headlines, and credible, timely journalism.
@@ -110,7 +149,6 @@ export default function AboutSection() {
               <span className="w-1.5 h-6 bg-gray-900 rounded" />
               What We Cover
             </h2>
-            {/* ✅ Fix 1: Added "latest" and "headlines" to body text */}
             <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-6">
               Our newsroom tracks the latest headlines and stories that matter
               most to informed readers.
@@ -131,7 +169,7 @@ export default function AboutSection() {
               <span className="w-1.5 h-6 bg-gray-900 rounded" />
               Our Standards
             </h2>
-            <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight leading-relaxed">
+            <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight">
               At Qlork, we uphold the highest standards of journalism. Accuracy,
               fairness, and integrity guide everything we do. We focus on
               delivering news that is verified, unbiased, and meaningful,

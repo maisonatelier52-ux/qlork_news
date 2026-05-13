@@ -42,10 +42,7 @@ export const metadata: Metadata = {
       "Read Qlork's Terms & Conditions to understand the rules for using our website.",
     images: ["https://www.qlork.com/images/news-img/qlork-logo.webp"],
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
   alternates: {
     canonical: "https://www.qlork.com/terms-and-conditions",
   },
@@ -56,176 +53,232 @@ export const metadata: Metadata = {
   },
 };
 
+// ✅ Fix: inline JSON-LD — crawlers parse synchronously unlike next/script
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.qlork.com/terms-and-conditions#webpage",
+      url: "https://www.qlork.com/terms-and-conditions",
+      name: "Terms & Conditions | Qlork",
+      description:
+        "Read Qlork's Terms & Conditions to understand the rules and guidelines for using our website and services.",
+      inLanguage: "en-US",
+      isPartOf: { "@id": "https://www.qlork.com/#website" },
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.qlork.com" },
+          { "@type": "ListItem", position: 2, name: "Terms & Conditions", item: "https://www.qlork.com/terms-and-conditions" },
+        ],
+      },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.qlork.com/#organization",
+      name: "Qlork",
+      url: "https://www.qlork.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+      },
+    },
+  ],
+};
+
 export default function TermsConditionsPage() {
   return (
     <>
+      {/* ✅ Fix: inline <script> not next/script */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className="bg-white min-h-screen">
         <DateBar />
         <MainNav />
         <TrendingNews />
-     <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
 
-  {/* Header */}
-  <div className="text-center mb-20">
-    <h1 className="text-4xl md:text-5xl font-extrabold font-libre tracking-tight mb-5">
-      Terms & <span className="text-gray-900">Conditions</span>
-    </h1>
-    <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
-    <p className="text-[15px] text-gray-600 font-sen tracking-tight leading-tight max-w-2xl mx-auto">
-     Access to this news website indicates acceptance of our terms  </p>
-  </div>
+        <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
 
-  {/* Main Content */}
-  <div className="space-y-10">
+          {/* Header */}
+          <div className="text-center mb-20">
+            <h1 className="text-4xl md:text-5xl font-extrabold font-libre tracking-tight mb-5">
+              Terms & <span className="text-gray-900">Conditions</span>
+            </h1>
+            <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
+            {/* ✅ Fix: "Qlork" added to subtitle — keyword now in visible body text */}
+            <p className="text-[15px] text-gray-600 font-sen tracking-tight leading-tight max-w-2xl mx-auto">
+              These Qlork Terms & Conditions govern your access to and use of
+              the Qlork website and services.
+            </p>
+          </div>
 
-    {/* Introduction */}
-    <div className="bg-orange-50 border border-orange-200 rounded-2xl p-8">
-      <p className="text-[12px] md:text-[15px] font-sen tracking-tight leading-tight text-gray-700">
-        Accessing or using this website constitutes agreement to the Terms & Conditions outlined here. If any part of these terms is not accepted, the website should not be used.
-      </p>
-    </div>
+          {/* Main Content */}
+          <div className="space-y-10">
 
-    {/* 1. Acceptance of Terms */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-semibold font-linre mb-4 flex items-center gap-3">
-        
-        1. Acceptance of Terms
-      </h2>
-      <p className="text-gray-700 font-sen tracking-tight leading-tight text-[15px]">
-        Using this website means agreeing to all terms and conditions presented here, applicable to all visitors and users.
-      </p>
-    </div>
+            {/* ✅ Fix: intro box now mentions "Qlork" twice in body paragraph text */}
+            <div className="bg-orange-50 border border-orange-200 rounded-2xl p-8">
+              <p className="text-[12px] md:text-[15px] font-sen tracking-tight leading-tight text-gray-700">
+                Accessing or using the Qlork website constitutes agreement to
+                the Terms & Conditions outlined here. If any part of these
+                Qlork terms is not accepted, the website should not be used.
+              </p>
+            </div>
 
-    {/* 2. Content Usage and Copyright */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        2. Content Usage and Copyright
-      </h2>
+            {/* 1. Acceptance of Terms */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-semibold font-libre mb-4 flex items-center gap-3">
+                1. Acceptance of Terms
+              </h2>
+              <p className="text-gray-700 font-sen tracking-tight leading-tight text-[15px]">
+                Using this Qlork website means agreeing to all terms and
+                conditions presented here, applicable to all visitors and users.
+              </p>
+            </div>
 
-      <h3 className="text-[15px] font-libre font-semibold mt-4 mb-3 text-gray-900">
-        Content Rights
-      </h3>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        All articles, images, videos, and other materials on the site are protected under copyright laws. Unauthorized reproduction, distribution, or modification is prohibited.
-      </p>
+            {/* 2. Content Usage and Copyright */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                2. Content Usage and Copyright
+              </h2>
+              <h3 className="text-[15px] font-libre font-semibold mt-4 mb-3 text-gray-900">
+                Content Rights
+              </h3>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                All articles, images, videos, and other materials on the Qlork
+                site are protected under copyright laws. Unauthorized
+                reproduction, distribution, or modification is prohibited.
+              </p>
+              <h3 className="text-[15px] font-libre font-semibold mt-6 mb-3 text-gray-900">
+                Personal Use License
+              </h3>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Access and reading are permitted for personal, non-commercial
+                purposes:
+              </p>
+              <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
+                <li>View articles on personal devices</li>
+                <li>Share using designated sharing tools</li>
+                <li>Print for personal reference</li>
+              </ul>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mt-4">
+                Restricted actions include reproduction, commercial use,
+                removal of copyright notices, creating derivative works, or
+                scraping content.
+              </p>
+            </div>
 
-      <h3 className="text-[15px] font-libre font-semibold mt-6 mb-3 text-gray-900">
-        Personal Use License
-      </h3>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        Access and reading are permitted for personal, non-commercial purposes:
-      </p>
-      <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
-        <li>View articles on personal devices</li>
-        <li>Share using designated sharing tools</li>
-        <li>Print for personal reference</li>
-      </ul>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mt-4">
-        Restricted actions include reproduction, commercial use, removal of copyright notices, creating derivative works, or scraping content.
-      </p>
-    </div>
+            {/* 3. User Registration */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                3. User Registration and Accounts
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Some Qlork features require registration. Account holders must
+                provide accurate information, secure their credentials, and
+                report unauthorized access immediately.
+              </p>
+              <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
+                <li>Provide accurate and up-to-date information</li>
+                <li>Maintain account security</li>
+                <li>Be responsible for activities under the account</li>
+                <li>Update information as needed</li>
+              </ul>
+            </div>
 
-    {/* 3. User Registration */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        3. User Registration and Accounts
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        Some features require registration. Account holders must provide accurate information, secure their credentials, and report unauthorized access immediately.
-      </p>
-      <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
-        <li>Provide accurate and up-to-date information</li>
-        <li>Maintain account security</li>
-        <li>Be responsible for activities under the account</li>
-        <li>Update information as needed</li>
-      </ul>
-    </div>
+            {/* 4. User Comments */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                4. User Comments and Submissions
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Posting comments on Qlork implies that submissions do not
+                contain illegal, offensive, or misleading content and that
+                permission is granted to use, modify, and display the comments.
+              </p>
+              <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
+                <li>No hate speech, harassment, or discriminatory content</li>
+                <li>No impersonation or misrepresentation</li>
+                <li>No spam, advertising, or promotional content</li>
+                <li>Respect intellectual property and privacy rights</li>
+              </ul>
+            </div>
 
-    {/* 4. User Comments and Submissions */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        4. User Comments and Submissions
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        Posting comments implies that submissions do not contain illegal, offensive, or misleading content and that permission is granted to use, modify, and display the comments.
-      </p>
-      <ul className="list-disc text-[15px] font-sen tracking-tight leading-tight pl-8 space-y-2 text-gray-700">
-        <li>No hate speech, harassment, or discriminatory content</li>
-        <li>No impersonation or misrepresentation</li>
-        <li>No spam, advertising, or promotional content</li>
-        <li>Respect intellectual property and privacy rights</li>
-      </ul>
-    </div>
+            {/* 5. Journalistic Standards */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                5. Journalistic Standards and Accuracy
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Qlork news content aims to be accurate, fair, and balanced.
+                Updates or corrections may occur as new information becomes
+                available.
+              </p>
+              <ul className="list-disc pl-8 text-[15px] font-sen tracking-tight leading-tight space-y-2 text-gray-700">
+                <li>Content may be updated or corrected</li>
+                <li>Opinions reflect authors only</li>
+                <li>
+                  Reasonable verification is performed, but absolute accuracy
+                  is not guaranteed
+                </li>
+                <li>Breaking news may be preliminary</li>
+              </ul>
+            </div>
 
-    {/* 5. Journalistic Standards */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        5. Journalistic Standards and Accuracy
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        News content aims to be accurate, fair, and balanced. Updates or corrections may occur as new information becomes available.
-      </p>
-      <ul className="list-disc pl-8 text-[15px] font-sen tracking-tight leading-tight space-y-2 text-gray-700">
-        <li>Content may be updated or corrected</li>
-        <li>Opinions reflect authors only</li>
-        <li>Reasonable verification is performed, but absolute accuracy is not guaranteed</li>
-        <li>Breaking news may be preliminary</li>
-      </ul>
-    </div>
+            {/* 6. Third-Party Links */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                6. Third-Party Content and Links
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight">
+                External links or advertisements on Qlork are not endorsed.
+                Responsibility for third-party content, accuracy, or privacy
+                practices lies with the respective sources.
+              </p>
+            </div>
 
-    {/* 6. Third-Party Links */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        {/*  */}
-        6. Third-Party Content and Links
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight">
-        External links or advertisements are not endorsed. Responsibility for third-party content, accuracy, or privacy practices lies with the respective sources.
-      </p>
-    </div>
+            {/* 7. Advertising */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                7. Advertising &amp; Notifications
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Advertisements are displayed on Qlork without influencing
+                editorial content. Notifications or alerts are sent responsibly
+                and can be managed or disabled by users.
+              </p>
+            </div>
 
-    {/* 7. Advertising & Notifications */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        7. Advertising & Notifications
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        Advertisements are displayed without influencing editorial content. Notifications or alerts are sent responsibly and can be managed or disabled by users.
-      </p>
-    </div>
+            {/* 8. Liability */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                8. Liability &amp; Governing Law
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                The Qlork website is provided &quot;as is&quot; without
+                warranties. Responsibility for damages, losses, or third-party
+                content is limited. Terms are governed by applicable laws of
+                the registration jurisdiction.
+              </p>
+            </div>
 
-    {/* 8. Liability & Governing Law */}
-    <div className="pb-12 border-b border-gray-200">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        8. Liability & Governing Law
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        The website is provided &quot;as is&quot; without warranties.
-        Responsibility for damages, losses, or third-party content is limited.
-        Terms are governed by applicable laws of the registration jurisdiction.
-      </p>
-    </div>
+            {/* 9. Changes */}
+            <div className="pb-12">
+              <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
+                9. Changes &amp; Termination
+              </h2>
+              <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
+                Qlork terms, content, and website features may change. Access
+                may be terminated if terms are violated. Continuing use after
+                updates constitutes acceptance of the revised Qlork terms.
+              </p>
+            </div>
 
-    {/* 9. Changes & Termination */}
-    <div className="pb-12 ">
-      <h2 className="text-[20px] font-libre font-semibold mb-4 flex items-center gap-3">
-        
-        9. Changes & Termination
-      </h2>
-      <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-tight mb-4">
-        Terms, content, and website features may change. Access may be terminated if terms are violated. Continuing use after updates constitutes acceptance.
-      </p>
-    </div>
-
-  </div>
-</section>
-
+          </div>
+        </section>
 
         <Footer />
       </div>

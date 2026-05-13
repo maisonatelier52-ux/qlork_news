@@ -362,7 +362,7 @@ export const metadata: Metadata = {
     title: "Contact Qlork | News Tips, Editorial & Advertising Support",
     description:
       "Contact Qlork for news tips, editorial inquiries, advertising partnerships, technical support, and general questions.",
-    url: "https://www.qlork.com/contact-us",
+    url: "https://www.qlork.com/contact",
     siteName: "Qlork",
     type: "website",
     locale: "en_US",
@@ -487,7 +487,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact Qlork | News Tips, Editorial & Advertising Support",
-  url: "https://www.qlork.com/contact-us",
+  url: "https://www.qlork.com/contact",
   description:
     "Contact Qlork for editorial inquiries, news tips, advertising, and support.",
   publisher: {

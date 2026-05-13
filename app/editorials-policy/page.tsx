@@ -1,6 +1,4 @@
-// app/editorials-policy/page.tsx
 import { Metadata } from "next";
-import Script from "next/script";
 import DateBar from "@/src/components/DateBar";
 import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
@@ -24,7 +22,7 @@ export const metadata: Metadata = {
     title: "Editorial Policy | Qlork",
     description:
       "Learn about Qlork's Editorial Policy — the principles and standards that guide our journalism.",
-    url: "https://www.qlork.com/editorial-policy",
+    url: "https://www.qlork.com/editorials-policy",
     siteName: "Qlork",
     type: "website",
     locale: "en_US",
@@ -44,12 +42,9 @@ export const metadata: Metadata = {
       "Learn about Qlork's Editorial Policy and the standards that guide our reporting.",
     images: ["https://www.qlork.com/images/news-img/qlork-logo.webp"],
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: { index: true, follow: true },
   alternates: {
-    canonical: "https://www.qlork.com/editorial-policy",
+    canonical: "https://www.qlork.com/editorials-policy",
   },
   icons: {
     icon: "/images/qlork-favIcon.webp",
@@ -63,31 +58,19 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://www.qlork.com/editorial-policy",
-      url: "https://www.qlork.com/editorial-policy",
+      "@id": "https://www.qlork.com/editorials-policy",
+      url: "https://www.qlork.com/editorials-policy",
       name: "Editorial Policy | Qlork",
       description:
         "Learn about Qlork's Editorial Policy — the principles, standards, and processes that guide how we report, verify, and publish news.",
       inLanguage: "en-US",
-      isPartOf: {
-        "@id": "https://www.qlork.com/#website",
-      },
+      isPartOf: { "@id": "https://www.qlork.com/#website" },
       dateModified: "2025-05-01",
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: "https://www.qlork.com",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Editorial Policy",
-            item: "https://www.qlork.com/editorial-policy",
-          },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.qlork.com" },
+          { "@type": "ListItem", position: 2, name: "Editorial Policy", item: "https://www.qlork.com/editorials-policy" },
         ],
       },
     },
@@ -98,9 +81,7 @@ const jsonLd = {
       name: "Qlork",
       description: "Accurate, fair, and timely journalism.",
       inLanguage: "en-US",
-      publisher: {
-        "@id": "https://www.qlork.com/#organization",
-      },
+      publisher: { "@id": "https://www.qlork.com/#organization" },
     },
     {
       "@type": "NewsMediaOrganization",
@@ -118,8 +99,8 @@ const jsonLd = {
         email: "editorial@qlork.com",
         contactType: "Editorial",
       },
-      ethicsPolicy: "https://www.qlork.com/editorial-policy",
-      masthead: "https://www.qlork.com/editorial-policy",
+      ethicsPolicy: "https://www.qlork.com/editorials-policy",
+      masthead: "https://www.qlork.com/editorials-policy",
     },
   ],
 };
@@ -175,13 +156,8 @@ const sections = [
         <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
           <li>No advertiser may influence story selection or framing</li>
           <li>Sponsored content is always clearly labeled as such</li>
-          <li>
-            Editorial staff are prohibited from accepting gifts or payments
-            from sources
-          </li>
-          <li>
-            Ownership or investor interests do not direct news coverage
-          </li>
+          <li>Editorial staff are prohibited from accepting gifts or payments from sources</li>
+          <li>Ownership or investor interests do not direct news coverage</li>
         </ul>
       </>
     ),
@@ -191,27 +167,16 @@ const sections = [
     content: (
       <>
         <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed mb-4">
-          We hold our sourcing to rigorous standards. Claims are verified
-          against at least two independent sources wherever possible. Anonymous
-          sources are used sparingly and only when the information is of
-          significant public importance and cannot be obtained otherwise.
+          We hold our sourcing to rigorous standards. Claims are verified against
+          at least two independent sources wherever possible. Anonymous sources
+          are used sparingly and only when the information is of significant
+          public importance and cannot be obtained otherwise.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
-          <li>
-            Primary sources — official documents, data, direct interviews —
-            are preferred
-          </li>
-          <li>
-            Anonymous sources are disclosed to an editor before publication
-          </li>
-          <li>
-            We do not republish unverified claims from social media or
-            unofficial channels
-          </li>
-          <li>
-            Wire reports and syndicated content are reviewed for accuracy
-            before use
-          </li>
+          <li>Primary sources — official documents, data, direct interviews — are preferred</li>
+          <li>Anonymous sources are disclosed to an editor before publication</li>
+          <li>We do not republish unverified claims from social media or unofficial channels</li>
+          <li>Wire reports and syndicated content are reviewed for accuracy before use</li>
         </ul>
       </>
     ),
@@ -221,24 +186,15 @@ const sections = [
     content: (
       <>
         <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed mb-4">
-          Journalists and editors at Qlork are required to disclose any
-          personal, financial, or professional relationships that could
-          influence their reporting. When a conflict cannot be avoided, the
-          affected staff member is recused from the relevant coverage.
+          Journalists and editors at Qlork are required to disclose any personal,
+          financial, or professional relationships that could influence their
+          reporting. When a conflict cannot be avoided, the affected staff member
+          is recused from the relevant coverage.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
-          <li>
-            Staff must disclose investments, affiliations, or relationships
-            relevant to their beat
-          </li>
-          <li>
-            Family or personal relationships with news subjects must be
-            declared
-          </li>
-          <li>
-            Political activities that could compromise perceived impartiality
-            are restricted
-          </li>
+          <li>Staff must disclose investments, affiliations, or relationships relevant to their beat</li>
+          <li>Family or personal relationships with news subjects must be declared</li>
+          <li>Political activities that could compromise perceived impartiality are restricted</li>
         </ul>
       </>
     ),
@@ -248,10 +204,10 @@ const sections = [
     content: (
       <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
         Headlines must accurately reflect the content of the article without
-        exaggeration, sensationalism, or clickbait. Images are selected to
-        fairly represent the subject matter and are properly credited.
-        Manipulated or misleading visuals are never used. Captions must be
-        accurate and contextually appropriate.
+        exaggeration, sensationalism, or clickbait. Images are selected to fairly
+        represent the subject matter and are properly credited. Manipulated or
+        misleading visuals are never used. Captions must be accurate and
+        contextually appropriate.
       </p>
     ),
   },
@@ -259,11 +215,11 @@ const sections = [
     title: "6. Opinion and Analysis",
     content: (
       <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
-        Opinion pieces and analysis are clearly labeled to distinguish them
-        from straight news reporting. The views expressed in opinion columns
-        belong to the individual authors and do not represent the official
-        position of Qlork. Analysis pieces are grounded in verified facts and
-        are subject to the same editorial review process as news articles.
+        Opinion pieces and analysis are clearly labeled to distinguish them from
+        straight news reporting. The views expressed in opinion columns belong to
+        the individual authors and do not represent the official position of
+        Qlork. Analysis pieces are grounded in verified facts and are subject to
+        the same editorial review process as news articles.
       </p>
     ),
   },
@@ -276,28 +232,11 @@ const sections = [
           process before it is live on the site.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
-          <li>
-            <strong className="font-medium text-gray-900">Draft:</strong>{" "}
-            Reporter files the initial story
-          </li>
-          <li>
-            <strong className="font-medium text-gray-900">Desk Edit:</strong>{" "}
-            Section editor reviews for accuracy, fairness, and clarity
-          </li>
-          <li>
-            <strong className="font-medium text-gray-900">Fact Check:</strong>{" "}
-            Key claims are independently verified
-          </li>
-          <li>
-            <strong className="font-medium text-gray-900">Legal Review:</strong>{" "}
-            Applied to sensitive or legally complex stories
-          </li>
-          <li>
-            <strong className="font-medium text-gray-900">
-              Final Approval:
-            </strong>{" "}
-            Senior editor signs off before publication
-          </li>
+          <li><strong className="font-medium text-gray-900">Draft:</strong> Reporter files the initial story</li>
+          <li><strong className="font-medium text-gray-900">Desk Edit:</strong> Section editor reviews for accuracy, fairness, and clarity</li>
+          <li><strong className="font-medium text-gray-900">Fact Check:</strong> Key claims are independently verified</li>
+          <li><strong className="font-medium text-gray-900">Legal Review:</strong> Applied to sensitive or legally complex stories</li>
+          <li><strong className="font-medium text-gray-900">Final Approval:</strong> Senior editor signs off before publication</li>
         </ul>
       </>
     ),
@@ -307,11 +246,12 @@ const sections = [
     content: (
       <p className="text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
         Readers who have questions about our editorial decisions, wish to flag
-        inaccuracies, or want to understand our reporting methods are
-        encouraged to reach out. You can contact our editorial team directly
-        at{" "}
+        inaccuracies, or want to understand our reporting methods are encouraged
+        to reach out. You can contact our editorial team directly at{" "}
+        {/* ✅ Fix: title attribute added to mailto link */}
         <a
           href="mailto:editorial@qlork.com"
+          title="Email Qlork Editorial Team"
           className="text-gray-900 font-medium underline underline-offset-2 hover:text-gray-600 transition-colors"
         >
           editorial@qlork.com
@@ -326,9 +266,8 @@ const sections = [
 export default function EditorialPolicyPage() {
   return (
     <>
-      {/* JSON-LD Schema Markup */}
-      <Script
-        id="editorial-policy-schema"
+      {/* ✅ Fix: inline <script> — crawlers parse synchronously */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
@@ -339,9 +278,7 @@ export default function EditorialPolicyPage() {
         <TrendingNews />
 
         <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
-          {/* Header */}
           <div className="text-center mb-16">
-            {/* ✅ h1 — top of heading hierarchy */}
             <h1 className="text-4xl md:text-5xl font-libre font-extrabold tracking-tight mb-5">
               Editorial <span className="text-gray-900">Policy</span>
             </h1>
@@ -353,7 +290,6 @@ export default function EditorialPolicyPage() {
           </div>
 
           <div className="space-y-10">
-            {/* Intro banner */}
             <div className="bg-orange-50 border border-orange-200 rounded-2xl p-8">
               <p className="text-gray-700 text-[12px] md:text-[15px] font-sen tracking-tight leading-relaxed">
                 At Qlork, editorial integrity is non-negotiable. This policy
@@ -363,8 +299,6 @@ export default function EditorialPolicyPage() {
               </p>
             </div>
 
-            {/* Four pillars */}
-            {/* ✅ h2 wraps the pillars section so h2 > h3 order is valid */}
             <div className="pb-12 border-b border-gray-200">
               <h2 className="sr-only">Our Core Pillars</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -373,7 +307,6 @@ export default function EditorialPolicyPage() {
                     key={pillar.label}
                     className="border border-gray-200 rounded-2xl p-6 hover:border-gray-400 transition-colors duration-200"
                   >
-                    {/* ✅ h3 — correctly nested under the h2 above */}
                     <h3 className="text-[16px] font-libre font-semibold text-gray-900 mb-2">
                       {pillar.label}
                     </h3>
@@ -385,13 +318,8 @@ export default function EditorialPolicyPage() {
               </div>
             </div>
 
-            {/* Policy sections — all use h2, which is correct after h1 */}
             {sections.map((section, idx) => (
-              <div
-                key={idx}
-                className="border border-gray-200 rounded-2xl p-8 space-y-4"
-              >
-                {/* ✅ h2 — direct children of h1, correct order */}
+              <div key={idx} className="border border-gray-200 rounded-2xl p-8 space-y-4">
                 <h2 className="text-[15px] md:text-[20px] font-semibold font-libre text-gray-900 flex items-center gap-3">
                   <span className="w-1.5 h-6 bg-gray-900 rounded flex-shrink-0" />
                   {section.title}
@@ -402,9 +330,7 @@ export default function EditorialPolicyPage() {
               </div>
             ))}
 
-            {/* Footer note */}
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-10">
-              {/* ✅ h2 — same level as other policy section headings */}
               <h2 className="text-[20px] font-semibold mb-4 font-libre flex items-center gap-3">
                 <span className="w-1.5 h-6 bg-gray-900 rounded" />
                 Policy Updates

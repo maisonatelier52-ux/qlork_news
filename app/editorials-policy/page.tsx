@@ -1,4 +1,6 @@
+// app/editorials-policy/page.tsx
 import { Metadata } from "next";
+import Script from "next/script";
 import DateBar from "@/src/components/DateBar";
 import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
@@ -56,6 +58,72 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.qlork.com/editorial-policy",
+      url: "https://www.qlork.com/editorial-policy",
+      name: "Editorial Policy | Qlork",
+      description:
+        "Learn about Qlork's Editorial Policy — the principles, standards, and processes that guide how we report, verify, and publish news.",
+      inLanguage: "en-US",
+      isPartOf: {
+        "@id": "https://www.qlork.com/#website",
+      },
+      dateModified: "2025-05-01",
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.qlork.com",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Editorial Policy",
+            item: "https://www.qlork.com/editorial-policy",
+          },
+        ],
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.qlork.com/#website",
+      url: "https://www.qlork.com",
+      name: "Qlork",
+      description: "Accurate, fair, and timely journalism.",
+      inLanguage: "en-US",
+      publisher: {
+        "@id": "https://www.qlork.com/#organization",
+      },
+    },
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://www.qlork.com/#organization",
+      name: "Qlork",
+      url: "https://www.qlork.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+        width: 1200,
+        height: 630,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "editorial@qlork.com",
+        contactType: "Editorial",
+      },
+      ethicsPolicy: "https://www.qlork.com/editorial-policy",
+      masthead: "https://www.qlork.com/editorial-policy",
+    },
+  ],
+};
+
 const pillars = [
   {
     label: "Accuracy",
@@ -101,8 +169,8 @@ const sections = [
           Qlork maintains a strict separation between its editorial and
           commercial operations. Advertising relationships, sponsorships, and
           business partnerships have no bearing on how news is selected,
-          reported, or presented. Our journalists and editors make all
-          content decisions independently.
+          reported, or presented. Our journalists and editors make all content
+          decisions independently.
         </p>
         <ul className="list-disc pl-6 space-y-2 text-gray-700 text-[15px] font-sen tracking-tight leading-relaxed">
           <li>No advertiser may influence story selection or framing</li>
@@ -194,8 +262,8 @@ const sections = [
         Opinion pieces and analysis are clearly labeled to distinguish them
         from straight news reporting. The views expressed in opinion columns
         belong to the individual authors and do not represent the official
-        position of Qlork. Analysis pieces are grounded in verified facts
-        and are subject to the same editorial review process as news articles.
+        position of Qlork. Analysis pieces are grounded in verified facts and
+        are subject to the same editorial review process as news articles.
       </p>
     ),
   },
@@ -217,9 +285,7 @@ const sections = [
             Section editor reviews for accuracy, fairness, and clarity
           </li>
           <li>
-            <strong className="font-medium text-gray-900">
-              Fact Check:
-            </strong>{" "}
+            <strong className="font-medium text-gray-900">Fact Check:</strong>{" "}
             Key claims are independently verified
           </li>
           <li>
@@ -260,6 +326,13 @@ const sections = [
 export default function EditorialPolicyPage() {
   return (
     <>
+      {/* JSON-LD Schema Markup */}
+      <Script
+        id="editorial-policy-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className="bg-white min-h-screen">
         <DateBar />
         <MainNav />
@@ -268,6 +341,7 @@ export default function EditorialPolicyPage() {
         <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
           {/* Header */}
           <div className="text-center mb-16">
+            {/* ✅ h1 — top of heading hierarchy */}
             <h1 className="text-4xl md:text-5xl font-libre font-extrabold tracking-tight mb-5">
               Editorial <span className="text-gray-900">Policy</span>
             </h1>
@@ -290,28 +364,34 @@ export default function EditorialPolicyPage() {
             </div>
 
             {/* Four pillars */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pb-12 border-b border-gray-200">
-              {pillars.map((pillar) => (
-                <div
-                  key={pillar.label}
-                  className="border border-gray-200 rounded-2xl p-6 hover:border-gray-400 transition-colors duration-200"
-                >
-                  <h3 className="text-[16px] font-libre font-semibold text-gray-900 mb-2">
-                    {pillar.label}
-                  </h3>
-                  <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
-                    {pillar.description}
-                  </p>
-                </div>
-              ))}
+            {/* ✅ h2 wraps the pillars section so h2 > h3 order is valid */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="sr-only">Our Core Pillars</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {pillars.map((pillar) => (
+                  <div
+                    key={pillar.label}
+                    className="border border-gray-200 rounded-2xl p-6 hover:border-gray-400 transition-colors duration-200"
+                  >
+                    {/* ✅ h3 — correctly nested under the h2 above */}
+                    <h3 className="text-[16px] font-libre font-semibold text-gray-900 mb-2">
+                      {pillar.label}
+                    </h3>
+                    <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+                      {pillar.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            {/* Policy sections */}
+            {/* Policy sections — all use h2, which is correct after h1 */}
             {sections.map((section, idx) => (
               <div
                 key={idx}
                 className="border border-gray-200 rounded-2xl p-8 space-y-4"
               >
+                {/* ✅ h2 — direct children of h1, correct order */}
                 <h2 className="text-[15px] md:text-[20px] font-semibold font-libre text-gray-900 flex items-center gap-3">
                   <span className="w-1.5 h-6 bg-gray-900 rounded flex-shrink-0" />
                   {section.title}
@@ -324,6 +404,7 @@ export default function EditorialPolicyPage() {
 
             {/* Footer note */}
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-10">
+              {/* ✅ h2 — same level as other policy section headings */}
               <h2 className="text-[20px] font-semibold mb-4 font-libre flex items-center gap-3">
                 <span className="w-1.5 h-6 bg-gray-900 rounded" />
                 Policy Updates

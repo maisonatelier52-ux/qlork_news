@@ -1,4 +1,6 @@
+// app/ethics-policy/page.tsx
 import { Metadata } from "next";
+import Script from "next/script";
 import DateBar from "@/src/components/DateBar";
 import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
@@ -6,7 +8,7 @@ import TrendingNews from "@/src/components/TrendingNews";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.qlork.com"),
-  title: "Ethics Policy | Qlork",
+  title: "Ethics Policy | Qlork – Responsible Journalism Standards",
   description:
     "Read Qlork's Ethics Policy — the values and standards that guide how we report responsibly, treat our sources fairly, and serve the public interest.",
   keywords: [
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     "press ethics",
   ].join(", "),
   openGraph: {
-    title: "Ethics Policy | Qlork",
+    title: "Ethics Policy | Qlork – Responsible Journalism Standards",
     description:
       "Read Qlork's Ethics Policy — the values and standards that guide responsible journalism.",
     url: "https://www.qlork.com/ethics-policy",
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ethics Policy | Qlork",
+    title: "Ethics Policy | Qlork – Responsible Journalism Standards",
     description:
       "Read Qlork's Ethics Policy and the values that guide our journalism.",
     images: ["https://www.qlork.com/images/news-img/qlork-logo.webp"],
@@ -54,6 +56,72 @@ export const metadata: Metadata = {
     shortcut: "/images/qlork-favIcon.webp",
     apple: "/images/qlork-favIcon.webp",
   },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.qlork.com/ethics-policy",
+      url: "https://www.qlork.com/ethics-policy",
+      name: "Ethics Policy | Qlork – Responsible Journalism Standards",
+      description:
+        "Read Qlork's Ethics Policy — the values and standards that guide how we report responsibly, treat our sources fairly, and serve the public interest.",
+      inLanguage: "en-US",
+      isPartOf: {
+        "@id": "https://www.qlork.com/#website",
+      },
+      dateModified: "2025-05-01",
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.qlork.com",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Ethics Policy",
+            item: "https://www.qlork.com/ethics-policy",
+          },
+        ],
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.qlork.com/#website",
+      url: "https://www.qlork.com",
+      name: "Qlork",
+      description: "Accurate, fair, and timely journalism.",
+      inLanguage: "en-US",
+      publisher: {
+        "@id": "https://www.qlork.com/#organization",
+      },
+    },
+    {
+      "@type": "NewsMediaOrganization",
+      "@id": "https://www.qlork.com/#organization",
+      name: "Qlork",
+      url: "https://www.qlork.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.qlork.com/images/news-img/qlork-logo.webp",
+        width: 1200,
+        height: 630,
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "ethics@qlork.com",
+        contactType: "Ethics",
+      },
+      ethicsPolicy: "https://www.qlork.com/ethics-policy",
+      correctionsPolicy: "https://www.qlork.com/corrections-policy",
+    },
+  ],
 };
 
 const values = [
@@ -89,7 +157,7 @@ const sections = [
         and a commitment to minimising harm. These are not aspirations — they
         are binding standards that apply to every member of our staff, from
         reporters to editors to contributors. Journalism done right is a
-        public service. We take that responsibility seriously.
+        public service, and Qlork takes that responsibility seriously.
       </p>
     ),
   },
@@ -253,8 +321,9 @@ const sections = [
         >
           ethics@qlork.com
         </a>
-        . All reports are reviewed and responded to within two business days.
-        We take every ethics concern seriously and investigate impartially.
+        . All ethics reports are reviewed and responded to within two
+        business days. Qlork takes every ethics concern seriously and
+        investigates impartially.
       </p>
     ),
   },
@@ -263,6 +332,13 @@ const sections = [
 export default function EthicsPolicyPage() {
   return (
     <>
+      {/* JSON-LD Schema Markup */}
+      <Script
+        id="ethics-policy-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className="bg-white min-h-screen">
         <DateBar />
         <MainNav />
@@ -271,13 +347,15 @@ export default function EthicsPolicyPage() {
         <section className="max-w-5xl mx-auto px-6 py-16 text-gray-800 space-y-12">
           {/* Header */}
           <div className="text-center mb-16">
+            {/* ✅ h1 — top of heading hierarchy */}
             <h1 className="text-4xl md:text-5xl font-libre font-extrabold tracking-tight mb-5">
               Ethics <span className="text-gray-900">Policy</span>
             </h1>
             <div className="w-20 h-1 bg-gray-900 mx-auto mb-6" />
+            {/* ✅ "Qlork" keyword in visible subtitle */}
             <p className="text-[15px] font-sen tracking-tight leading-tight text-gray-600 max-w-2xl mx-auto">
-              The values that guide how we report, how we treat people, and
-              how we serve the public interest.
+              Qlork's ethics policy: the values that guide how we report, how
+              we treat people, and how we serve the public interest.
             </p>
           </div>
 
@@ -287,35 +365,41 @@ export default function EthicsPolicyPage() {
               <p className="text-gray-700 text-[12px] md:text-[15px] font-sen tracking-tight leading-relaxed">
                 Ethical journalism is not simply about avoiding harm — it is
                 about actively earning the trust of the public every day. This
-                policy defines the values Qlork holds itself to, and the
-                standards our journalists and editors are expected to uphold
-                in every story they produce.
+                ethics policy defines the values Qlork holds itself to, and
+                the standards our journalists and editors are expected to
+                uphold in every story they produce.
               </p>
             </div>
 
             {/* Core values */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 pb-12 border-b border-gray-200">
-              {values.map((value) => (
-                <div
-                  key={value.label}
-                  className="border border-gray-200 rounded-2xl p-6 hover:border-gray-400 transition-colors duration-200"
-                >
-                  <h3 className="text-[16px] font-libre font-semibold text-gray-900 mb-2">
-                    {value.label}
-                  </h3>
-                  <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
-                    {value.description}
-                  </p>
-                </div>
-              ))}
+            {/* ✅ h2 wraps the value cards so h2 > h3 order is valid */}
+            <div className="pb-12 border-b border-gray-200">
+              <h2 className="sr-only">Our Core Values</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                {values.map((value) => (
+                  <div
+                    key={value.label}
+                    className="border border-gray-200 rounded-2xl p-6 hover:border-gray-400 transition-colors duration-200"
+                  >
+                    {/* ✅ h3 — correctly nested under the h2 above */}
+                    <h3 className="text-[16px] font-libre font-semibold text-gray-900 mb-2">
+                      {value.label}
+                    </h3>
+                    <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+                      {value.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
 
-            {/* Policy sections */}
+            {/* Policy sections — all h2, correct after h1 */}
             {sections.map((section, idx) => (
               <div
                 key={idx}
                 className="border border-gray-200 rounded-2xl p-8 space-y-4"
               >
+                {/* ✅ h2 — direct children of h1, correct order */}
                 <h2 className="text-[15px] md:text-[20px] font-semibold font-libre text-gray-900 flex items-center gap-3">
                   <span className="w-1.5 h-6 bg-gray-900 rounded flex-shrink-0" />
                   {section.title}
@@ -328,9 +412,10 @@ export default function EthicsPolicyPage() {
 
             {/* Footer */}
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-10">
+              {/* ✅ h2 — same level as other policy section headings */}
               <h2 className="text-[20px] font-semibold mb-4 font-libre flex items-center gap-3">
                 <span className="w-1.5 h-6 bg-gray-900 rounded" />
-                Raise an Ethics Concern
+                Raise an Ethics Concern with Qlork
               </h2>
               <ul className="space-y-3 font-sen text-[14px] text-gray-700 tracking-tight leading-tight">
                 <li className="flex items-start gap-2">
@@ -354,8 +439,8 @@ export default function EthicsPolicyPage() {
                     <strong className="font-medium text-gray-900">
                       Response time:
                     </strong>{" "}
-                    All ethics concerns are reviewed and acknowledged within
-                    two business days
+                    All ethics concerns submitted to Qlork are reviewed and
+                    acknowledged within two business days
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
@@ -364,8 +449,8 @@ export default function EthicsPolicyPage() {
                     <strong className="font-medium text-gray-900">
                       Policy review:
                     </strong>{" "}
-                    This Ethics Policy is reviewed annually. Last reviewed:
-                    May 2025.
+                    This Ethics Policy is reviewed annually by the Qlork
+                    editorial team. Last reviewed: May 2025.
                   </span>
                 </li>
               </ul>

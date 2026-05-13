@@ -1,6 +1,4 @@
-
 import { Metadata } from "next";
-import Script from "next/script";
 import DateBar from "@/src/components/DateBar";
 import MainNav from "@/src/components/MainNav";
 import Footer from "@/src/components/Footer";
@@ -8,12 +6,11 @@ import AuthorCard from "@/src/components/AuthorCard";
 import authorsData from "@/public/data/authors.json";
 import TrendingNews from "@/src/components/TrendingNews";
 
-// ✅ Fix 1 & 3: Title 55–66 chars with trigger words; description under 160 chars
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.qlork.com"),
-  title: "Meet Qlork Authors – Top Journalists & News Writers", // 51 chars — clear, keyword-rich
+  title: "Meet Qlork Authors – Top Journalists & News Writers",
   description:
-    "Discover the Qlork authors team: expert journalists delivering breaking news, analysis, and reporting from around the world.", // 124 chars
+    "Discover the Qlork authors team: top journalists and news writers delivering breaking news, expert analysis, and in-depth reporting worldwide.",
   keywords: [
     "qlork authors",
     "journalists",
@@ -24,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Meet Qlork Authors – Top Journalists & News Writers",
     description:
-      "Discover the Qlork authors team: expert journalists delivering breaking news, analysis, and reporting from around the world.",
+      "Discover the Qlork authors team: top journalists and news writers delivering breaking news, expert analysis, and in-depth reporting worldwide.",
     url: "https://www.qlork.com/our-team",
     siteName: "Qlork",
     type: "website",
@@ -42,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Meet Qlork Authors – Top Journalists & News Writers",
     description:
-      "Discover the Qlork authors team: expert journalists delivering breaking news, analysis, and reporting from around the world.",
+      "Discover the Qlork authors team: top journalists and news writers delivering breaking news, expert analysis, and in-depth reporting worldwide.",
     images: ["https://www.qlork.com/images/news-img/qlork-logo.webp"],
   },
   robots: { index: true, follow: true },
@@ -56,7 +53,6 @@ export const metadata: Metadata = {
   },
 };
 
-// ✅ Fix 4: JSON-LD microdata — ProfilePage + ItemList of authors
 const authors = authorsData as Array<{
   name: string;
   email: string;
@@ -64,6 +60,7 @@ const authors = authorsData as Array<{
   photo: string;
 }>;
 
+// ✅ Microdata fix: plain object rendered as inline <script> tag — crawlers read this synchronously
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -73,31 +70,20 @@ const jsonLd = {
       url: "https://www.qlork.com/our-team",
       name: "Meet Qlork Authors – Top Journalists & News Writers",
       description:
-        "Discover the Qlork authors team: expert journalists delivering breaking news, analysis, and reporting from around the world.",
+        "Discover the Qlork authors team: top journalists and news writers delivering breaking news, expert analysis, and in-depth reporting worldwide.",
       isPartOf: { "@id": "https://www.qlork.com/#website" },
       breadcrumb: {
         "@type": "BreadcrumbList",
         itemListElement: [
-          {
-            "@type": "ListItem",
-            position: 1,
-            name: "Home",
-            item: "https://www.qlork.com",
-          },
-          {
-            "@type": "ListItem",
-            position: 2,
-            name: "Our Team",
-            item: "https://www.qlork.com/our-team",
-          },
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.qlork.com" },
+          { "@type": "ListItem", position: 2, name: "Our Team", item: "https://www.qlork.com/our-team" },
         ],
       },
     },
     {
       "@type": "ItemList",
       name: "Qlork Authors",
-      description:
-        "The team of journalists and news writers at Qlork news platform.",
+      description: "Top journalists and news writers at Qlork.",
       itemListElement: authors.map((author, index) => ({
         "@type": "ListItem",
         position: index + 1,
@@ -122,9 +108,8 @@ const jsonLd = {
 export default function AuthorsPage() {
   return (
     <>
-      {/* ✅ Fix 4: Inject JSON-LD schema */}
-      <Script
-        id="ourteam-jsonld"
+      {/* ✅ Microdata fix: inline <script> instead of next/script so crawlers parse it at render time */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
@@ -136,15 +121,51 @@ export default function AuthorsPage() {
 
         <section className="py-12 px-3 md:px-16 space-y-10 bg-gray-50">
 
-          {/* ✅ Fix 2 & 5: Single H1 with title keywords "authors" and "qlork" in visible page text */}
+          {/* ✅ Title Coherence + H1 Coherence fix:
+              Keywords "meet", "qlork", "authors", "top", "journalists",
+              "news writers" now appear in H1, subtitle paragraph, and the
+              intro block below — giving them sufficient body-text density */}
           <div className="max-w-360 mx-auto text-center pb-4">
             <h1 className="text-2xl md:text-3xl font-libre font-bold text-gray-900 mb-2">
               Meet the Qlork Authors
             </h1>
-            <p className="text-[14px] font-sen tracking-tight leading-tight text-gray-600">
-              Discover the journalists and news writers behind Qlork's reporting,
-              analysis, and breaking news coverage.
+            <p className="text-[14px] font-sen tracking-tight leading-tight text-gray-600 max-w-2xl mx-auto">
+              Qlork brings together top journalists, seasoned news writers, and
+              expert reporters committed to delivering accurate, in-depth stories
+              from around the world. Meet the authors who power Qlork's newsroom.
             </p>
+          </div>
+
+          {/* ✅ Keyword-rich intro block — repeats "authors", "journalists",
+              "writers", "qlork", "top", "meet" naturally in body text */}
+          <div className="max-w-360 mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 pb-4">
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
+                Top Journalists
+              </h2>
+              <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+                Our journalists bring years of field experience, covering
+                breaking news and global affairs with precision and integrity.
+              </p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
+                Expert News Writers
+              </h2>
+              <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+                Qlork's news writers craft clear, well-researched stories across
+                politics, business, technology, health, and culture.
+              </p>
+            </div>
+            <div className="bg-white border border-gray-200 rounded-lg p-6">
+              <h2 className="text-[14px] font-libre font-bold text-gray-900 mb-2">
+                The Qlork Standard
+              </h2>
+              <p className="text-[13px] font-sen tracking-tight leading-tight text-gray-600">
+                Every Qlork author upholds strict editorial standards — verified
+                facts, unbiased reporting, and journalism readers can trust.
+              </p>
+            </div>
           </div>
 
           {authors.map((author, index) => (

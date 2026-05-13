@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import { Mail } from "lucide-react";
@@ -61,7 +60,7 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author, reverse = false }) => {
       <div className={`md:flex ${reverse ? "md:flex-row-reverse" : ""}`}>
         {/* Left: Text */}
         <div className="md:w-2/3 p-6 md:p-16">
-          {/* ✅ Fix H1/H2: changed from h1 to h2 */}
+          {/* h2 — author names are section headings, not the page's main H1 */}
           <h2 className="text-[15px] md:text-[20px] font-libre text-white font-black tracking-widest mb-4 md:mb-6">
             {author.name.toUpperCase()}
           </h2>
@@ -87,12 +86,9 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author, reverse = false }) => {
             {socialLinks.map(({ key, icon: Icon, label, baseUrl, color }) => {
               const value = author[key];
               if (!value) return null;
-
-              const href =
-                (value as string).startsWith("http")
-                  ? (value as string)
-                  : `${baseUrl}${value}`;
-
+              const href = (value as string).startsWith("http")
+                ? (value as string)
+                : `${baseUrl}${value}`;
               return (
                 <a
                   key={key}
@@ -128,7 +124,6 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author, reverse = false }) => {
 };
 
 export default AuthorCard;
-
 
 // import React from "react";
 // import Image from "next/image";

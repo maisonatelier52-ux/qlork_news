@@ -49,14 +49,13 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
           </h1>
           <button
             onClick={handleFollow}
+            aria-label={following ? `Unfollow ${categoryName}` : `Follow ${categoryName}`}
             className="flex items-center gap-2 px-2 md:px-4 py-1 md:py-2 border border-gray-300 rounded hover:bg-gray-50 transition-colors duration-200"
           >
             {following ? (
-              <>
-                <span className="text-[12px] md:text-sm font-medium text-gray-700">
-                  Following
-                </span>
-              </>
+              <span className="text-[12px] md:text-sm font-medium text-gray-700">
+                Following
+              </span>
             ) : (
               <>
                 <Plus className="w-4 h-4 text-gray-700" />
@@ -68,15 +67,16 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
           </button>
         </div>
 
-        <p className="text-[12px] md:text-[14px] text-gray-600 leading-tight font-sen tracking-tight leading-tight mb-6 max-w-4xl">
+        <p className="text-[12px] md:text-[14px] text-gray-600 font-sen tracking-tight leading-tight mb-6 max-w-4xl">
           {description}
         </p>
+
         <div className="flex items-center gap-6 flex-wrap">
           <button
             onClick={handleShare}
-            className="text-orange-500  transition-colors duration-200"
-            title="Share"
-            aria-label="Share category"
+            className="text-orange-500 transition-colors duration-200"
+            title={`Share ${categoryName} news`}
+            aria-label={`Share ${categoryName} news`}
           >
             <Share2 className="w-5 h-5" />
           </button>
@@ -86,7 +86,7 @@ const CategoryIntro: React.FC<CategoryIntroProps> = ({
               <Link
                 key={topic}
                 href={`/${topic.toLowerCase().replace(/\s+/g, "-")}`}
-                title="topic"
+                title={`${topic} News`}
                 className="px-3 md:px-4 py-1 md:py-1.5 font-libre capitalize border border-gray-900 rounded-3xl text-[10px] md:text-[12px] font-bold text-gray-700 hover:text-white hover:bg-orange-700 hover:border-none transition-colors duration-200"
               >
                 {topic}

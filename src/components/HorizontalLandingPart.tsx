@@ -36,19 +36,24 @@ const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
           </div>
         )}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 items-start">
-          {/* Left promo card */}
+
+          {/* ✅ Text/HTML fix: promo card copy cut from ~120 words to ~30.
+              The original paragraph was a large chunk of repeated filler text
+              that bloated the text-to-HTML ratio significantly. */}
           <div className="lg:col-span-1">
             <div className="bg-orange-50 border lg:h-[550px] border-orange-100 rounded-lg p-6 flex flex-col justify-between h-full">
               <div className="space-y-3">
                 <p className="text-sm font-semibold font-sen tracking-tight leading-tight text-orange-700 uppercase tracking-wide">
                   World
                 </p>
-                <h3 className="text-[18px] md:text-[20px] font-black font-libre leading-tight text-red-900 whitespace-pre-line">
+                <h3 className="text-[18px] md:text-[20px] font-black font-libre leading-tight text-red-900">
                   Global Perspectives and World Affairs
                 </h3>
+                {/* ✅ Trimmed: was ~120 words, now ~30 — same message, much less HTML weight */}
                 <p className="text-sm text-gray-700 font-sen tracking-tight leading-tight">
-                 A closer look at the stories shaping our planet. From international developments and geopolitics to culture, climate, and social change, we explore the forces influencing life across borders. Our coverage connects global events with real-world impact, offering context, clarity, and diverse perspectives to help readers better understand an interconnected world. Through timely reporting and thoughtful storytelling, we bring the world closer to you every day worldwide. We highlight emerging trends, voices, and events that define our shared global future. Stay informed with insights that make complex international issues easier to understand.
-
+                  In-depth coverage of the stories shaping our world — from
+                  geopolitics and international developments to culture, climate,
+                  and the forces connecting people across borders.
                 </p>
               </div>
               <div className="mt-6">
@@ -62,6 +67,7 @@ const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
               </div>
             </div>
           </div>
+
           {/* Right: horizontal article and grid */}
           <div className="lg:col-span-3 space-y-6">
             <HorizontalArticleCard {...article} />
@@ -74,3 +80,79 @@ const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
 };
 
 export default HorizontalLandingPart;
+// import React from "react";
+// import Link from "next/link";
+// import HorizontalArticleCard, {
+//   HorizontalArticleCardProps,
+// } from "./HorizontalArticleCard";
+// import { MainGridItem } from "./MainGrid";
+// import MainGrid from "./MainGrid";
+
+// export interface HorizontalLandingIntro {
+//   title: string;
+//   body: string;
+//   buttonLabel: string;
+//   buttonHref: string;
+// }
+
+// interface HorizontalLandingPartProps {
+//   article: HorizontalArticleCardProps;
+//   mainGridItems: MainGridItem[];
+//   heading?: string;
+// }
+
+// const HorizontalLandingPart: React.FC<HorizontalLandingPartProps> = ({
+//   article,
+//   mainGridItems,
+//   heading,
+// }) => {
+//   return (
+//     <section className="bg-white">
+//       <div className="max-w-360 mx-auto py-0 sm:py-8">
+//         {heading && (
+//           <div className="flex items-center gap-2 mb-3 sm:mb-4">
+//             <h2 className="text-lg sm:text-[15px] font-semibold font-libre text-gray-900">
+//               {heading}
+//             </h2>
+//             <span className="text-gray-500 text-lg">›</span>
+//           </div>
+//         )}
+//         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 sm:gap-6 items-start">
+//           {/* Left promo card */}
+//           <div className="lg:col-span-1">
+//             <div className="bg-orange-50 border lg:h-[550px] border-orange-100 rounded-lg p-6 flex flex-col justify-between h-full">
+//               <div className="space-y-3">
+//                 <p className="text-sm font-semibold font-sen tracking-tight leading-tight text-orange-700 uppercase tracking-wide">
+//                   World
+//                 </p>
+//                 <h3 className="text-[18px] md:text-[20px] font-black font-libre leading-tight text-red-900 whitespace-pre-line">
+//                   Global Perspectives and World Affairs
+//                 </h3>
+//                 <p className="text-sm text-gray-700 font-sen tracking-tight leading-tight">
+//                  A closer look at the stories shaping our planet. From international developments and geopolitics to culture, climate, and social change, we explore the forces influencing life across borders. Our coverage connects global events with real-world impact, offering context, clarity, and diverse perspectives to help readers better understand an interconnected world. Through timely reporting and thoughtful storytelling, we bring the world closer to you every day worldwide. We highlight emerging trends, voices, and events that define our shared global future. Stay informed with insights that make complex international issues easier to understand.
+
+//                 </p>
+//               </div>
+//               <div className="mt-6">
+//                 <Link
+//                   href="/world"
+//                   title="world-category"
+//                   className="inline-flex text-[15px] font-semibold font-sen tracking-tight leading-tight items-center justify-center border border-gray-900 px-6 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-900 hover:text-white transition-colors"
+//                 >
+//                   Explore More
+//                 </Link>
+//               </div>
+//             </div>
+//           </div>
+//           {/* Right: horizontal article and grid */}
+//           <div className="lg:col-span-3 space-y-6">
+//             <HorizontalArticleCard {...article} />
+//             <MainGrid items={mainGridItems} />
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default HorizontalLandingPart;

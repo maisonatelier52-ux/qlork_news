@@ -387,7 +387,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://www.qlork.com/contact-us",
+    canonical: "https://www.qlork.com/contact",
   },
   icons: {
     icon: "/images/qlork-favIcon.webp",
@@ -581,6 +581,7 @@ export default function ContactPage() {
                       <a
                         href={`mailto:${category.email}`}
                         className="text-[13px] font-sen font-medium text-gray-900 underline underline-offset-2 hover:text-gray-600 transition-colors"
+                        title={category.title}
                       >
                         {category.email}
                       </a>
@@ -741,9 +742,9 @@ export default function ContactPage() {
                   <p className="text-[14px] text-gray-600 leading-relaxed">
                     You can contact Qlork using the contact form above or by emailing the
                     appropriate department directly. For news tips, reach out to{" "}
-                    <a href="mailto:tips@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors">tips@qlork.com</a>.
+                    <a href="mailto:tips@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors" title="Email of qlork tip">tips@qlork.com</a>.
                     For editorial questions, email{" "}
-                    <a href="mailto:editorial@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors">editorial@qlork.com</a>.
+                    <a href="mailto:editorial@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors" title="Email of qlork editorial">editorial@qlork.com</a>.
                   </p>
                 </div>
 
@@ -766,7 +767,7 @@ export default function ContactPage() {
                     Qlork offers a range of advertising and partnership opportunities
                     including display advertising, sponsored content, and branded
                     integrations. Contact our advertising team at{" "}
-                    <a href="mailto:ads@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors">ads@qlork.com</a>{" "}
+                    <a href="mailto:ads@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors" title="Email of qlork ads">ads@qlork.com</a>{" "}
                     for more information on media kits and rates.
                   </p>
                 </div>
@@ -778,7 +779,7 @@ export default function ContactPage() {
                   <p className="text-[14px] text-gray-600 leading-relaxed">
                     Qlork is committed to accuracy. If you believe an article contains an
                     error, please contact our editorial team at{" "}
-                    <a href="mailto:editorial@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors">editorial@qlork.com</a>{" "}
+                    <a href="mailto:editorial@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors" title="Email of qlork editorial">editorial@qlork.com</a>{" "}
                     with the article URL and details of the correction. Editorial corrections
                     are addressed within 1 business day.
                   </p>
@@ -792,7 +793,7 @@ export default function ContactPage() {
                     Qlork is an online news platform. For all location-independent
                     contact and support needs, use the contact form on this page or
                     reach the Qlork team at{" "}
-                    <a href="mailto:hello@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors">hello@qlork.com</a>.
+                    <a href="mailto:hello@qlork.com" className="underline underline-offset-2 hover:text-gray-900 transition-colors" title="Email of qlork hello">hello@qlork.com</a>.
                   </p>
                 </div>
               </div>

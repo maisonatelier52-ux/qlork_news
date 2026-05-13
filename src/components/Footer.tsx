@@ -104,7 +104,7 @@ const Footer: React.FC<FooterProps> = ({
     },
   ];
 
-  const socialIcons = socialLinks || defaultSocialLinks;
+  const socialIcons = defaultSocialLinks;
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -147,8 +147,8 @@ const Footer: React.FC<FooterProps> = ({
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  title={social.name}
-                  aria-label={social.name}
+                  title={social.title || social.name}
+                  aria-label={social.title || social.name}
                 >
                   {social.icon}
                 </Link>

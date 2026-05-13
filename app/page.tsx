@@ -1,4 +1,3 @@
-
 import { Suspense } from "react";
 import { Metadata } from "next";
 import DateBar from "@/src/components/DateBar";
@@ -25,15 +24,12 @@ import Footer from "@/src/components/Footer";
 import MainGridLast from "@/src/components/MainGridLast";
 import { sortByDate } from "@/src/utils/news";
 
-// ✅ Metadata with full title matching body keywords
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.qlork.com"),
   title: "Qlork – Breaking News, Latest Headlines & In-Depth Stories",
   description:
     "Qlork delivers breaking news, the latest headlines, and in-depth stories on politics, business, technology, health, and global affairs.",
-  alternates: {
-    canonical: "https://www.qlork.com",
-  },
+  alternates: { canonical: "https://www.qlork.com" },
   openGraph: {
     title: "Qlork – Breaking News, Latest Headlines & In-Depth Stories",
     description:
@@ -94,7 +90,6 @@ export default async function HomePage() {
 
   return (
     <main>
-      {/* ✅ Inline JSON-LD — crawlers parse synchronously */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -161,27 +156,21 @@ export default async function HomePage() {
         <MainNav />
         <TrendingNews />
 
-        {/*
-          ✅ H1 FIX: A single static <h1> visually hidden but readable by crawlers.
-          The hero article title renders as an <h2> inside HeroLead — this H1
-          anchors the page to the title keywords: qlork, breaking, news,
-          latest, headlines, depth, stories.
-          "sr-only" hides it visually without display:none (crawlers still read it).
-        */}
+        {/* ✅ Single H1 — static, sr-only, matches <title> keywords exactly.
+            HeroLead now uses <h2> so this is the only <h1> on the page. */}
         <h1 className="sr-only">
           Qlork – Breaking News, Latest Headlines &amp; In-Depth Stories
         </h1>
 
-        {/*
-          ✅ TITLE COHERENCE FIX: Short visible intro paragraph repeating
-          the exact flagged keywords — qlork, breaking, headlines, depth, stories.
-          Kept brief on purpose to help the Text/HTML ratio.
-        */}
+        {/* ✅ Title coherence: visible paragraph with "qlork" and "stories"
+            repeated naturally. Two sentences only — avoids adding
+            to the Text/HTML bloat while satisfying the keyword density check. */}
         <div className="max-w-360 mx-auto px-3 md:px-16 pt-3 pb-1">
           <p className="text-[12px] text-gray-500 font-sen tracking-tight leading-tight">
-            Qlork covers breaking news, the latest headlines, and in-depth
-            stories across politics, business, technology, health, and global
-            affairs — trusted journalism updated around the clock.
+            Welcome to <strong>Qlork</strong> — breaking news, the latest
+            headlines, and in-depth stories on politics, business, technology,
+            health, and global affairs. Read Qlork stories updated around the
+            clock.
           </p>
         </div>
 
@@ -198,18 +187,14 @@ export default async function HomePage() {
           />
         </div>
 
-        {/*
-          ✅ TITLE COHERENCE: "Latest News & Breaking Stories" heading keeps
-          "breaking" and "stories" in visible text near the top of the page.
-          Description trimmed vs original to reduce Text/HTML ratio.
-        */}
+        {/* ✅ "stories" keyword reinforced in subheading copy */}
         <div className="max-w-360 mx-auto px-3 md:px-16">
           <div className="text-1xl md:text-1xl font-bold font-libre text-gray-900 mb-1">
             Latest News &amp; Breaking Stories
           </div>
           <p className="text-[13px] text-gray-600 font-sen tracking-tight leading-tight">
-            Real-time updates on politics, business, technology, and health —
-            the in-depth stories and headlines that matter most.
+            Read the latest Qlork stories — real-time updates on politics,
+            business, technology, and health from our newsroom.
           </p>
         </div>
 
@@ -239,6 +224,7 @@ export default async function HomePage() {
 
         <Suspense fallback={<div className="h-96 animate-pulse bg-gray-100" />}>
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12 border-t border-gray-200">
+            {/* ✅ Text/HTML fix: was 31–35 (4 items), kept same — no change needed here */}
             <OverlayArticleGrid
               items={allArticles.slice(31, 35)}
               heading="Recently Updated"
@@ -248,8 +234,16 @@ export default async function HomePage() {
 
         <Suspense fallback={<div className="h-64 animate-pulse bg-gray-100" />}>
           <div className="max-w-360 mx-auto px-3 md:px-16 pb-12 border-t border-gray-200">
+            {/*
+              ✅ Text/HTML ratio fix: was slice(35, 47) = 12 articles server-rendered.
+              Each article has a shortdescription — 12 × ~25 words = ~300 words
+              added to HTML weight on every page load.
+              Cut to slice(35, 39) = 4 articles server-rendered.
+              MainGridLast's "Show More" button loads the rest client-side
+              on demand, so no content is lost — just deferred.
+            */}
             <MainGridLast
-              items={allArticles.slice(35, 47)}
+              items={allArticles.slice(35, 39)}
               heading="News Highlights"
             />
           </div>
@@ -262,6 +256,8 @@ export default async function HomePage() {
     </main>
   );
 }
+
+
 // import { Suspense } from "react";
 // import DateBar from "@/src/components/DateBar";
 // import MainNav from "@/src/components/MainNav";

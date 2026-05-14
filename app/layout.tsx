@@ -3,6 +3,7 @@ import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
 import { Libre_Baskerville } from 'next/font/google';
 import localFont from 'next/font/local'
+import Script from "next/script";
 
 const sen = localFont({
   src: [
@@ -154,7 +155,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-<meta name="google-site-verification" content="sK8Q6w8SVqAYdks__wpGmAegXWW-QtGVB8_gtd8ywFc" />
+        <meta name="google-site-verification" content="sK8Q6w8SVqAYdks__wpGmAegXWW-QtGVB8_gtd8ywFc" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -165,6 +166,20 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${merriweather.variable} ${sen.variable} ${libreBaskerville.variable} antialiased`}
       >
+        {/* Google Ads Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18148083881"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18148083881');
+          `}
+        </Script>
+
         {children}
       </body>
     </html>

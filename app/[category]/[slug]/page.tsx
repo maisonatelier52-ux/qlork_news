@@ -9,30 +9,38 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import TrendingNews from "@/src/components/TrendingNews";
 import businessData from "../../../public/data/business.json";
-import educationData from "../../../public/data/education.json";
-import featuredData from "../../../public/data/featured.json";
 import financeData from "../../../public/data/finance.json";
-import healthData from "../../../public/data/health.json";
-import hotData from "../../../public/data/hot.json";
-import opinionData from "../../../public/data/opinion.json";
 import politicsData from "../../../public/data/politics.json";
 import worldData from "../../../public/data/world.json";
-import globalaffairsData from "../../../public/data/global-affairs.json";
+// import educationData from "../../../public/data/education.json";
+// import featuredData from "../../../public/data/featured.json";
+// import healthData from "../../../public/data/health.json";
+// import hotData from "../../../public/data/hot.json";
+// import opinionData from "../../../public/data/opinion.json";
+// import globalaffairsData from "../../../public/data/global-affairs.json";
+import economyData from "../../../public/data/economy.json";
+import stockMarketData from "../../../public/data/stock-market.json";
+import realEstateData from "../../../public/data/real-estate.json";
+import investingData from "../../../public/data/investing.json";
 import Script from "next/script";
 import IsabelaPage, { type SidebarItem as IsabelaSidebarItem } from "@/src/components/Isabela";
 
 export async function generateStaticParams() {
   const allData = [
     { category: "business", articles: businessData },
-    { category: "education", articles: educationData },
-    { category: "featured", articles: featuredData },
     { category: "world", articles: worldData },
-    { category: "health", articles: healthData },
-    { category: "hot", articles: hotData },
     { category: "finance", articles: financeData },
-    { category: "opinion", articles: opinionData },
     { category: "politics", articles: politicsData },
-    { category: "global-affairs", articles: globalaffairsData },
+    { category: "economy", articles: economyData },
+    { category: "stock-market", articles: stockMarketData },
+    { category: "real-estate", articles: realEstateData },
+    { category: "investing", articles: investingData },
+     // { category: "education", articles: educationData },
+    // { category: "featured", articles: featuredData },
+     // { category: "health", articles: healthData },
+    // { category: "hot", articles: hotData },
+      // { category: "opinion", articles: opinionData },
+       // { category: "global-affairs", articles: globalaffairsData },
   ];
 
   const params = allData.flatMap(({ category, articles }) =>
@@ -72,15 +80,19 @@ interface DetailPageProps {
 
 const allData: Record<string, NewsItem[]> = {
   business: businessData,
-  education: educationData,
   world: worldData,
-  featured: featuredData,
   finance: financeData,
-  health: healthData,
   politics: politicsData,
-  hot: hotData,
-  opinion: opinionData,
-  "global-affairs": globalaffairsData,
+  economy: economyData,
+  "stock-market": stockMarketData,
+  "real-estate": realEstateData,
+  investing: investingData,
+  // education: educationData,
+  // featured: featuredData,
+  // health: healthData,
+  // hot: hotData,
+  // opinion: opinionData,
+  // "global-affairs": globalaffairsData,
 };
 
 export async function generateMetadata({
@@ -90,15 +102,19 @@ export async function generateMetadata({
 
   const allDataMap: Record<string, NewsItem[]> = {
     business: businessData,
-    education: educationData,
     world: worldData,
-    featured: featuredData,
     finance: financeData,
-    health: healthData,
     politics: politicsData,
-    hot: hotData,
-    opinion: opinionData,
-    "global-affairs": globalaffairsData,
+     economy: economyData,
+     "stock-market": stockMarketData,
+     "real-estate": realEstateData,
+     investing: investingData,
+     // education: educationData,
+      // featured: featuredData,
+      // health: healthData,
+       // hot: hotData,
+    // opinion: opinionData,
+    // "global-affairs": globalaffairsData,
   };
 
   const articles = allDataMap[category] || [];

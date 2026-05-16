@@ -19,16 +19,20 @@ const MainNav: React.FC = () => {
     { name: "Business", href: "/business", title: "Business News" },
     { name: "Finance", href: "/finance", title: "Finance News" },
     { name: "Politics", href: "/politics", title: "Politics News" },
-    { name: "Opinion", href: "/opinion", title: "Opinion News" },
-    { name: "Health", href: "/health", title: "Health News" },
-    { name: "Education", href: "/education", title: "Education News" },
-    {
-      name: "Global Affairs",
-      href: "/global-affairs",
-      title: "Global Affairs News",
-    },
-    { name: "Featured", href: "/featured", title: "Featured News" },
-    { name: "Hot", href: "/hot", title: "Hot News" },
+    // { name: "Opinion", href: "/opinion", title: "Opinion News" },
+    // { name: "Health", href: "/health", title: "Health News" },
+    // { name: "Education", href: "/education", title: "Education News" },
+    // {
+    //   name: "Global Affairs",
+    //   href: "/global-affairs",
+    //   title: "Global Affairs News",
+    // },
+    // { name: "Featured", href: "/featured", title: "Featured News" },
+    // { name: "Hot", href: "/hot", title: "Hot News" },
+    { name: "Economy", href: "/economy", title: "Economy News" },
+    { name: "Stock Market", href: "/stock-market", title: "Stock Market News" },
+    { name: "Real Estate", href: "/real-estate", title: "Real Estate News" },
+    { name: "Investing", href: "/investing", title: "Investing News" },
   ];
 
   useEffect(() => {

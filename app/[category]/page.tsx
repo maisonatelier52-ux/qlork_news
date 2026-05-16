@@ -12,15 +12,19 @@ import TrendingNews from "@/src/components/TrendingNews";
 import { sortByDate } from "@/src/utils/news";
 
 import businessData from "../../public/data/business.json";
-import educationData from "../../public/data/education.json";
-import featuredData from "../../public/data/featured.json";
+// import educationData from "../../public/data/education.json";
+// import featuredData from "../../public/data/featured.json";
 import financeData from "../../public/data/finance.json";
-import healthData from "../../public/data/health.json";
-import hotData from "../../public/data/hot.json";
-import opinionData from "../../public/data/opinion.json";
+// import healthData from "../../public/data/health.json";
+// import hotData from "../../public/data/hot.json";
+// import opinionData from "../../public/data/opinion.json";
 import politicsData from "../../public/data/politics.json";
 import worldData from "../../public/data/world.json";
-import globalaffairsData from "../../public/data/global-affairs.json";
+// import globalaffairsData from "../../public/data/global-affairs.json";
+import economyData from "../../public/data/economy.json";
+import stockMarketData from "../../public/data/stock-market.json";
+import realEstateData from "../../public/data/real-estate.json";
+import investingData from "../../public/data/investing.json";
 
 interface Sub {
   title: string;
@@ -41,14 +45,18 @@ interface NewsItem {
 const allData: Record<string, NewsItem[]> = {
   business: sortByDate(businessData),
   world: sortByDate(worldData),
-  education: sortByDate(educationData),
+  // education: sortByDate(educationData),
   finance: sortByDate(financeData),
-  featured: sortByDate(featuredData),
-  health: sortByDate(healthData),
-  hot: sortByDate(hotData),
-  opinion: sortByDate(opinionData),
+  // featured: sortByDate(featuredData),
+  // health: sortByDate(healthData),
+  // hot: sortByDate(hotData),
+  // opinion: sortByDate(opinionData),
   politics: sortByDate(politicsData),
-  "global-affairs": sortByDate(globalaffairsData),
+  // "global-affairs": sortByDate(globalaffairsData),
+  economy: sortByDate(economyData),
+  "stock-market": sortByDate(stockMarketData),
+  "real-estate": sortByDate(realEstateData),
+  investing: sortByDate(investingData),
 };
 
 const seoCategoryData: Record<string, { title: string; description: string }> =
@@ -113,6 +121,30 @@ const seoCategoryData: Record<string, { title: string; description: string }> =
       description:
         "Stay updated with global affairs news today, international relations updates, diplomatic developments, and expert analysis on world politics and international policy.",
     },
+    economy: {
+      title:
+        "Economy News Today – Economic Trends, Inflation & Global Market Insights",
+      description:
+        "Stay updated with economy news today, inflation updates, GDP growth, economic trends, market insights, and expert analysis on global and local economies.",
+    },
+    "stock-market": {
+      title:
+        "Stock Market News Today – Shares, Indices & Trading Updates",
+      description:
+        "Stay updated with stock market news today, live share market updates, index movements, trading insights, investment trends, and expert analysis on global markets.",
+    },
+    "real-estate": {
+        title:
+          "Real Estate News Today – Property Market, Housing Trends & Investment Insights",
+        description:
+          "Stay updated with real estate news today, property market trends, housing updates, commercial real estate insights, and expert analysis on global and local property investments.",
+      },
+      investing: {
+        title:
+          "Investing News Today – Markets, Stocks & Investment Strategies",
+        description:
+          "Stay updated with investing news today, stock market insights, portfolio strategies, investment trends, wealth management tips, and expert financial analysis.",
+      },
   };
 
 const capitalize = (s: string) =>

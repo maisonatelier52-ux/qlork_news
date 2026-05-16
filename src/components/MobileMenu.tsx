@@ -4,6 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SiSubstack } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaReddit } from "react-icons/fa6";
+import { RiMediumFill } from "react-icons/ri";
 
 interface MenuItem {
   name: string;
@@ -88,6 +91,47 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
             >
               Terms & Conditions
             </Link>
+
+             <Link
+              href="/contact"
+              onClick={onClose}
+              title="Contact"
+              className="hover:text-orange-500"
+            >
+              Contact Us
+            </Link>
+             <Link
+              href="/editorials-policy"
+              onClick={onClose}
+              title="Editorials Policy"
+              className="hover:text-orange-500"
+            >
+              Editorials Policy
+            </Link>
+             <Link
+              href="/corrections-policy"
+              onClick={onClose}
+              title="tCorrections Policy"
+              className="hover:text-orange-500"
+            >
+              Corrections Policy
+            </Link>
+             <Link
+              href="/ethics-policy"
+              onClick={onClose}
+              title="Ethics Policy"
+              className="hover:text-orange-500"
+            >
+              Ethics Policy
+            </Link>
+             <Link
+              href="/fact-checking-policy"
+              onClick={onClose}
+              title="Fact Checking Policy"
+              className="hover:text-orange-500"
+            >
+              Fact Checking Policy
+            </Link>
           </div>
         </div>
 {/* Divider */}
@@ -101,24 +145,21 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ menuItems, onClose }) => {
     </span>
 
     <div className="flex items-center gap-4 text-gray-700 ">
-      {/* <Link href="#" aria-label="YouTube" className="hover:text-orange-500">
-     <FaFacebookF />
+      <Link href="https://x.com/QlorkN54107" title="Follow us on Twitter" aria-label="Twitter" className="hover:text-orange-500">
+       <FaXTwitter/>
       </Link>
-      <Link href="#" aria-label="Instagram" className="hover:text-orange-500">
-       <FaTwitter/>
+      <Link href="https://medium.com/@qlork_news" title="Follow us on Medium" aria-label="Medium" className="hover:text-orange-500">
+        <RiMediumFill/>
       </Link>
-      <Link href="#" aria-label="Medium" className="hover:text-orange-500">
-        <FaMedium/>
-      </Link> */}
-      <Link href="https://substack.com/@Qlork" aria-label="Substack" className="hover:text-orange-500">
+      <Link href="https://substack.com/@qlorknews" title="Follow us on Substack" aria-label="Substack" className="hover:text-orange-500">
         <SiSubstack/>
       </Link>
-      <Link href="https://www.instagram.com/qlork_news/" aria-label="Instagram" className="hover:text-orange-500">
+      <Link href="https://www.instagram.com/qlork_news/" title="Follow us on Instagram" aria-label="Instagram" className="hover:text-orange-500">
         <FaInstagram/>
       </Link>
-      {/* <Link href="#" aria-label="RSS" className="hover:text-orange-500">
+      <Link href="https://www.reddit.com/user/Admirable_Spite4897/" title="Follow us on Reddit" aria-label="Reddit" className="hover:text-orange-500">
         <FaReddit/>
-      </Link> */}
+      </Link>
     </div>
     
   </div>

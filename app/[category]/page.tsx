@@ -73,54 +73,54 @@ const seoCategoryData: Record<string, { title: string; description: string }> =
       description:
         "Stay updated with world news today, breaking stories, international events, global politics, and in-depth analysis on major developments from around the world.",
     },
-    education: {
-      title:
-        "Education News Today – School Updates, Academic Trends & Policy Insights",
-      description:
-        "Get the latest education news today, school and university updates, academic trends, education policies, and expert insights on global learning and innovations.",
-    },
+    // education: {
+    //   title:
+    //     "Education News Today – School Updates, Academic Trends & Policy Insights",
+    //   description:
+    //     "Get the latest education news today, school and university updates, academic trends, education policies, and expert insights on global learning and innovations.",
+    // },
     finance: {
       title:
         "Finance News Today – Stock Market Updates, Economy Insights & Investment Trends",
       description:
         "Stay updated with finance news today, real-time stock market updates, economic insights, investment trends, and expert analysis on global financial markets.",
     },
-    featured: {
-      title:
-        "Featured Stories Today – Top News, Trending Topics & Breaking Updates",
-      description:
-        "Discover featured stories today, top news headlines, trending topics, breaking updates, and analysis across business, politics, technology, and global events.",
-    },
-    health: {
-      title:
-        "Health News Today – Medical Updates, Wellness Tips & Global Health Trends",
-      description:
-        "Get the latest health news today, medical discoveries, wellness tips, public health updates, and insights on global health trends, fitness, and well-being.",
-    },
-    hot: {
-      title:
-        "Hot News Today – Trending Stories, Breaking Updates & Viral Headlines",
-      description:
-        "Stay updated with hot news today, trending stories, breaking updates, viral content, and top headlines from around the world across business, politics, and entertainment.",
-    },
-    opinion: {
-      title:
-        "Opinion Today – Editorials, Expert Analysis & Commentary on Current Events",
-      description:
-        "Read opinion news today, expert editorials, in-depth analysis, and commentary on current events, politics, business, finance, and global affairs.",
-    },
+    // featured: {
+    //   title:
+    //     "Featured Stories Today – Top News, Trending Topics & Breaking Updates",
+    //   description:
+    //     "Discover featured stories today, top news headlines, trending topics, breaking updates, and analysis across business, politics, technology, and global events.",
+    // },
+    // health: {
+    //   title:
+    //     "Health News Today – Medical Updates, Wellness Tips & Global Health Trends",
+    //   description:
+    //     "Get the latest health news today, medical discoveries, wellness tips, public health updates, and insights on global health trends, fitness, and well-being.",
+    // },
+    // hot: {
+    //   title:
+    //     "Hot News Today – Trending Stories, Breaking Updates & Viral Headlines",
+    //   description:
+    //     "Stay updated with hot news today, trending stories, breaking updates, viral content, and top headlines from around the world across business, politics, and entertainment.",
+    // },
+    // opinion: {
+    //   title:
+    //     "Opinion Today – Editorials, Expert Analysis & Commentary on Current Events",
+    //   description:
+    //     "Read opinion news today, expert editorials, in-depth analysis, and commentary on current events, politics, business, finance, and global affairs.",
+    // },
     politics: {
       title:
         "Politics News Today – Government Updates, Policy Changes & Election Coverage",
       description:
         "Get the latest politics news today, government updates, policy changes, election coverage, and expert commentary on national and international political developments.",
     },
-    "global-affairs": {
-      title:
-        "Global Affairs Today – International News, Diplomacy & World Politics",
-      description:
-        "Stay updated with global affairs news today, international relations updates, diplomatic developments, and expert analysis on world politics and international policy.",
-    },
+    // "global-affairs": {
+    //   title:
+    //     "Global Affairs Today – International News, Diplomacy & World Politics",
+    //   description:
+    //     "Stay updated with global affairs news today, international relations updates, diplomatic developments, and expert analysis on world politics and international policy.",
+    // },
     economy: {
       title:
         "Economy News Today – Economic Trends, Inflation & Global Market Insights",

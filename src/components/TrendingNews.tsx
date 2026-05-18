@@ -2,10 +2,14 @@
 import WorldData from "../../public/data/world.json";
 import BusinessData from "../../public/data/business.json";
 import PoliticsData from "../../public/data/politics.json";
-import OpinionData from "../../public/data/opinion.json";
-import FinanceData from "../../public/data/finance.json";
-import HealthData from "../../public/data/health.json";
-import EducationData from "../../public/data/education.json";
+// import OpinionData from "../../public/data/opinion.json";
+// import FinanceData from "../../public/data/finance.json";
+// import HealthData from "../../public/data/health.json";
+// import EducationData from "../../public/data/education.json";
+import economyData from "../../public/data/economy.json";
+import stockMarketData from "../../public/data/stock-market.json";
+import realEstateData from "../../public/data/real-estate.json";
+import investingData from "../../public/data/investing.json";
 import Link from "next/link";
 
 const newsItems = [
@@ -20,13 +24,13 @@ const newsItems = [
     title: PoliticsData[0].title,
     slug: PoliticsData[0].slug,
   },
-  { label: "OPINION", title: OpinionData[0].title, slug: OpinionData[0].slug },
-  { label: "FINANCE", title: FinanceData[0].title, slug: FinanceData[0].slug },
-  { label: "HEALTH", title: HealthData[0].title, slug: HealthData[0].slug },
+  { label: "ECONOMY", title: economyData[0].title, slug: economyData[0].slug },
+  { label: "STOCK MARKET", title: stockMarketData[0].title, slug: stockMarketData[0].slug },
+  { label: "REAL ESTATE", title: realEstateData[0].title, slug: realEstateData[0].slug },
   {
-    label: "EDUCATION",
-    title: EducationData[0].title,
-    slug: EducationData[0].slug,
+    label: "INVESTING",
+    title: investingData[0].title,
+    slug: investingData[0].slug,
   }
 ];
 

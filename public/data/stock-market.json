@@ -139,5 +139,100 @@
         "substack": "",
         "medium": ""
     }
+  },
+
+  {
+    "category": "stock-market",
+    "topic": "Stock Market",
+    "slug": "boeing-china-200-jet-deal-stock-falls-short-expectations-2026",
+    "title": "Boeing Stock Drops as China Jet Deal Falls Short of Wall Street's 500-Plane Bet",
+    "image": "/images/news-img/southwest-airlines-boeing-737-landing-city-airport.webp",
+    "date": "May 15, 2026",
+    "shortdescription": "Boeing shares fell sharply after President Trump announced a 200-aircraft deal with China — far below the 500-plane order Wall Street had priced in for months.",
+    "sub": [
+      {
+        "title": "200 Planes. Wall Street Wanted 500. Boeing Pays the Price.",
+        "descr": "The deal was supposed to be Boeing's moment. After years of frozen relations with Beijing, a massive aircraft order tied to Trump's China summit was supposed to signal that Boeing was back in one of the world's most important aviation markets. What actually happened was different. Trump announced Thursday in a Fox News interview that China agreed to buy 200 Boeing jets — describing them as '200 big ones.' Boeing shares dropped more than 4% on the news. The problem was not the deal itself. The problem was what the market had already priced in. For months, reports from Bloomberg and other outlets had suggested Beijing was preparing a commitment of up to 500 Boeing 737 MAX narrowbody jets, with the possibility of dozens of widebody aircraft on top of that. By the time Trump spoke, institutional traders had already built positions around a 500-plane headline. When the number landed at 200, the gap between expectation and reality sent the stock south fast. Boeing CEO Kelly Ortberg was among the senior executives who traveled to Beijing with Trump specifically to advance commercial aviation negotiations. That presence had amplified market expectations even further in the days before the announcement."
+      },
+      {
+        "title": "This Is Boeing's First Major China Order Since 2017",
+        "descr": "To be clear about what the 200-plane deal actually represents: it is meaningful. China last gave Boeing a significant commercial aircraft commitment in November 2017, during Trump's first-term visit to Beijing, when the country agreed to buy 300 aircraft worth more than $37 billion. After that deal, trade relations between Washington and Beijing deteriorated badly. Boeing received just 51 orders from Chinese buyers between 2017 and 2025 — mostly freighters, not commercial passenger jets. That nine-year drought is what makes this week's announcement significant in a longer-term context. Airbus moved aggressively into that vacuum. Chinese carriers have committed to roughly 700 Airbus jets since July 2022 alone. Airbus opened an A320 final assembly plant in Tianjin and built relationships with Chinese airlines that gave it majority market share in the country through the 2010s and into the 2020s. Boeing getting back into that conversation — even at 200 planes — is a real development. It just was not the one the market was waiting for."
+      },
+      {
+        "title": "The Details of the Deal Are Still Fuzzy — and That Spooked Investors",
+        "descr": "Part of what accelerated the selloff Thursday was not just the headline number but the lack of specifics behind it. Neither Boeing nor Chinese authorities immediately confirmed what aircraft types are included in the 200-plane order. No operator names were given. No delivery timeline was announced. No firm contracts were disclosed. BNP Paribas aerospace analyst Matt Akers put it plainly: it is possible more orders still come out of this trip, but right now investors are interpreting the announcement as less than what had been hoped for. The 200 planes represent roughly 3% of Boeing's total commercial backlog of 6,807 aircraft at the end of April. Adding 3% to a backlog that already measures 6,800 planes does not solve Boeing's near-term cash flow problems. The company reported negative free cash flow of $1.4 billion in the first quarter of 2026. Its long-term debt sits at roughly $44.3 billion. Boeing also delivered just 47 aircraft in April, below the 50-plus analysts expected — another sign that execution remains a challenge even before the new China commitment can be filled."
+      },
+      {
+        "title": "Trump's Disclosure Filing Added a Separate Layer of Scrutiny",
+        "descr": "The Boeing story picked up an additional political wrinkle this week when Trump's financial disclosure filings showed that he had been aggressively buying Boeing and GE Aerospace stock in the $1 million to $5 million range shortly before he announced the China aircraft deal. GE Aerospace supplies engines for Boeing jets, meaning the two investments are directly tied to each other. The deal that followed — 200 Boeing planes with GE engines — connected those purchases directly to a government-negotiated commercial outcome. Ethics watchdogs flagged the sequence immediately. Trump administration officials have not commented on the disclosure, and no formal investigation has been announced. But for investors already frustrated by the smaller-than-expected deal size, the disclosure added a layer of noise that did not help Boeing's stock recover during Friday's session."
+      },
+      {
+        "title": "Boeing's Recovery Story Is Real — But This Week Exposed Its Fragility",
+        "descr": "Step back from the week's events and Boeing's position looks better than the stock reaction suggests. The company beat analyst earnings estimates in the first quarter, with revenue of $22.21 billion — up 14% from a year ago. The total company backlog hit a record $695 billion in Q1 2026. Production rates are climbing. The 737 MAX 10 certification, delayed for years, is expected to come through in 2026. If and when the China order is confirmed with firm contracts and delivery schedules, it marks a genuine reopening of Boeing's most important long-term growth market. Analysts at Boeing project China will need at least 9,000 new jetliners by 2045, and the country cannot buy them all from Airbus. There is real logic to a Boeing comeback in China. But this week showed how fragile the recovery narrative still is when execution falls short of expectations. Wall Street was ready to celebrate 500 planes. It got 200, with no timeline and no names attached — and the stock paid for the difference."
+      },
+      {
+        "title": "What Comes Next for Boeing — and When It Matters",
+        "descr": "The three metrics analysts say Boeing investors need to track are monthly delivery numbers, the 737 MAX 10 certification date, and the outcome of an active jury trial involving Polish Airlines. On deliveries, Boeing needs to ship around 500 commercial aircraft in 2026 to validate its free cash flow guidance. April's 47 deliveries puts that pace behind schedule. On the MAX 10, any delay resets Boeing's entire cash flow outlook by months. On the legal front, LOT Polish Airlines has an attorney in U.S. District Court in Seattle this week alleging that Boeing concealed safety issues with the 737 MAX when the airline committed to leasing 15 aircraft in 2016 — before two fatal crashes in 2018 and 2019. A verdict against Boeing could open the door to similar lawsuits from other carriers globally. Meanwhile, Trump has signaled the China deal could ultimately reach 750 aircraft over time. That number would make it the largest aircraft order in Boeing's history, worth hundreds of billions of dollars. Whether that figure ever materializes depends on how well Washington and Beijing manage a diplomatic relationship that has been rocky for the better part of a decade — and whether Boeing can actually build and deliver the planes when the orders arrive."
+      }
+    ],
+    "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
+  },
+  {
+    "category": "stock-market",
+    "topic": "Stock Market",
+    "slug": "spacex-ipo-june-2026-175-trillion-valuation-nasdaq",
+    "title": "SpaceX Sets June IPO Date at $1.75 Trillion — Biggest Listing in Market History",
+    "image": "/images/news-img/spacex-starship-rocket-launch.webp",
+    "date": "May 18, 2026",
+    "shortdescription": "SpaceX is targeting a June 12 Nasdaq debut at a $1.75 trillion valuation, aiming to raise $75 billion in what would be the largest initial public offering in stock market history.",
+    "sub": [
+      {
+        "title": "SpaceX Is Going Public — June 12, Nasdaq, $1.75 Trillion",
+        "descr": "The most anticipated stock market event in years just got a date. SpaceX is targeting June 12, 2026 for its initial public offering on the Nasdaq exchange under the ticker symbol SPCX. The company is seeking a valuation of $1.75 trillion, which would make it the largest IPO in the history of global financial markets — surpassing Saudi Aramco's $1.7 trillion listing in 2019 and raising roughly $75 billion in fresh capital, more than double Alibaba's record $25 billion raise in 2014. SpaceX confidentially filed its draft S-1 prospectus with the SEC on April 1, 2026 under the internal codename 'Project Apex.' The public S-1 is expected to drop around May 20 to 22, with the institutional roadshow starting the week of June 8 and final pricing on June 11. Twenty-one banks are in the syndicate, led by Morgan Stanley, Goldman Sachs, JPMorgan, Bank of America, and Citigroup. The company also secured a $20 billion bridge loan to refinance existing debt ahead of pricing. At $1.75 trillion, SpaceX would immediately rank among the ten most valuable publicly traded companies on earth — ahead of Meta, Berkshire Hathaway, and Tesla."
+      },
+      {
+        "title": "What SpaceX Actually Is Now — It Is Bigger Than Rockets",
+        "descr": "Before assessing the valuation, you need to understand what SpaceX has become since most people last checked. In February 2026, SpaceX completed a $250 billion all-stock merger with xAI — Elon Musk's artificial intelligence company that owns X, formerly Twitter, and operates the Grok AI assistant. Musk announced in May that xAI is now fully absorbed into SpaceX and will rebrand as SpaceXAI. The company now operates across four distinct business lines: launch services through Falcon 9, Falcon Heavy, and Starship; Starlink satellite broadband with more than 10 million active subscribers; Starshield, its government and military satellite program with $24.4 billion in U.S. government contracts since 2008; and AI compute infrastructure, including the Colossus supercomputer cluster in Memphis, Tennessee, which houses more than 100,000 Nvidia H100 GPUs and recently signed a compute infrastructure deal with Anthropic. Combined 2025 revenue across the business came in at approximately $18.67 billion — up sharply from $9.7 billion in 2023. Starlink is the cash engine, generating $4.42 billion in operating income last year. The AI division is the wild card, burning $6.4 billion in operating losses in 2025 as SpaceX builds out infrastructure."
+      },
+      {
+        "title": "The Valuation Question Wall Street Is Arguing About",
+        "descr": "A $1.75 trillion price tag at roughly $18.67 billion in trailing revenue implies a price-to-sales multiple of more than 90 times. That number makes even the most aggressive technology investors pause. NYU finance professor Aswath Damodaran — known on Wall Street as the Dean of Valuation — ran his own analysis and arrived at a fair-value estimate closer to $1.22 trillion. That is 40% below the IPO target. Scottish Mortgage Investment Trust, the most transparent public shareholder in SpaceX, carries its stake at a $1.25 trillion valuation as of March 31, 2026 — also well below the $1.75 trillion target. What makes the valuation debate complicated is the uncertainty is not symmetrically distributed. Damodaran noted that the range of outcomes for SpaceX is weighted more to the upside than the downside, because Starlink still has penetrated less than 5% of the global internet market, Starship has not yet begun commercial operations, and the AI business could scale quickly once infrastructure spending normalizes. Projections from Morningstar see SpaceX revenue reaching $149 billion by 2040. If those projections prove accurate, $1.75 trillion in 2026 looks reasonable in hindsight. If they do not, early public buyers will have paid a steep premium."
+      },
+      {
+        "title": "Nasdaq Changed Its Rules to Accommodate the SpaceX Listing",
+        "descr": "The scale of the SpaceX IPO is so large that Nasdaq actually adjusted its index inclusion rules before the company goes public. Effective May 1, 2026, mega-IPOs ranked in the top 40 companies by market cap are eligible for fast-track inclusion into the Nasdaq 100 Index just 15 trading days after their debut — down from the standard waiting period. SpaceX explicitly stated that securing early Nasdaq 100 inclusion is a mandatory condition for choosing to list on the exchange. The significance of that condition is financial and mechanical: once SpaceX enters the Nasdaq 100, every passive index fund and ETF that tracks the index is required to buy the stock. That creates a guaranteed wave of institutional buying that provides downside support in the early weeks of trading. Nasdaq's willingness to change its rules specifically to accommodate this listing reflects the extraordinary weight SpaceX carries in the current IPO market. There were only 31 tech IPOs in all of 2025. SpaceX alone could dwarf the combined value of everything that went public last year."
+      },
+      {
+        "title": "Retail Investors Get an Unusual Opportunity — But With Strings Attached",
+        "descr": "One notable feature of the SpaceX IPO structure is that the company has reportedly reserved 30% of the offering for retail investors — an unusually large allocation for a listing of this size. Most mega-cap IPOs direct the overwhelming majority of shares to institutional buyers, leaving retail investors to buy in the open market at whatever price the stock trades to after the IPO pop. SpaceX's decision to make a significant retail allocation is widely read as a deliberate move by Musk to build broad public ownership in the company — similar to how Tesla built a massive individual investor base over time. The dual-class share structure, however, puts real limits on what public buyers actually get. Class A shares sold in the IPO carry limited voting rights, while Musk retains majority voting control through a structure that Reuters confirmed on April 29. In practical terms, that means retail investors get exposure to SpaceX's financial performance but effectively no governance leverage over the company. That is a standard arrangement for founder-controlled tech companies — but it is worth understanding before buying in."
+      },
+      {
+        "title": "What This Means for the Broader Stock Market",
+        "descr": "A $75 billion IPO does not happen in a vacuum. It pulls capital. Institutional investors who want allocation in the SpaceX offering will need to free up cash somewhere, which means selling existing positions in the weeks before pricing. That dynamic has historically created short-term selling pressure in the sectors most closely associated with an IPO candidate — in this case, AI, semiconductor, and aerospace stocks. The immediate impact on the market will also depend heavily on what the public S-1 says when it drops around May 20. If Starlink's margins are improving and the Colossus AI business is generating real revenue traction, the filing will confirm the bull case and investor excitement will hold. If the numbers reveal heavy capital spending that is not yet converting to cash, the market will discount the valuation quickly. Beyond the filing, the SpaceX IPO has larger symbolic significance for Wall Street. After years of private-market-only investing in the biggest tech companies, institutional and retail investors are finally getting access to a company that has arguably been the most transformative private business of the past decade. Whether the price is right is the argument. That the event is historic is not."
+      }
+    ],
+    "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

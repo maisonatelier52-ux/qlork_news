@@ -7,14 +7,13 @@ interface NavCategory {
 }
 const ArticlePageNav: React.FC = () => {
   const categories: NavCategory[] = [
-    { name: "Opinion", slug: "opinion" },
-    { name: "Education", slug: "education" },
-    { name: "Global Affairs", slug: "global-affairs" },
-    { name: "Featured", slug: "featured" },
-    { name: "Hot", slug: "hot" },
+    { name: "Economy", slug: "economy" },
+    { name: "Stock Market", slug: "stock-market" },
+    { name: "Real Estate", slug: "real-estate" },
+    { name: "Investing", slug: "investing" },
     { name: "Politics", slug: "politics" },
-    { name: "Health", slug: "health" },
     { name: "Finance", slug: "finance" },
+    { name: "World", slug: "world" },
   ];
 
   return (

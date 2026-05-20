@@ -46,8 +46,6 @@
       "medium": ""
     }
     },
-
-
   {
     "category": "economy",
     "topic": "Consumer Finance",
@@ -95,8 +93,6 @@
       "medium": ""
     }
   },
-
-
   {
     "category": "economy",
     "topic": "Inflation",
@@ -144,7 +140,6 @@
         "medium": ""
       }
 },
-
 {
     "category": "economy",
     "topic": "Monetary Policy",
@@ -192,7 +187,6 @@
       "medium": ""
     }
   },
-  
   {
     "category": "economy",
     "topic": "Business Investment",
@@ -232,6 +226,52 @@
       "role": "Staff Correspondent",
       "bio": "",
       "image": "/images/authors/robert-kim.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
+  },
+
+
+
+  {
+    "category": "economy",
+    "topic": "U.S. Treasury Yields",
+    "slug": "us-treasury-yields-bond-market-danger-zone",
+    "title": "U.S. Treasury Yields Surge to Highest Levels Since 2007 as Bond Market Enters “Danger Zone”",
+    "image": "/images/news-img/financial-trader-analyzing-stock-market-charts.webp",
+    "date": "May 20, 2026",
+    "shortdescription": "U.S. Treasury yields surged to levels not seen since before the 2008 financial crisis, triggering fears about inflation, economic slowdown, and broader market instability.",
+    "sub": [
+      {
+        "title": "U.S. Treasury markets experienced a major selloff",
+        "descr": "U.S. Treasury markets experienced a major selloff as long-term bond yields surged to levels not seen since before the 2008 financial crisis. Analysts warned that the bond market has now entered what several strategists described as a “danger zone” for the broader economy and global financial system.\n\nThe 30-year Treasury yield climbed above 5.18%, reaching its highest level since 2007, while the benchmark 10-year Treasury yield rose above 4.67%. Investors increasingly demanded higher returns to compensate for fears involving inflation, government debt, and prolonged economic uncertainty.\n\nCNN reported that the sharp rise in yields reflects mounting anxiety across financial markets as the ongoing Iran conflict pushes energy prices higher and complicates the Federal Reserve’s efforts to control inflation. Rising oil costs have strengthened fears that inflation could remain elevated much longer than previously expected.\n\nStrategists at HSBC warned that Treasury yields entering this range could create serious pressure across multiple asset classes, including stocks, real estate, corporate borrowing, and technology investments. Higher Treasury yields increase borrowing costs throughout the economy and make safer bonds more attractive compared with riskier investments."
+      },
+      {
+        "title": "The bond selloff also reflected changing expectations about Federal Reserve policy",
+        "descr": "The bond selloff also reflected changing expectations about Federal Reserve policy. Before the Iran conflict flared up, many investors had been looking for interest-rate cuts in 2026. However, rising inflation and surging oil prices have led traders to increasingly price in the possibility of additional rate hikes instead.\n\nFund managers surveyed by Bank of America indicated growing pessimism about the bond market outlook. Nearly two-thirds of respondents said they believe the 30-year Treasury yield could rise above 6% within the next year if inflation pressures continue intensifying.\n\nAnalysts described the current environment as one of the most serious bond-market disruptions in years because rising yields are occurring simultaneously with geopolitical instability, higher energy costs, and growing concerns about global government debt levels."
+      },
+      {
+        "title": "Iran Conflict and Oil Shock Intensify Inflation Fears",
+        "descr": "The ongoing Iran war became one of the central drivers behind the Treasury market turmoil. The Strait of Hormuz and Middle East oil exports have investors worried that ongoing disruptions could trigger another large global inflation spike similar to previous energy shocks.\n\nOil prices surged in response to rising military tensions in the Gulf region, with energy prices up some 60% since the conflict intensified. Analysts warned that higher fuel prices are already feeding directly into consumer inflation and business costs worldwide.\n\nThe New York Times reported that inflation concerns tied to the Iran conflict have dramatically altered investor expectations regarding monetary policy and economic growth. Markets increasingly fear a period of “stagflation” involving both higher inflation and slower economic activity.\n\nThe bond market reaction reflects worries that the Federal Reserve may struggle to balance inflation control against economic growth concerns. Rising energy costs complicate the Fed’s efforts because inflation remains well above its long-term target even before accounting for new oil shocks.\n\nInflation data released earlier this month showed consumer prices rising faster than expected, particularly in energy-related sectors. Business Insider reported that energy prices jumped nearly 18% in April, helping drive renewed inflation fears across markets.\n\nInvestors also expressed concern that higher oil prices could trigger broader supply-chain disruptions and raise costs for transportation, manufacturing and food globally. Economists cautioned that ongoing unrest in Gulf shipping lanes could add to inflationary pressures in coming months.\n\nAt the same time, bond investors remain skeptical that inflation will quickly return to normal levels. Market-based inflation expectations have continued rising, contributing to additional upward pressure on Treasury yields and broader borrowing costs.\n\nThe Treasury market therefore became increasingly sensitive to every development involving the Iran conflict because investors now view geopolitical instability as a major driver of inflation, interest rates, and global financial conditions."
+      },
+      {
+        "title": "Rising Yields Threaten Stocks, Housing and AI Investment Boom",
+        "descr": "Higher Treasury yields are raising concerns that higher borrowing costs could dampen the broader U.S. economy and place enormous pressure on stock markets, housing, and corporate investment. Analysts warned that long-term yields above 5% create financial conditions that historically have strained economic growth.\n\nHigher Treasury yields directly increase interest rates on mortgages, business loans, corporate debt, and consumer borrowing. Mortgage rates already shot higher as Treasury yields rose, adding to worries about further weakness in the housing market.\n\nStock markets also came under pressure as investors rotated money into safer government bonds that offered ever more attractive returns. The S&P 500 fell for several consecutive sessions while technology stocks experienced renewed volatility tied to rising interest-rate expectations.\n\nAnalysts warned that the AI investment boom could face particular risks from higher yields. Massive artificial intelligence infrastructure projects involving data centers, cloud computing, and semiconductor expansion rely heavily on financing and long-term capital investment.\n\nRising yields also increase government borrowing costs at a time when the United States continues running large fiscal deficits. Some economists warned that escalating debt-servicing expenses could eventually create political pressure for spending cuts or tax increases.\n\nThe Associated Press described the bond market as powerful enough to “sway stocks and Trump” because rapidly rising yields can influence political decisions, economic growth, and investor confidence simultaneously. Higher bond yields historically have pressured governments to adjust fiscal and economic policies.\n\nInvestors also worried about weakening foreign demand for U.S. debt. Reuters reported that traditional stable foreign buyers increasingly have been replaced by more price-sensitive investors such as hedge funds, creating additional volatility in Treasury markets.\n\nThe bond selloff therefore raised fears of a broader financial tightening cycle where rising yields simultaneously damage stocks, housing, government finances, and corporate investment throughout the global economy."
+      },
+      {
+        "title": "Global Bond Rout Signals Deepening Financial Instability",
+        "descr": "The turmoil in U.S. Treasurys became part of a wider global bond-market selloff affecting major economies around the world. Government bond yields rose sharply not only in the United States but also in countries including Japan, the United Kingdom, and parts of Europe.\n\nInvestors are growing more concerned about the trifecta of inflation, government debt and geopolitical instability all striking financial markets around the world at once, the Wall Street Journal reported. Bond yields surged as traders demanded higher compensation for growing economic risks.\n\nRising yields in Japan and the United Kingdom contributed to reduced foreign appetite for U.S. Treasurys because international investors found improving returns in their domestic markets. Analysts said this shift may reduce a major source of long-term demand for American government debt.\n\nThe global bond selloff also reflected changing expectations surrounding central banks worldwide. Many investors previously expected coordinated interest-rate cuts during 2026, but persistent inflation and energy shocks have forced markets to reconsider those assumptions.\n\nReuters reported that some strategists believe the bond market strain could continue for months if inflation remains elevated and governments continue borrowing heavily. Investors increasingly appear unwilling to purchase long-term debt without substantially higher yields.\n\nAt the same time, analysts warned that higher global yields may weaken economic growth internationally by increasing borrowing costs for businesses and governments. Emerging markets remain particularly vulnerable because many already face currency pressures and rising import costs tied to energy prices.\n\nFinancial markets also became more volatile as investors struggled to price long-term risks of inflation, war, interest rates and government debt sustainability. Several analysts described the current bond-market environment as unusually unstable compared with recent years.\n\nThe global bond sell-off accelerated in 2026, turning into one of the year's biggest financial stories as investors grew more worried that higher yields could be a harbinger of more economic and geopolitical instability to come."
+      }
+    ],
+     "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
       "email": "",
       "twitter": "",
       "facebook": "",

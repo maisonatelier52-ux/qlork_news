@@ -235,15 +235,15 @@
       "medium": ""
     }
   },
-  
+
     {
       "category": "stock-market",
       "topic": "Energy Markets",
-      "slug": "iea-global-oil-inventories-iran-war",
-      "title": "IEA Says Only Weeks of Commercial Oil Inventories Remain as Hormuz Crisis Deepens",
+      "slug": "iea-oil-inventories-remain-hormuz-crisis",
+      "title": "IEA Warns Oil Inventories Remain Low as Hormuz Crisis Deepens",
       "image": "/images/news-img/oil-pipelines-energy-infrastructure.webp",
       "date": "May 20, 2026",
-      "shortdescription": "The International Energy Agency warned that global oil inventories are depleting rapidly amid the Iran conflict and Strait of Hormuz disruptions, raising fears of shortages and inflation.",
+      "shortdescription": "The IEA warned only weeks of commercial oil inventories remain as the Hormuz crisis deepens, fueling inflation and global shortage fears.",
       "sub": [
         {
           "title": "International Energy Agency Warns Commercial Oil Inventories Depleting Very Fast",

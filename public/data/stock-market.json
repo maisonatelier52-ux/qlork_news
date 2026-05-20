@@ -234,5 +234,53 @@
       "substack": "",
       "medium": ""
     }
-  }
+  },
+  
+    {
+      "category": "stock-market",
+      "topic": "Energy Markets",
+      "slug": "iea-global-oil-inventories-iran-war",
+      "title": "IEA Says Only Weeks of Commercial Oil Inventories Remain as Hormuz Crisis Deepens",
+      "image": "/images/news-img/oil-pipelines-energy-infrastructure.webp",
+      "date": "May 20, 2026",
+      "shortdescription": "The International Energy Agency warned that global oil inventories are depleting rapidly amid the Iran conflict and Strait of Hormuz disruptions, raising fears of shortages and inflation.",
+      "sub": [
+        {
+          "title": "International Energy Agency Warns Commercial Oil Inventories Depleting Very Fast",
+          "descr": "International Energy Agency Executive Director Fatih Birol warned that global commercial oil inventories are depleting “very fast” amid the ongoing Iran war and severe disruptions around the Strait of Hormuz. Speaking during the Group of Seven finance ministers meeting in Paris, Birol said only “several weeks” of commercial oil supplies remain available at current depletion rates. The warning reflected escalating concerns across global energy markets as the conflict involving Iran continues disrupting one of the world’s most critical oil transit routes. Birol stated that strategic oil reserves have temporarily stabilized markets by releasing approximately 2.5 million barrels per day, but stressed that those reserves “are not endless.”"
+        },
+        {
+          "title": "Record Inventory Declines After Iran Conflict",
+          "descr": "Reuters reported that before the U.S. and Israeli attacks on Iran in February, oil markets were experiencing significant surpluses and inventories remained high. However, the conflict dramatically changed market conditions and rapidly erased global stockpiles. The International Energy Agency said global observed oil inventories fell by a record 246 million barrels during March and April. In response, the agency coordinated the largest release of strategic reserves in its history, authorizing approximately 400 million barrels to calm markets and stabilize fuel supplies. By early May, around 164 million barrels had already been released from emergency reserves. Despite these efforts, analysts warned that commercial inventories continue shrinking rapidly because global supply losses are exceeding reserve releases."
+        },
+        {
+          "title": "Strait of Hormuz Disruptions Continue Shaking Global Energy Markets",
+          "descr": "The near shutdown of the Strait of Hormuz emerged as the central factor driving the global oil crisis. The strategic waterway is used for a large share of global oil exports, especially from Gulf producers including Saudi Arabia, Iraq, Kuwait and the United Arab Emirates. The Iran conflict has sharply curtailed oil shipments through the strait, leading to major supply disruptions across world energy markets. Oil production from the Gulf countries affected by the closure fell by about 14.4 million barrels per day below pre-war levels, the IEA reported. CNBC reported that Europe faces especially serious risks because of its dependence on imported fuel supplies and exposure to rising energy prices. Analysts warned that prolonged disruption around Hormuz could trigger shortages involving diesel, jet fuel, gasoline, and industrial energy supplies throughout Europe."
+        },
+        {
+          "title": "Rising Risks to Food Prices and Inflation",
+          "descr": "Birol also warned that the timing of the crisis is particularly dangerous because it coincides with northern hemisphere planting season and peak summer travel demand. Rising consumption of diesel, jet fuel, gasoline, and fertilizer is expected to accelerate the depletion of remaining inventories. Birol warned that shortages of fertilizer and diesel could be major risks to global food prices during planting season. Energy market disruptions increasingly threaten agricultural production, shipping costs, and consumer inflation simultaneously. The crisis has also increased fears of inflation and economic instability globally. Already rising oil prices have raised fuel prices, transportation costs and the costs of industrial production in several economies."
+        },
+        {
+          "title": "Strategic Oil Reserves Provide Short-Term Relief",
+          "descr": "Governments and international energy agencies more frequently resorted to emergency oil inventories to ease markets as commercial stocks declined. The International Energy Agency coordinated an unprecedented global release of strategic reserves to avoid a more severe supply shock. Reuters reported that strategic reserves added about 2.5 million barrels of oil per day into global markets. The United States was at the heart of the emergency response. The U.S. Strategic Petroleum Reserve saw a record withdrawal of 9.9 million barrels in one week alone, Reuters reported. Total U.S. emergency reserves dropped to approximately 374 million barrels, the lowest level since mid-2024. Despite the massive intervention, officials warned that emergency reserves cannot indefinitely replace lost global production."
+        },
+        {
+          "title": "Soaring Global Economic Risks Amid Oil Supply Shock",
+          "descr": "The rapidly deteriorating oil situation has fueled rising fears over broader economic fallout, including inflation, recession risks and financial instability. The IEA revised its 2026 oil supply outlook sharply downward because of the war. The agency now forecasts global oil supply will decline by approximately 3.9 million barrels per day this year, significantly worse than earlier estimates projecting only a 1.5 million barrel reduction. The IEA warned that higher oil prices, weaker economic conditions, and conservation efforts are likely to reduce global fuel consumption later this year. The agency forecast world oil demand would contract by approximately 420,000 barrels per day during 2026 compared with previous expectations. Financial markets reacted nervously as investors increasingly worried about stagflation risks involving slower growth combined with persistent inflation."
+        }
+      ],
+      "author": {
+        "name": "Aisha Patel",
+        "role": "Global Affairs Correspondent",
+        "bio": "",
+        "image": "/images/authors/aisha-patel.webp",
+        "email": "",
+        "twitter": "",
+        "facebook": "",
+        "instagram": "",
+        "substack": "",
+        "medium": ""
+    }
+    }
 ]

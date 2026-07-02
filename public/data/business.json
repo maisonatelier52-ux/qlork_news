@@ -476,5 +476,40 @@
       "substack": "",
       "medium": ""
     }
+  },
+  {
+    "category": "business",
+    "topic": "Corporate Regulation and Compliance",
+    "slug": "alibaba-600-million-doj-settlement-illegal-drug-sales-2026",
+    "title": "Alibaba to Pay $600M to Settle DOJ Investigation Over Illegal Pharmaceuticals and Controlled Goods Sales",
+    "image": "/images/news-img/alibaba-doj-settlement-illegal-pharmaceuticals-600m-2026.webp",
+    "date": "July 02, 2026",
+    "shortdescription": "Alibaba has agreed to pay $600 million to settle a U.S. Department of Justice investigation into allegations it failed to prevent illegal pharmaceutical and restricted product sales through its e-commerce platforms.",
+    "sub": [
+      {
+        "title": "Alibaba Agrees to $600 Million Settlement",
+        "descr": "Alibaba agreed to pay $600 million to settle a U.S. Department of Justice probe into allegations the company failed to stop illegal pharmaceutical, controlled substance and restricted chemical sales on its e-commerce platforms. The settlement, which resolves a multiyear investigation into the alleged sale and shipment of prohibited products to U.S. buyers through Alibaba.com and AliExpress, involves Alibaba Group and its U.S. payment processor."
+      },
+      {
+        "title": "The Investigation Focused on Platform Compliance and Seller Controls",
+        "descr": "The investigation found that Alibaba's platforms had large-scale transactions of illegal or restricted goods for a long time, the authorities said. The company had compliance systems in place, but they failed to adequately prevent merchants from listing or facilitating the sale of prohibited items, the DOJ said. The products allegedly included pharmaceuticals, drug-related equipment and regulated chemicals that violated U.S. import and safety rules.\n\nAlibaba has not admitted to criminal wrongdoing under the settlement framework but agreed to the financial penalty and to bolster its compliance and monitoring systems. The deal also includes commitments to improve oversight of third-party sellers on its platforms, especially those engaged in cross-border trade into the United States.\n\nThe U.S. government looked into how third-party merchants used Alibaba’s marketplace infrastructure to distribute products that allegedly violated federal law. Authorities looked at whether current safeguards were adequate to detect and prevent illegal listings from reaching consumers.\n\nReports say federal investigators found thousands of transactions involving prohibited or highly restricted goods, raising concerns about systemic weaknesses in enforcement mechanisms. The probe also flagged payment processing systems associated with Alibaba’s ecosystem that were allegedly used to facilitate some of the transactions under investigation.\n\nOfficials said large e-commerce platforms have a duty to keep an eye on the activity in their marketplaces, particularly when it comes to overseas sellers. The case is indicative of growing regulatory pressure on global tech firms to increase their oversight of third-party commerce activity, particularly in areas such as pharmaceuticals and regulated goods."
+      },
+      {
+        "title": "Global E-Commerce Scrutiny and Regulatory Implications",
+        "descr": "The settlement highlights increased scrutiny of global e-commerce platforms as regulators in the United States and other jurisdictions ramp up enforcement around cross-border trade in restricted goods. Authorities have indicated that there should be more robust compliance frameworks for large digital marketplaces, especially those operating globally.\n\nThe case is also expected to have wider implications for Chinese technology firms operating in global markets as regulators continue to scrutinize platform accountability, payment systems and seller verification procedures. Such a settlement could spur other big platforms to review their compliance infrastructure to avoid such enforcement, analysts say.\n\nThe deal is a major regulatory milestone as Alibaba pushes forward with its global commerce expansion and highlights ongoing friction between U.S. enforcement bodies and global digital trade ecosystems. The finding strengthens the expectation that large platforms should take proactive responsibility to prevent illegal trade activity across their networks."
+      }
+    ],
+   "author": {
+      "name": "Sarah Mitchell",
+      "role": "Senior News Correspondent",
+      "bio": "",
+      "image": "/images/authors/sarah-mitchell.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

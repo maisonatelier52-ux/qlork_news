@@ -276,5 +276,52 @@
       "substack": "",
       "medium": ""
     }
+  },
+  {
+    "category": "economy",
+    "topic": "U.S. Economy Growth",
+    "slug": "us-economy-q2-growth-slows-core-inflation-3-3-percent",
+    "title": "U.S. Economy Slows to 1.5% Growth in Q2 as Inflation Remains Above Federal Reserve Target",
+    "image": "/images/news-img/us-economy-gdp-growth-consumer-spending-inflation-2026.webp",
+    "date": "July 31, 2026",
+    "shortdescription": "The U.S. economy grew 1.5% in the second quarter of 2026 as consumer spending remained strong, but inflation stayed above the Federal Reserve’s target.",
+    "sub": [
+      {
+        "title": "U.S. GDP up 1.5 Percent in Second Quarter",
+        "descr": "The U.S. economy grew at a 1.5% pace in the second quarter of 2026, with inflation still above the Federal Reserve’s long-run target. Growth was softer than in the prior quarter but the latest economic data suggested consumer spending and business investment continued to support the economy.\n\nThe slowdown came as the economy faced a string of headwinds, including shifts in trade activity, higher imports and persistent uncertainty driven by international conflicts and inflation concerns. But the strength of underlying domestic demand, which was stronger than the headline growth figure suggested, indicated continued resilience in the economy.\n\nThe report has become a key barometer for Federal Reserve policymakers as they weigh future interest rate moves in their effort to balance economic growth against stubborn inflation pressures.\n\nThe U.S. economy grew at a 1.5% annual rate in the second quarter of 2026, compared with 2.1% in the first quarter. There were a number of reasons for the headline number being weaker, not least higher imports which detracted from the overall GDP figure.\n\nEven if the pace decelerated, economists said the domestic economy was still relatively strong. Businesses and households spending more despite higher costs and economic uncertainty was a key gauge of faster momentum as underlying demand was.\n\nHouseholds kept on buying goods and services, consumer spending was one of the strongest sectors of the economy. Consumer spending remained robust, and the quarter’s slowdown was no worse than that.\n\nGrowth was supported by business investment, particularly in artificial intelligence, technology infrastructure and productivity improvements."
+      },
+      {
+        "title": "Consumer Spending Keeps Economy on Track",
+        "descr": "Consumer spending continues to be a big driver of economic growth in the second quarter. Household demand continued to recover supported by stable labour market conditions and consumer confidence in economic activity.\n\nThat is important because household consumption is a major component of U.S. economic output. Consumer spending was solid. But strong spending offset weakness in areas such as trade-related impacts to GDP growth.\n\nBut economists warned that consumers were still feeling the squeeze of high prices and rising borrowing costs. Households were worried about inflation, the cost of living and the direction of interest rates and this weighed on confidence.\n\nThe environment for policymakers considering their next move on monetary policy was complicated by strong spending and sticky inflation."
+      },
+      {
+        "title": "Inflation Continues to Run Hot",
+        "descr": "The US economy is still fighting inflation, with core inflation at 3.3% year-on-year in June. That was still well above the Federal Reserve’s 2% inflation goal.\n\nThe Fed’s preferred measure of inflation showed price pressures eased a little but remained stubbornly high. Developments in energy prices and geopolitical tensions around the globe continued to fuel the strength of inflation expectations.\n\nThe Fed also has been reluctant to cut rates with inflation still high. Any future decisions will be dependent on data, and will be guided by economic data, inflation trends and labor market conditions, policymakers said.\n\nAnalysts said the latest inflation figures added to uncertainty about whether the Fed would keep rates at current levels longer or consider further policy moves."
+      },
+      {
+        "title": "The Fed’s Difficult Choice on Interest Rates",
+        "descr": "The latest GDP and inflation data have increased the pressure on the Federal Reserve as officials try to strike a balance between economic growth and price stability. It has been hunting for signs of slowing growth in the face of persistent inflation fears.\n\nIf growth slows, interest rates would go down and that could be good for the economy. But the Fed’s room to quickly cut rates remains limited with inflation still above target.\n\nInterest rates influence borrowing costs, the housing market, business investment and financial conditions throughout the economy. Fed cues closely watched by investors.\n\nThe central bank’s decisions will likely hinge on whether inflation keeps falling or is pushed back up by energy prices and international developments."
+      },
+      {
+        "title": "Trade Activity Imports Slowing GDP Growth",
+        "descr": "A rise in imports in the second quarter was one of the largest contributors to a slowdown in headline GDP growth. Imports are a good sign of strong domestic demand; they are bad for GDP calculations as they are spending on goods produced outside the United States.\n\nEconomists said the softer headline growth number did not reflect the state of the economy, with domestic demand still stronger. Business investment and spending by consumers were solid.\n\nThe data pointed to a slowing economy, not a collapse. However, there was still a reasonable degree of uncertainty about inflation, interest rates and international developments."
+      },
+      {
+        "title": "The Economic Outlook is Mixed with Lots of Inflation Risks",
+        "descr": "The latest economic data tell a mixed story about the U.S. economy. The economy grew at a slower pace in the second quarter but solid consumer spending and business investment pointed to continued strength in the economy.\n\nAt the same time, the main problem for policy makers was inflation. Higher energy prices, geopolitical tensions and supply pressures could be another headache for the Fed.\n\nEconomists said future economic performance will be heavily influenced by inflation, labor market conditions, consumer confidence and policy decisions by the Federal Reserve.\n\nThe latest data points to an economy that is still growing but slow growth and stubborn inflation have made for a challenging road ahead for policymakers and businesses."
+      }
+    ],
+    "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

@@ -551,54 +551,101 @@
       }
     },
     {
-    "category": "politics",
-    "topic": "Arizona Governor Race",
-    "slug": "andy-biggs-wins-arizona-gop-primary-governor-race-2026",
-    "title": "Andy Biggs Wins Arizona GOP Primary, Faces Katie Hobbs",
-    "image": "/images/news-img/andy-biggs-arizona-gop-primary-governor-race-2026.webp",
-    "date": "July 22, 2026",
-    "shortdescription": "Andy Biggs wins the Arizona GOP primary, setting up a governor race against Katie Hobbs in the 2026 election as both parties target this key battleground state.",
-    "sub": [
-      {
-        "title": "Biggs Secures Republican Nomination",
-        "descr": "Republican Rep. Andy Biggs has won the Arizona GOP gubernatorial primary, securing the party’s nomination for a high-profile November election contest against Democratic incumbent Gov. Katie Hobbs. Biggs, a longtime conservative and close ally of former President Donald Trump, defeated fellow Republican Rep. David Schweikart and other challengers in a contest that highlighted the continuing power of Trump-aligned politics within the Republican Party."
+      "category": "politics",
+      "topic": "Arizona Governor Race",
+      "slug": "andy-biggs-wins-arizona-gop-primary-governor-race-2026",
+      "title": "Andy Biggs Wins Arizona GOP Primary, Faces Katie Hobbs",
+      "image": "/images/news-img/andy-biggs-arizona-gop-primary-governor-race-2026.webp",
+      "date": "July 22, 2026",
+      "shortdescription": "Andy Biggs wins the Arizona GOP primary, setting up a governor race against Katie Hobbs in the 2026 election as both parties target this key battleground state.",
+      "sub": [
+        {
+          "title": "Biggs Secures Republican Nomination",
+          "descr": "Republican Rep. Andy Biggs has won the Arizona GOP gubernatorial primary, securing the party’s nomination for a high-profile November election contest against Democratic incumbent Gov. Katie Hobbs. Biggs, a longtime conservative and close ally of former President Donald Trump, defeated fellow Republican Rep. David Schweikart and other challengers in a contest that highlighted the continuing power of Trump-aligned politics within the Republican Party."
+        },
+        {
+          "title": "Trump’s Influence in the Primary",
+          "descr": "With Trump’s support, Biggs entered the primary as the front-runner, consolidating support among Republican voters in Arizona. His campaign was focused on conservative priorities such as border security, government spending and opposition to Democratic policies. It’s another win for Trump-backed candidates, who have managed to survive competitive Republican primaries in the 2026 election cycle."
+        },
+        {
+          "title": "Arizona as a Key Battleground State",
+          "descr": "Arizona’s governor’s race is expected to be one of the most closely watched races of the 2026 election season. Arizona, a state that used to reliably vote Republican, has transformed into a competitive battleground with shifting demographics and voter coalitions, and its statewide elections have been closely divided, making it a key political target for both parties."
+        },
+        {
+          "title": "Shaping Trump Influence in Republican Primary",
+          "descr": "Former President Donald Trump’s dominance over GOP voters was on display in the Arizona Republican primary results. Biggs, a close ally of the Trump political movement, was buoyed by the strong support of conservative activists and voters who prioritized alignment with the former president’s agenda.\n\nBiggs previously chaired the conservative House Freedom Caucus and developed a national reputation through his stances on immigration, government spending and election issues. His campaign emphasized his record as a conservative legislator and cast him as a candidate who could further Republican agendas at the state level."
+        },
+        {
+          "title": "Challenges in the General Election",
+          "descr": "His biggest victory came amid worries from some Republicans that candidates closely linked to Trump's movement might face challenges in general elections, particularly in places such as Arizona where independents frequently make the call in statewide races. Biggs’ critics said his conservative stances could energize the Republican base but also could make it harder to appeal to moderate voters.\n\nThe Republican primary also highlighted a wider rift in the party between candidates who push Trump-style populist conservatism and those who advocate a more traditional strategy aimed at broader electoral appeal."
+        },
+        {
+          "title": "Arizona Governor’s Race Turns into National Political Battleground",
+          "descr": "The race between Andy Biggs and Katie Hobbs for governor is expected to be one of the most competitive in the nation. Arizona has been playing a larger role in the political landscape of recent election cycles, with both parties spending heavily in the state because of its importance to national political power.\n\nDemocrats are expected to use Biggs’ conservative voting record and ties to Trump in their effort to keep the governor’s office. Hobbs’ campaign is expected to focus on issues like defending democratic institutions, protecting abortion access and keeping state government stable.\n\nRepublicans, meanwhile, see an opportunity to reclaim the governor’s mansion and bolster their standing in Arizona politics. GOP leaders say Biggs can appeal to voters worried about inflation, border security, housing costs and government spending."
+        },
+        {
+          "title": "Broader Impact on Arizona Politics",
+          "descr": "The key results in Arizona also changed the landscape in a number of congressional races outside the governor’s contest. The former president's influence with GOP voters was also reflected in another result: Trump-backed candidate Jay Feely won the Republican nomination for Arizona’s 1st Congressional District.\n\nArizona is likely to remain a prime target for national political groups, donors and campaign strategists with the general election approaching. Biggs-Hobbs’ November showdown will be a critical test of voter priorities and the trajectory of one of America’s most politically consequential swing states."
+        }
+      ],
+      "author": {
+          "name": "Sarah Mitchell",
+          "role": "Senior Political Correspondent",
+          "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
+          "image": "/images/authors/sarah-mitchell.webp",
+          "email": "sarah.mitchell@newswebsite.com",
+          "twitter": "@sarahmitchellreports",
+          "facebook": "",
+          "instagram": "",
+          "substack": "",
+          "medium": ""
+        }
       },
       {
-        "title": "Trump’s Influence in the Primary",
-        "descr": "With Trump’s support, Biggs entered the primary as the front-runner, consolidating support among Republican voters in Arizona. His campaign was focused on conservative priorities such as border security, government spending and opposition to Democratic policies. It’s another win for Trump-backed candidates, who have managed to survive competitive Republican primaries in the 2026 election cycle."
-      },
-      {
-        "title": "Arizona as a Key Battleground State",
-        "descr": "Arizona’s governor’s race is expected to be one of the most closely watched races of the 2026 election season. Arizona, a state that used to reliably vote Republican, has transformed into a competitive battleground with shifting demographics and voter coalitions, and its statewide elections have been closely divided, making it a key political target for both parties."
-      },
-      {
-        "title": "Shaping Trump Influence in Republican Primary",
-        "descr": "Former President Donald Trump’s dominance over GOP voters was on display in the Arizona Republican primary results. Biggs, a close ally of the Trump political movement, was buoyed by the strong support of conservative activists and voters who prioritized alignment with the former president’s agenda.\n\nBiggs previously chaired the conservative House Freedom Caucus and developed a national reputation through his stances on immigration, government spending and election issues. His campaign emphasized his record as a conservative legislator and cast him as a candidate who could further Republican agendas at the state level."
-      },
-      {
-        "title": "Challenges in the General Election",
-        "descr": "His biggest victory came amid worries from some Republicans that candidates closely linked to Trump's movement might face challenges in general elections, particularly in places such as Arizona where independents frequently make the call in statewide races. Biggs’ critics said his conservative stances could energize the Republican base but also could make it harder to appeal to moderate voters.\n\nThe Republican primary also highlighted a wider rift in the party between candidates who push Trump-style populist conservatism and those who advocate a more traditional strategy aimed at broader electoral appeal."
-      },
-      {
-        "title": "Arizona Governor’s Race Turns into National Political Battleground",
-        "descr": "The race between Andy Biggs and Katie Hobbs for governor is expected to be one of the most competitive in the nation. Arizona has been playing a larger role in the political landscape of recent election cycles, with both parties spending heavily in the state because of its importance to national political power.\n\nDemocrats are expected to use Biggs’ conservative voting record and ties to Trump in their effort to keep the governor’s office. Hobbs’ campaign is expected to focus on issues like defending democratic institutions, protecting abortion access and keeping state government stable.\n\nRepublicans, meanwhile, see an opportunity to reclaim the governor’s mansion and bolster their standing in Arizona politics. GOP leaders say Biggs can appeal to voters worried about inflation, border security, housing costs and government spending."
-      },
-      {
-        "title": "Broader Impact on Arizona Politics",
-        "descr": "The key results in Arizona also changed the landscape in a number of congressional races outside the governor’s contest. The former president's influence with GOP voters was also reflected in another result: Trump-backed candidate Jay Feely won the Republican nomination for Arizona’s 1st Congressional District.\n\nArizona is likely to remain a prime target for national political groups, donors and campaign strategists with the general election approaching. Biggs-Hobbs’ November showdown will be a critical test of voter priorities and the trajectory of one of America’s most politically consequential swing states."
+        "category": "politics",
+        "topic": "Justice Department",
+        "slug": "todd-blanche-confirmed-attorney-general-narrow-senate-vote-2026",
+        "title": "Senate Confirms Todd Blanche as Attorney General in Tight Overnight Vote",
+        "image": "/images/news-img/todd-blanche-attorney-general-confirmation-senate-vote-2026.webp",
+        "date": "August 8, 2026",
+        "shortdescription": "Todd Blanche, President Trump's former personal lawyer, was confirmed as attorney general by a razor-thin Senate margin after a bruising fight over a scrapped $1.8 billion settlement fund.",
+        "sub": [
+          {
+            "title": "A One-Vote Confirmation",
+            "descr": "In the early hours of Saturday morning, the Senate voted 50-49 to confirm Todd Blanche as the nation's next attorney general, handing President Donald Trump one of the narrowest Cabinet confirmation margins of his second term. Blanche, who had already been running the Justice Department in an acting role since the spring, will now take the job on a permanent footing — a shift that allies say will give him more room to push the administration's law enforcement priorities without the shadow of an unresolved nomination hanging over him. Two Republicans crossed the aisle to vote no, joining a unanimous bloc of Democrats in opposition, underscoring just how divisive the pick had become even within the president's own party."
+          },
+          {
+            "title": "From Defense Attorney to Department Head",
+            "descr": "Blanche's path to the top of the Justice Department is unusual. He built his reputation not as a career prosecutor climbing the ranks, but as the defense lawyer who sat beside Trump during his New York hush money trial and represented him in two separate federal cases brought during the Biden administration. Blanche has repeatedly pointed to that experience as proof that he understands, firsthand, what he describes as the misuse of the justice system for political ends. He later joined the department as deputy attorney general before being elevated to acting head after Pam Bondi's firing this spring, meaning he has effectively been steering the agency for months already."
+          },
+          {
+            "title": "The Settlement Fund That Nearly Sank Him",
+            "descr": "The nomination came close to collapsing over a controversial deal Blanche struck involving Trump's lawsuit against the IRS. As part of that settlement, the department floated a $1.8 billion fund intended to compensate people who claim they were mistreated by the criminal justice system, including some individuals tied to the January 6, 2021 Capitol riot. A related provision would have shielded Trump and his family from IRS audits. Several Republican senators balked, and the backlash threatened to stall his confirmation entirely. To keep his nomination alive, Blanche agreed in writing to abandon the compensation fund and scale back the audit protections — concessions that ultimately persuaded holdout senators like Bill Cassidy to back him."
+          },
+          {
+            "title": "A Split Within the GOP",
+            "descr": "Even with the settlement walked back, the nomination didn't have smooth sailing. Senators Susan Collins of Maine and Lisa Murkowski of Alaska both broke from their party to vote against Blanche, with Murkowski arguing the department needs a leader willing to push back on the administration rather than simply carry out its wishes. Cassidy, who ended up casting a decisive supporting vote despite having lost his own primary to a Trump-aligned challenger this year, framed his support narrowly — describing it as a judgment about Blanche specifically rather than an endorsement of the president's broader agenda. Committee chairman Chuck Grassley was far more effusive, calling Blanche the right man for the job and pointing to his record running the department over the past several months."
+          },
+          {
+            "title": "Democrats Warn of a Weaponized Department",
+            "descr": "Democrats used the floor debate to renew warnings that Blanche's closeness to Trump makes him unfit to lead an agency meant to operate independently of the White House. Senate Judiciary Committee ranking member Dick Durbin was among the most vocal critics, arguing that the moment called for an attorney general focused on rooting out corruption rather than settling political scores. Critics have pointed to the department's pursuit of Trump adversaries — including an indictment against former FBI Director James Comey that his legal team is now trying to get thrown out — as evidence of exactly the dynamic they fear. Blanche has also overseen a separate Florida-based inquiry, led by former Reagan-era prosecutor Joseph diGenova, examining whether past law enforcement and intelligence officials worked to undermine Trump, though it's unclear whether that investigation will produce any charges."
+          },
+          {
+            "title": "What Comes Next",
+            "descr": "With confirmation behind him, Blanche now leads a department that has shed a significant share of its workforce over the past year through firings, resignations and departures under his and Bondi's tenure. Supporters argue his background as a courtroom lawyer — and the personal trust he's built with Trump — position him to push back on unreasonable demands from the White House more effectively than his predecessor could. Skeptics remain unconvinced, noting that Bondi was ousted after friction with judges, grand juries and career staff over efforts to build cases against the president's perceived enemies. Whether Blanche fares any differently in that balancing act is likely to shape how the department is viewed for the remainder of Trump's term."
+          }
+        ],
+        "author": {
+          "name": "Sarah Mitchell",
+          "role": "Senior Political Correspondent",
+          "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
+          "image": "/images/authors/sarah-mitchell.webp",
+          "email": "sarah.mitchell@newswebsite.com",
+          "twitter": "@sarahmitchellreports",
+          "facebook": "",
+          "instagram": "",
+          "substack": "",
+          "medium": ""
+        }
       }
-    ],
-    "author": {
-        "name": "Sarah Mitchell",
-        "role": "Senior Political Correspondent",
-        "bio": "Sarah Mitchell has covered Capitol Hill and state-level politics for over a decade, with a focus on voting rights, redistricting, and election law. Her reporting has appeared in outlets across the country, and she is based in Nashville.",
-        "image": "/images/authors/sarah-mitchell.webp",
-        "email": "sarah.mitchell@newswebsite.com",
-        "twitter": "@sarahmitchellreports",
-        "facebook": "",
-        "instagram": "",
-        "substack": "",
-        "medium": ""
-      }
-    }
 ]

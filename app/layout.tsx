@@ -185,7 +185,6 @@
 //     </html>
 //   );
 // }
-
 import type { Metadata } from "next";
 import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
@@ -354,9 +353,14 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${merriweather.variable} ${sen.variable} ${libreBaskerville.variable} antialiased`}
       >
-        {/* Google tag (gtag.js) */}
+        {/* Google tag (gtag.js) - Google Ads */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18388859425"
+          strategy="afterInteractive"
+        />
+        {/* Google tag (gtag.js) - Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GTF9RE9V9K"
           strategy="afterInteractive"
         />
         <Script id="google-tag-config" strategy="afterInteractive">
@@ -365,6 +369,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-18388859425');
+            gtag('config', 'G-GTF9RE9V9K');
           `}
         </Script>
         {children}

@@ -191,6 +191,7 @@ import { Inter, Merriweather } from "next/font/google";
 import "./globals.css";
 import { Libre_Baskerville } from 'next/font/google';
 import localFont from 'next/font/local'
+import Script from 'next/script'
 
 const sen = localFont({
   src: [
@@ -353,6 +354,19 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${merriweather.variable} ${sen.variable} ${libreBaskerville.variable} antialiased`}
       >
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18388859425"
+          strategy="afterInteractive"
+        />
+        <Script id="google-tag-config" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18388859425');
+          `}
+        </Script>
         {children}
       </body>
     </html>

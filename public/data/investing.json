@@ -218,5 +218,48 @@
       "substack": "",
       "medium": ""
     }
+  },
+  {
+    "category": "investing",
+    "topic": "AI Stock Sell-Off",
+    "slug": "wall-street-ai-stock-selloff-investment-risks-2026",
+    "title": "Wall Street Selloff Hits AI Stocks as Investors Retreat",
+    "image": "/images/news-img/wall-street-ai-stock-selloff-nyse-trading-floor-2026.webp",
+    "date": "November 6, 2026",
+    "shortdescription": "Wall Street suffered a sharp sell-off as investors pulled back from AI stocks, with Nvidia and AMD sliding on worries over spending and valuations.",
+    "sub": [
+      {
+        "title": "Wall Street Sells Off as Investors Back Away From AI",
+        "descr": "Stocks took a hard hit on Thursday. Investors pulled back from artificial intelligence companies, and the selling raised a fair question: can the huge sums going into this technology really pay off?\n\nThe S&P 500 fell 4.4% and closed at 7,353.73. The Dow Jones Industrial Average lost 3.4% to finish at 51,523.06. The Nasdaq Composite had it worst, sliding 5.5% as technology and chip stocks got hammered.\n\nBehind the drop is a growing worry about returns. Big tech firms keep pouring capital into data centers, advanced computing equipment and chip development. Market reports say investors are now asking whether all that building will bring in enough profit over time to justify today's stock prices.\n\nIt is the kind of doubt that doesn't need a single trigger. Once enough people start asking whether the numbers add up, selling tends to feed on itself, and Thursday was a clear example of that."
+      },
+      {
+        "title": "Chip Makers and Data Center Suppliers Take the Heaviest Losses",
+        "descr": "Several well-known names had a rough session. Nvidia dropped 9.3%, and Advanced Micro Devices fell 17.3%, a sign of how much pressure is sitting on chip companies tied to AI infrastructure.\n\nThe pain was not limited to semiconductors. GE Vernova, which supplies power and other services to data centers, lost 7.5% as investors took another look at businesses that benefit from building out AI computing sites.\n\nThe day showed how risky it can be to bunch too much money into one theme. When expectations shift, portfolios built around that theme can fall quickly.\n\nNot everything sank, though. AppLovin shares jumped 31% after strong results and a larger share-buyback plan. Investors are still willing to reward companies with good earnings news."
+      },
+      {
+        "title": "The Money Question Behind the Selloff",
+        "descr": "At the center of it all is the sheer cost of AI. Technology companies have committed billions of dollars to data centers, advanced processors and more computing capacity for ever more capable systems.\n\nThat spending has fed plenty of excitement. But investors are looking harder at whether future revenue and profit can cover the bill.\n\nOther worries have piled on top. Borrowing costs, the work of building the facilities and possible regulatory limits all add uncertainty to the outlook.\n\nThe debate matters most for chip makers, cloud computing providers and the firms that supply electricity and equipment to large data center operators.\n\nThose companies have all been priced as if the buildout will keep going at full speed. Any sign that the spending could slow, or that it may not earn its keep, hits them first."
+      },
+      {
+        "title": "Volatility Jumps as Investors Cut Risk",
+        "descr": "The drop also sent market volatility sharply higher. The Nasdaq 100 fell 6.4%, and the Cboe Volatility Index, known as the VIX, hit an eight-month high of 28.36 during the session.\n\nDemand for protective positions rose as fears of more declines grew. Reuters reported that volatility-sensitive strategies and big hedge funds added to the selling, while individual investors also trimmed their stock holdings.\n\nTaken together, it suggests investors are getting more careful about the chance of further losses in high-growth tech.\n\nA reading like 28.36 on the VIX doesn't predict what comes next. It does show that traders were paying up for insurance, which is usually a sign of nerves rather than calm."
+      },
+      {
+        "title": "What It Means for Everyday Investors",
+        "descr": "Artificial intelligence has been one of the strongest forces behind Wall Street's optimism, pulling in money from institutions, asset managers and individual traders alike. Thursday showed how fast the mood can turn when doubts appear about valuations, financing and expected returns.\n\nFor investors, that puts more weight on diversification, solid earnings and the financial strength of each company. Putting everything on a single theme looks riskier after a day like this.\n\nWhere the market goes next will depend partly on whether tech companies can prove that their AI spending turns into lasting revenue and profit.\n\nAI remains an important long-term opportunity. But Thursday's selloff suggests investors are getting pickier about which companies, and which prices, they're willing to back."
+      }
+    ],
+    "author": {
+      "name": "David Thompson",
+      "role": "News Reporter",
+      "bio": "",
+      "image": "/images/authors/david-thompson.webp",
+      "email": "",
+      "twitter": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

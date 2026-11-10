@@ -465,5 +465,47 @@
       "substack": "",
       "medium": ""
     }
+  },
+  {
+    "category": "finance",
+    "topic": "Credit Card Rates and Competition",
+    "slug": "new-york-fed-credit-card-interest-rates-market-competition-2026",
+    "title": "New York Fed Study Examines Credit Card Interest Rates",
+    "image": "/images/news-img/new-york-fed-credit-card-interest-rates-market-competition-2026.webp",
+    "date": "November 10, 2026",
+    "shortdescription": "New York Fed research finds that credit card lenders' market positions affect how funding-cost cuts are passed on to U.S. borrowers.",
+    "sub": [
+      {
+        "title": "New York Fed Study Looks at Credit Card Competition",
+        "descr": "New research from the Federal Reserve Bank of New York is putting fresh attention on how competition between lenders shapes the interest rates Americans pay on credit cards. The work, published on November 4 through the bank's Liberty Street Economics platform, finds a link between a lender's position in the market and the annual percentage rates it offers to newly approved customers. The researchers looked at about 14 million newly issued credit card accounts, comparing borrower characteristics, lender market shares and changes in the lenders' own funding costs. Their central finding is that two borrowers with similar credit scores, income and card features can receive different offers, depending on how much competitive pressure the issuer faces in that market. In other words, the card you are offered may say as much about the lender's position as it does about your own finances."
+      },
+      {
+        "title": "Bigger Market Share Means Smaller Pass-Through",
+        "descr": "The study suggests that lenders with large shares of a market tend to pass along less of any drop in their funding costs. When a lender's financing gets cheaper, that saving doesn't automatically show up as an equal cut in the rates offered to new customers. In markets where a lender holds a stronger position, the pass-through is smaller than in markets where the same lender is weaker. To test this, the researchers split the credit card business into 960 separate markets, grouped by credit score, income, card type and how customers were acquired. That approach let them compare real customer segments instead of treating the whole industry as a single uniform market."
+      },
+      {
+        "title": "What the Data Shows About Rate Changes",
+        "descr": "The analysis relied on confidential account-level data collected by the Office of the Comptroller of the Currency, covering the annual percentage rates and borrower characteristics of new cards. Across comparable groups of borrowers, a bigger market share went hand in hand with higher offered rates. The team also studied how lenders reacted when funding costs changed unexpectedly. In one example, the federal funds rate fell by 25 basis points in January 2008. Two weeks later, the pass-through of that cut was roughly 20% lower in high-share markets than in lower-share markets served by the same lender. The relationship held up statistically when the researchers looked at other rate changes between 2008 and 2019."
+      },
+      {
+        "title": "Why Borrowers Should Pay Attention",
+        "descr": "Credit card interest rates directly affect how much people pay when they carry a balance. For households that use revolving credit to cover everyday expenses, even a small gap in the annual percentage rate can add up to a meaningful difference in borrowing costs over time, especially for people who carry a balance from month to month. The New York Fed's work is a reminder that similar financial profiles won't always lead to the same offer. Competition among lenders, product features and local market conditions can all shape the terms on the table. The findings also raise a wider question about how well changes in the cost of funds reach consumers, which matters when the Federal Reserve moves interest rates."
+      },
+      {
+        "title": "What It Means for Banks and the Wider Market",
+        "descr": "Banks and card issuers compete through interest rates, rewards programs, promotional offers and other features. The research suggests, however, that a lender's competitive position can influence how a drop in funding costs is reflected in offers to new customers. As consumers compare products more closely and look for better borrowing terms, keeping prices competitive may become more important for issuers. The researchers are careful to say that the relationship they found does not by itself explain every factor behind individual lending decisions. Still, the evidence suggests that market position matters, and as household borrowing remains central to the financial system, the link between competition and consumer rates is likely to stay on the agenda for policymakers, banks and researchers, who will likely keep asking how much of each rate cut actually reaches the customer."
+      }
+    ],
+    "author": {
+      "name": "Maria Rodriguez",
+      "role": "Senior Staff Writer",
+      "bio": "",
+      "image": "/images/authors/maria-rodriguez.webp",
+      "email": "",
+      "facebook": "",
+      "instagram": "",
+      "substack": "",
+      "medium": ""
+    }
   }
 ]

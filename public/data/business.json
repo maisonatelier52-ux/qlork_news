@@ -52,6 +52,53 @@
     }
   },
   {
+  "category": "business",
+  "topic": "US Business News",
+  "slug": "job-cuts-bankruptcies-big-deals-reshape-corporate-america",
+  "title": "Job Cuts, Bankruptcies and Big Deals Reshape Corporate America",
+  "image": "/images/news-img/job-cuts-bankruptcies-big-deals-reshape-corporate-america.webp",
+  "date": "November 11, 2026",
+  "shortdescription": "PepsiCo and Boeing cut jobs, Children's Place files for bankruptcy, CVS plans a major split and Honda invests $3 billion in Ohio. Here is the latest US business news.",
+  "sub": [
+    {
+      "title": "Corporate America is making some tough calls this week",
+      "descr": "If you thought the US economy was finally settling down, this week might change your mind. PepsiCo is cutting jobs. So is Boeing. A well-known kids' clothing chain has filed for bankruptcy, and CVS wants to split itself in two. Then there's Honda, quietly planning a $3 billion factory in Ohio, which proves that not everyone is hitting the brakes. So what's really going on? With prices still stubborn and borrowing still expensive, companies are being forced to decide what is worth keeping and what has to go. Some are shrinking, some are restructuring, and a few are doubling down. If you follow US business news, this week is a good snapshot of how uneven the economy feels right now. Let's walk through the biggest stories one by one."
+    },
+    {
+      "title": "PepsiCo and Boeing Are Tightening Up",
+      "descr": "Two giant names, one message. PepsiCo is cutting about 1,000 jobs because its North American business has been struggling. That might sound surprising for a company whose products sit in nearly every pantry and vending machine, but shoppers are being careful with their money, and even the biggest brands feel it when people trade down or simply buy less. Boeing is trimming 5% of its commercial airplane unit after production didn't ramp up as quickly as planned. Different industries, same headache: sales and output aren't matching what these companies hoped for, and when that happens, payroll is usually the first place they look. For the workers affected, it's tough news. For investors, it's a sign that companies are choosing to protect their profit margins over growth, at least for now."
+    },
+    {
+      "title": "Children's Place Files for Bankruptcy as CVS and Kraft Heinz Restructure",
+      "descr": "Retail had a rotten start to the week. The Children's Place filed for bankruptcy protection and is now looking for a buyer, joining a growing list of struggling retailers this year. For parents who have bought school clothes there for years, it's a familiar name facing an uncertain future, and it shows how hard it is for traditional chains to compete when costs are rising and shoppers are cutting back. Then there's CVS, which plans to split off its drugstore business in a major breakup. Investors weren't thrilled, and the stock fell. Kraft Heinz is also letting go of a big piece of itself, selling its North American coffee business for $650 million. The big question is whether smaller, more focused companies really do better than the giants they came from. We'll find out in the coming months."
+    },
+    {
+      "title": "Honda Puts $3 Billion Into Ohio, and McDonald's Gets a Boost",
+      "descr": "It's not all doom and gloom, though. Honda is investing $3 billion in a new vehicle assembly plant in Ohio, which is a real vote of confidence in building things in America. Projects like this usually mean steady work, new jobs and a lift for the local economy for years to come, so it's exactly the kind of story the manufacturing sector wants right now. And McDonald's? It beat earnings expectations, and its US restaurants showed some improvement, so the stock rose. That matters because restaurants are often a good indicator of how comfortable people feel about spending. It's proof that companies that keep their customers happy can still grow, even when times are tough."
+    },
+    {
+      "title": "Why Everyday Costs Still Matter for Consumers",
+      "descr": "Now for the part that hits your wallet. A new car now costs an average of $51,109, a record high, which puts a brand-new vehicle out of reach for a lot of families. Credit card debt keeps creeping up, and a New York Fed report showed household debt rose again in the third quarter, a worrying sign when interest rates are already high. In housing, listings piled up in October, but sellers still aren't cutting prices, so buyers and sellers are stuck in a standoff. There was one small bright spot: gas fell below $4 a gallon for the first time since July. It's not a huge win, but you'll take it. The bottom line is simple. Budgets are still stretched, and everyone, from big corporations to ordinary families, is being careful with every dollar."
+    },
+    {
+      "title": "What to Watch Next in the US Economy",
+      "descr": "So where does this leave us? Keep an eye on the Federal Reserve, which meets again in December. After a hotter-than-expected inflation report this week, traders see a 91% chance of another quarter-point rate hike. Higher rates make borrowing more expensive for companies and households alike, which could add to the pressure behind many of the stories above. If prices stay high, we're likely to see more job cuts, more deals and more restructuring. But as Honda and McDonald's showed this week, there is still room to grow for companies with a clear plan."
+    }
+  ],
+  "author": {
+    "name": "Sarah Mitchell",
+    "role": "Senior News Correspondent",
+    "bio": "",
+    "image": "/images/authors/sarah-mitchell.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
     "category": "business",
     "topic": "Renting and Financial Management",
     "slug": "renters-use-rent-now-pay-later-services-manage-monthly-payments-fees-concerns",

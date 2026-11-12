@@ -1,11 +1,62 @@
 [
   {
+  "category": "politics",
+  "topic": "Washington Politics",
+  "slug": "trump-immigration-shift-food-tariff-fight-december-funding-deadline",
+  "title": "Trump's Mixed Message on Immigration, a Food Tariff Fight and a December Funding Deadline",
+  "image": "/images/news-img/trump-immigration-shift-food-tariff-fight-december-funding-deadline.webp",
+  "date": "November 12, 2026",
+  "shortdescription": "Trump hints at a softer immigration stance but names Stephen Miller chief of staff, Gov. Whitmer takes on food tariffs, and Congress faces a December 11 shutdown deadline.",
+  "sub": [
+    {
+      "title": "Washington is sending mixed signals after the midterms",
+      "descr": "Democrats are heading into the new Congress with real power, and it's already changing how Washington talks and acts. In just the last few days, President Donald Trump has hinted at a softer approach on immigration while quietly putting one of its hardest-line architects in charge of his staff. A governor has gone straight to the Treasury Department over grocery prices. The Supreme Court has pushed back on an attempt to change how ballots are counted. And Congress is staring at a funding deadline just a few weeks away. If you're trying to keep track of the latest US political news, here's a plain-English look at what's really going on."
+    },
+    {
+      "title": "Trump Talks About a Softer Immigration Approach, Then Puts Stephen Miller in Charge",
+      "descr": "The biggest head-scratcher of the week came on immigration. After Democrats won control of the next Congress, Trump said his crackdown may have been \"too tough\" and told CBS's \"60 Minutes\": \"I'd love to do something on immigration.\" Hours later, he named Stephen Miller, the architect of his hardline immigration agenda, as his new chief of staff. It's hard to read those two moves together. Homeland Security Secretary Markwayne Mullin has made his own position clear, writing that \"deportations will continue.\" On the ground, arrests are still being reported in California, Michigan, Massachusetts, Florida and Alabama, and immigration advocates in Miami say the arrests \"have not ceased at all.\" So is this a real change of direction or just a change of tone? For now, who Trump puts in the room says more than what he says on camera."
+    },
+    {
+      "title": "Gov. Whitmer Asks the Treasury to End Food Tariffs",
+      "descr": "Grocery bills have turned into a political fight of their own. Michigan Gov. Gretchen Whitmer sent a letter on Tuesday to Treasury Secretary Scott Bessent asking the administration to end the food tariffs imposed in 2025 and 2026 and to reimburse Michigan residents for the higher costs. She pointed to figures from the National Taxpayers Union Foundation showing that Michigan households have faced an average tariff burden of $6,485 each since January 2025, which her office says is the highest in the country. She also noted that exports to Canada fell 12.3% last year. The Treasury Department didn't answer the letter directly. A spokesperson instead pointed to Bessent's recent comments that \"food is below the Fed's targets\" and that rising energy prices are an \"energy shock\" linked to the Iran conflict. It's a kitchen-table argument, and it's one that voters in both parties are likely to keep hearing about."
+    },
+    {
+      "title": "Congress Faces a December 11 Shutdown Deadline",
+      "descr": "Back on Capitol Hill, lawmakers are returning to a long and messy to-do list. The most urgent item is funding the government. A stopgap bill has kept programs running since October 1, and Congress needs to pass another measure by December 11 to avoid a shutdown. Full-year spending bills worth about $1.9 trillion are unlikely to be finished in time, so most people expect another short-term patch that pushes the fight into 2027. There's plenty more waiting. The long-overdue farm bill needs Democratic votes and has become a fight over food aid, E15 fuel and conservation money. A final deal on the annual defense bill is possible. The House still has to decide whether to take up a Senate-passed college sports bill and a bipartisan permitting reform bill, and Senate Republicans want to confirm judges and other nominees before they leave for the holidays."
+    },
+    {
+      "title": "Democrats Start Using Their New Leverage on Drug Prices",
+      "descr": "Even before they officially take over, Democrats are already flexing their new muscle. Incoming committee leaders have sent letters to all 27 drugmakers that signed \"most favored nation\" pricing agreements with the Trump administration, asking them to hand over the details of those deals, including unredacted contracts. The agreements tie Medicaid drug prices to the lower prices paid in other wealthy countries, and the White House has pitched them as a big win for patients. Democrats want to know if they truly deliver what was promised. It's a preview of how oversight is about to change. When the new Congress arrives in January, expect more letters, more hearings and tougher questions about whether the administration's health policies live up to the headlines."
+    },
+    {
+      "title": "Courts Say Election Rules Can't Be Rewritten on the Fly",
+      "descr": "The courts have been just as busy. On November 2, the Supreme Court turned down an emergency request from the Trump administration that would have forced California to set aside ballots from about 20,000 voters suspected of being noncitizens. The order was short and came without any explanation or publicly noted dissent, so California can keep counting under its normal procedures. The next day, Judge Tanya Chutkan in Washington temporarily barred federal officials from sending states lists of voters suspected of lacking citizenship and from pressuring election officials to separate ballots, citing concerns that the government's information could be wrong. The legal fight isn't over, but the early message from the courts has been clear. Changes to how elections are run need a solid legal basis, not an emergency shortcut."
+    },
+    {
+      "title": "What to Watch Next in US Politics",
+      "descr": "So where does all of this leave us? Keep an eye on three things. First, whether Trump's immigration comments turn into actual policy, or whether the Miller appointment signals the crackdown is here to stay. Second, how Congress handles the December 11 deadline and whether Democrats and Republicans can cut a deal on the farm bill and the defense bill before the year ends. Third, how quickly Democrats move from letters to formal investigations once they take control in January. With prices still a major worry for households, expect the cost of living to stay at the center of nearly every political argument in the weeks ahead."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Staff Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
     "category": "politics",
     "topic": "Middle East Conflict",
     "slug": "us-israel-attack-iran-live-updates-kuwait-warplanes-saudi-aramco-hit",
     "title": "US-Israel Attack Iran Live Updates: Kuwait says several 'US warplanes crashed'; Saudi's Aramco oil refinery hit by Iranian drone",
     "image": "/images/news-img/us-israel-iran-conflict-live-updates.webp",
-    "date": "Mar. 2, 2026",
+    "date": "March 2, 2026",
     "shortdescription": "Multiple reports of military strikes and retaliatory actions across the Middle East as tension between US, Israel, and Iran reaches a breaking point, affecting regional stability and global oil markets.",
     "sub": [
       {

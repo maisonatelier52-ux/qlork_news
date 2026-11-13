@@ -1,4 +1,47 @@
 [
+  {
+  "category": "world",
+  "topic": "Global Diplomacy and Climate",
+  "slug": "ukraine-peace-talks-stall-cop31-antalya-apec-shenzhen-ahead",
+  "title": "Ukraine Peace Talks Stall as COP31 Opens in Antalya and APEC Looms in Shenzhen",
+  "image": "/images/news-img/ukraine-peace-talks-stall-cop31-antalya-apec-shenzhen-ahead.webp",
+  "date": "November 13, 2026",
+  "shortdescription": "Ukraine peace talks end without a breakthrough, COP31 opens in Turkey with the US absent, and Europe's economy faces new shocks as leaders prepare for the APEC summit in Shenzhen.",
+  "sub": [
+    {
+      "title": "A busy week for global diplomacy",
+      "descr": "If you've been trying to keep up with what's happening around the world, this week hasn't made it easy. In the space of a few days, US envoys have been shuttling between Abu Dhabi and Moscow in a push to end the war in Ukraine, world leaders have gathered in Turkey for the UN climate summit, and Europe's biggest economy has been hit by fresh warning signs. Meanwhile, Asia-Pacific leaders are getting ready to meet in China next week. Some of these stories are moving fast and others are playing out slowly, but they're all connected by one question: can countries still cooperate when tensions are this high? Here's a plain-English guide to the biggest international stories right now."
+    },
+    {
+      "title": "Ukraine Peace Talks End Without a Breakthrough",
+      "descr": "Two days of talks in Abu Dhabi on November 10 and 11 ended without a major breakthrough, though there was one concrete result. Ukrainian negotiator Rustem Umerov said both sides agreed to a large-scale prisoner exchange, which will bring relief to many families. US envoys Jared Kushner and Steve Witkoff then flew on to Moscow, arriving early on November 12, according to Russian state media. Kushner struck a hopeful but careful tone, saying, \"We see some openings and some opportunities.\" Secretary of State Marco Rubio added that any security guarantees for Ukraine would also have to be acceptable to Russia, which is likely to be a sticking point. On the ground, the fighting hasn't paused. Russia hit Kyiv with ballistic missiles just hours after the talks ended, and strikes on six major power substations caused outages across the country on November 11. A Russian attack on a crowded market in Odesa Oblast killed at least four people. Ukraine, for its part, has kept up drone attacks on Russian oil facilities, including the Omsk refinery, about 2,500 kilometres from the border."
+    },
+    {
+      "title": "COP31 Opens in Antalya With the US Missing",
+      "descr": "The UN's annual climate summit, COP31, kicked off on Monday, November 9, in the Turkish resort city of Antalya and runs until November 20. About 68,500 people have registered, and negotiators from nearly 200 countries are taking part. Turkey is the official host, while Australia is leading the negotiations, a compromise after the two countries both wanted the job. One country is conspicuously missing. The United States has pulled out of climate negotiations again under President Trump. The mood is blunt. UN climate chief Simon Stiell said, \"For too many people, climate change is deadly.\" Turkish Environment Minister Murat Kurum, the COP31 president, went further, saying, \"This is the first COP where it is clear beyond a reasonable doubt that the world will overshoot the 1.5-degree target.\" The big fights are over money for poorer countries to adapt to climate impacts, a faster move away from fossil fuels and a plan to lift electricity's share of energy use from 21% to 35% by 2035. The war in Iran, which has effectively closed the Strait of Hormuz, has pushed up fuel and fertilizer prices and given renewable energy an extra push."
+    },
+    {
+      "title": "Europe Faces Economic and Tech Shocks",
+      "descr": "Europe has plenty to worry about besides the war. In Dublin on November 11, European leaders met for the European Political Community summit with Ukrainian President Volodymyr Zelensky in attendance. Irish Prime Minister Micheal Martin said three of the EU's negotiating clusters with Ukraine have now opened, and he hopes to open the remaining two before Ireland's presidency ends. Back home, there's a more worrying business story. Mercedes-Benz has stopped new investment in its German plants and is considering closures, a sign of the pressure on Germany's car industry. On the tech side, a Microsoft outage disrupted Outlook, Teams and Copilot for thousands of users, and the last day of Web Summit in Lisbon was dominated by talk of an AI bubble and fears of a financial crisis. Together, these stories show how fragile confidence is in both Europe's industrial base and the AI boom."
+    },
+    {
+      "title": "What to Watch Next: APEC in Shenzhen and the Final Days of COP31",
+      "descr": "The next week is packed. China hosts the APEC Economic Leaders' Meeting in Shenzhen on November 18 and 19, under the motto \"Building an Asia-Pacific Community to Prosper Together.\" It's the third time China has hosted the event, and the city has already tightened rules on things like e-scooters ahead of the summit. Taiwan is expected to send a special representative on behalf of President Lai Ching-te. Back in Turkey, COP31 will head into its final days, and the question is whether countries can agree on clearer funding promises after the disappointing outcomes of COP29 and COP30. And of course, all eyes will stay on Moscow and Kyiv to see if the prisoner exchange leads to a bigger deal. With so much happening at once, expect the next few days to bring plenty of headlines."
+    }
+  ],
+  "author": {
+    "name": "Aisha Patel",
+    "role": "Global Affairs Correspondent",
+    "bio": "",
+    "image": "/images/authors/aisha-patel.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
  {
   "category": "world",
   "topic": "Environmental Policy & Global Trade",
@@ -41,9 +84,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "world",
   "topic": "Global Sports & Culture",

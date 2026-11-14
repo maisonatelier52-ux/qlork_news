@@ -1,6 +1,55 @@
 [
-
-
+  {
+  "category": "finance",
+  "topic": "Wall Street and Inflation",
+  "slug": "wall-street-ends-week-higher-hot-ppi-yields-nvidia-slides",
+  "title": "Wall Street Ends Week Higher as Hot PPI Pushes Yields Above 5% and Nvidia Slides",
+  "image": "/images/news-img/wall-street-ends-week-higher-hot-ppi-yields-nvidia-slides.webp",
+  "date": "November 14, 2026",
+  "shortdescription": "US stocks finished a volatile week with gains despite Friday's dip, but 6.5% producer price inflation, 10-year yields near 5.15% and Nvidia's slide keep investors on edge.",
+  "sub": [
+    {
+      "title": "A rocky week ends with a win for Wall Street",
+      "descr": "It was a wild ride, but investors made it through. After days of sharp swings driven by inflation worries and a dramatic shake-up at Nvidia, Wall Street managed to finish the week in positive territory, even with a dip on Friday. Still, the mood isn't exactly relaxed. Producer prices are rising at the fastest annual pace in nearly four years, Treasury yields have climbed above 5%, and the Federal Reserve looks set to raise interest rates again next month. If you're trying to make sense of the latest US finance news, here's a plain-English recap of what happened, why it matters for your money and what to watch next week."
+    },
+    {
+      "title": "Stocks Dip on Friday but Notch a Strong Weekly Gain",
+      "descr": "Friday itself was a mixed bag. The S&P 500 fell 0.4% to 7,561.67 and the Nasdaq dropped 0.9% to 25,136.27, while the Dow Jones Industrial Average edged up 0.1% to 52,347.55 after recovering from an early drop. But the weekly picture looks much better. The S&P 500 gained 2.5% over the week, its first weekly gain since October and its biggest since August, and it's now up about 10.5% for the year. The Nasdaq also posted its first weekly gain in five weeks. Market volatility showed up too, with the VIX, Wall Street's fear gauge, closing near 19.3 after briefly topping 20 in the morning. It's a good reminder that one bad day doesn't always erase a good week."
+    },
+    {
+      "title": "Producer Prices Hit a Four-Year High",
+      "descr": "The big economic report of the day was the producer price index (PPI), which measures what businesses pay for goods and services. Prices rose 0.3% in October, a little less than the 0.4% economists expected, but the annual rate jumped to 6.5%, the biggest yearly increase since November 2022. Core prices, which leave out food and energy, rose 0.3% on the month and 5.0% on the year. Goods prices excluding food and energy rose 0.5% and drove more than 60% of October's increase, while energy prices slipped 0.1%. That mix has kept pressure on the Federal Reserve, which makes its next interest rate decision on December 9. Economists widely expect a rate hike then, with another possible in January. As Chris Osmond of Fifth Third Wealth Advisors put it, \"If that continues, it becomes much harder for the Fed to simply look through inflation as temporary.\""
+    },
+    {
+      "title": "Treasury Yields Climb Past 5%",
+      "descr": "The bond market is feeling the heat. The 10-year Treasury yield rose to about 5.15% on Friday from 5.10% a day earlier, and it briefly touched around 5.17%, its highest level since October. The 2-year yield edged up to 4.87%. Why does that matter to you? Higher yields push up borrowing costs for mortgages, car loans and business credit, and they also make stocks look less attractive compared with safer bonds. Oil is part of the story as well. Brent crude settled at $95.84 a barrel, compared with around $72 in late February before the Iran war began, and that has kept inflation fears alive."
+    },
+    {
+      "title": "Nvidia Keeps Sliding as Chip Stocks Take a Hit",
+      "descr": "Nvidia was the other big story. The chipmaker fell another 2% on Friday to close at $162.85, and it lost nearly $600 billion in market value over the week, with its market cap slipping below $4 trillion. That follows CEO Jensen Huang's resignation after reports about his personal life, with CFO Colette Kress now serving as interim chief. HSBC downgraded the stock to Hold and slashed its price target to $170 from $365. Other chip names were hit too. AMD fell 8.8% and Broadcom dropped 4.8% after surging earlier in the week. Angelo Kourkafas of Edward Jones said the pullback highlights the \"concentration risk embedded in a market\" where a few giant tech stocks drive returns. Nvidia reports quarterly earnings on Tuesday with no permanent CEO in place, so all eyes will be on that call."
+    },
+    {
+      "title": "Bitcoin Slips Below $70,000 and Other Money Headlines",
+      "descr": "Outside the stock market, Bitcoin fell below $70,000 for the first time in nearly three months and was trading around $68,000 to $69,000. It's down more than 10% in November and more than 20% so far this year. A few other stories are worth noting. Late Friday, the FAA ordered a nationwide ground stop, and airline stocks including American, Delta and United slipped. Cerebras shares rose after the chipmaker reported record third-quarter revenue and raised its outlook. And on a more optimistic note, Goldman Sachs forecast that the S&P 500 could reach 8,700 in 2027, although it expects earnings growth to slow. Kevin Hassett is also reportedly expected to leave his role as National Economic Council director in the coming weeks."
+    },
+    {
+      "title": "What to Watch Next Week",
+      "descr": "So what should you keep an eye on? First, Nvidia's earnings on Tuesday, November 17, which could set the tone for the whole AI trade. Second, Treasury yields, because another move higher could put more pressure on stocks and borrowers. Third, any new comments from Fed officials ahead of the December 9 meeting. If you're an investor, the same message applies as it has all month. Expect swings, avoid reacting to every headline and think about diversification. And if you're a borrower, it's worth planning for rates that could stay high for longer."
+    }
+  ],
+  "author": {
+    "name": "David Thompson",
+    "role": "News Reporter",
+    "bio": "",
+    "image": "/images/authors/david-thompson.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
   {
     "category": "finance",
     "topic": "Cosmetics Industry Performance and Growth",

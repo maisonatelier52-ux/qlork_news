@@ -1,5 +1,56 @@
 [
   {
+  "category": "economy",
+  "topic": "US Economy and Housing",
+  "slug": "home-sales-16-year-low-october-cpi-hot-jobs-beat-fed-hike-december",
+  "title": "Home Sales Sink to a 16-Year Low as Hot Inflation and Strong Jobs Keep the Fed on Edge",
+  "image": "/images/news-img/home-sales-16-year-low-october-cpi-hot-jobs-beat-fed-hike-december.webp",
+  "date": "November 16, 2026",
+  "shortdescription": "Existing home sales fell to their weakest pace since 2010 while October inflation ran hot, hiring beat forecasts and a December Fed rate hike stays firmly on the table.",
+  "sub": [
+    {
+      "title": "A confusing economy where the data keeps pulling in different directions",
+      "descr": "If the US economy feels hard to read right now, that's because the numbers really are sending mixed signals. Hiring surprised to the upside in October, and consumers are a little less gloomy than they were a month ago. At the same time, home sales have dropped to a level not seen in more than 15 years, prices are still climbing faster than most households can comfortably handle, and the Federal Reserve is widely expected to raise interest rates again next month. It's a lot to keep track of, especially with a big retail sales report due on Tuesday and the holiday shopping season about to begin. Here's a plain-English guide to what the latest economic data says, why it matters for everyday budgets and what to watch in the days ahead."
+    },
+    {
+      "title": "Existing Home Sales Fall to the Lowest Level Since 2010",
+      "descr": "The housing market delivered the week's toughest headline. According to the National Association of Realtors, existing home sales dropped 5.5% in October to a seasonally adjusted annual rate of 3.75 million, the slowest pace since August 2010. Compared with a year ago, sales are down 8.8%. That annual rate is a projection of what a full year would look like at October's pace, rather than a count of homes sold in a single month. Mortgage rates are the main culprit. Freddie Mac says the average 30-year fixed rate was 7.33% in October, up from 6.86% in September and 6.25% a year earlier. NAR chief economist Lawrence Yun said rates have tested levels not seen since 2000. The national median price was $416,700, only 0.4% higher than a year ago, but it was still the 40th straight month of annual price gains. Sales slid hardest in the West, down 9.7% on the month, and the South, down 6.5%."
+    },
+    {
+      "title": "Why This Housing Slump Is Different From the Last One",
+      "descr": "Housing slowdowns usually have an obvious cause, but this one looks unusual. The last time sales were this weak, in 2010, the market was still recovering from foreclosures and falling prices. Today the problem is closer to a standoff. Inventory has edged up to 1.59 million homes, a 5.1-month supply, and homes are taking a median of 35 days to sell, up from 33 in September. Yet buyers are staying away because monthly payments feel out of reach, and many owners with cheaper older mortgages don't want to give them up. Rich Duprey of 24/7 Wall St. summed it up well, writing that this slump \"comes from paralysis, and that pattern can last longer.\" Mortgage News Daily put the average top-tier 30-year rate at 7.50% on Friday, after a quick jump of 0.32 points in three days. Freddie Mac's weekly average was a little lower at 7.11%, so the exact rate you see depends on the lender and the day."
+    },
+    {
+      "title": "October Inflation Came in Hotter Than Economists Expected",
+      "descr": "Prices are the other big worry. The Bureau of Labor Statistics reported on November 10 that consumer prices rose 0.4% in October, above the 0.3% economists had forecast. Core prices, which leave out food and energy, rose 0.3%, also hotter than the 0.2% expected. Energy prices climbed 0.7% on the month, and food rose 0.5% after being flat in September. Shelter costs rose 0.3%, a bit slower than September's 0.4%, but they were still the biggest single contributor to the monthly increase. One quirk to know about: because of last year's federal government shutdown, the BLS didn't collect October 2025 prices, so it did not publish an official yearly inflation rate for the all-items index. Outside estimates put it near 4%, compared with 3.7% in September. Gasoline is the standout. Pump prices are up 37.4% from a year ago, which is a major reason households feel squeezed, and fuel costs also feed into shipping prices for many other goods."
+    },
+    {
+      "title": "Employers Surprise With 165,000 New Jobs in October",
+      "descr": "The labor market offered a welcome bit of good news. US employers added 165,000 jobs in October, roughly 100,000 more than economists expected, and the unemployment rate dipped to 4.1%. The figure for September was also revised up, from 29,000 to 60,000. Professional and business services led the way with 70,000 new jobs, followed by health care and social assistance with about 55,000 and transportation and warehousing with nearly 25,000. Manufacturing added 19,000 jobs, while leisure and hospitality lost 13,000. Andrew Flowers, chief economist at Appcast, said the report \"beat expectations by a massive margin,\" but he also pointed out that the typical time someone spends unemployed has risen to 11.9 weeks, a sign that finding work still isn't easy for everyone. It's worth keeping the bigger picture in mind too. Employers have added an average of about 86,000 jobs a month this year, which is modest by historical standards."
+    },
+    {
+      "title": "Consumers Feel Slightly Better but Still Worry About Prices",
+      "descr": "How people feel about the economy matters because consumer spending drives most of it. The University of Michigan's preliminary November sentiment index rose to 51.0 from 48.0 in October, a three-month high that beat the forecast of 48.0. Year-ahead inflation expectations eased to 4.3% from 4.7%, the lowest since August, while long-run expectations slipped to 3.4%. Survey director Joanne Hsu noted growing anxiety over a possible AI bubble in consumers' comments, and said the biggest stockholders became less confident after a turbulent period in the markets. Even so, a sentiment reading of 51 is still low by historical standards, and the Conference Board's October confidence index, which improved only slightly, remains on a downward trend, with people citing the cost of gas, goods and services. Cost of living was also a top issue for many voters in this month's midterm elections, in which Democrats swept Congress."
+    },
+    {
+      "title": "What to Watch Next: Retail Sales, Fed Minutes and a December Rate Hike",
+      "descr": "A busy week of data lands right as the holiday shopping season begins. On Tuesday, the Commerce Department releases October retail sales, and economists expect a modest 0.2% rise after gains of 0.8% in September and 1.3% in August, with a lot of that spending likely going to gas stations rather than gifts. Fed minutes come out on Wednesday and may show how officials are weighing high inflation against a job market that has shown some signs of cooling. Jobless claims follow on Thursday, and the final November consumer sentiment reading is due on Friday, November 20. The Fed raised rates for the first time in three years in September, held steady in October and is widely expected to raise them again at its December 9 meeting, with more increases possible in 2027. For households, the practical takeaway is that borrowing costs are unlikely to fall soon. If you're thinking about buying a home, it may be worth getting a few lender quotes, since rates can vary quite a bit from one day to the next."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Staff Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
     "category": "economy",
     "topic": "Monetary Policy",
     "slug": "fed-schmid-inflation-biggest-risk-us-economy",

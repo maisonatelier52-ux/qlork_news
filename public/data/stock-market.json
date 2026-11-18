@@ -1,5 +1,60 @@
 [
   {
+  "category": "stock-market",
+  "topic": "Stock Market",
+  "slug": "dow-drops-848-points-sp500-lowest-close-since-july-nvidia-earnings-lift-futures",
+  "title": "Dow Sheds 848 Points as S&P 500 Hits a Four-Month Low, Then Nvidia Lifts Futures",
+  "image": "/images/news-img/dow-drops-848-points-sp500-lowest-close-since-july-nvidia-earnings-lift-futures.webp",
+  "date": "November 18, 2026",
+  "shortdescription": "The Dow fell 848 points and the S&P 500 closed at its lowest since July before Nvidia's strong earnings lifted stock futures, with Fed minutes due Wednesday.",
+  "sub": [
+    {
+      "title": "Wall Street Has a Rough Two Days Before Nvidia Steps In",
+      "descr": "It has been a tense start to the week for American investors. Stocks fell sharply on both Monday and Tuesday, dragged lower by worries about the artificial intelligence boom, new limits on chip sales to China and the prospect of higher interest rates. Then, after the closing bell on Tuesday, Nvidia reported quarterly results that beat expectations and sent stock futures higher. Whether that relief lasts is the big question now, with the Federal Reserve's latest meeting minutes due this afternoon. If you're trying to follow the latest US stock market news, here's a plain-English recap of what happened, why it matters for your investments and what to watch next."
+    },
+    {
+      "title": "Monday: Chip Stocks Lead a Broad Selloff",
+      "descr": "The slide began on Monday. The Dow Jones Industrial Average fell 739.38 points, or 1.4%, to 51,608.17. The S&P 500 dropped 145.08 points, or 1.9%, to 7,416.59, and the Nasdaq Composite lost 626.51 points, or 2.5%, to 24,509.76. Technology took the biggest hit, with the Philadelphia Semiconductor Index down 5.3%, Intel off about 7% and Micron down about 7.6%. Nine of the 11 sectors in the S&P 500 finished lower, and the VIX, Wall Street's fear gauge, jumped 18.7% to 22.91. Investors pointed to several things at once. Jensen Huang's resignation as Nvidia's CEO is still weighing on enthusiasm for AI stocks, reports said the company's board does not plan to bring him back, and a new Trump administration rule restricts China's access to AI chips from major US tech companies."
+    },
+    {
+      "title": "Tuesday: The S&P 500 Falls to Its Lowest Close Since July",
+      "descr": "Tuesday brought more of the same. The Dow dropped 848.75 points, or 1.64%, to 50,759.42, after sliding by more than 1,000 points at one stage. The S&P 500 slipped 1.03% to 7,340.53, its fourth straight losing day and its lowest close since late July. The Nasdaq Composite fell 0.74% to 24,328.38, and the VIX rose to about 25.45. Software stocks were hit especially hard, with Salesforce down about 9.5%, Intuit down about 7.2% and ServiceNow down about 6.5%. There was extra anxiety from a CNN report about an outage on a classified National Security Agency network, which the NSA said was a temporary performance degradation during routine maintenance. Art Hogan, chief market strategist at B. Riley Wealth, told CNBC that \"any single piece of news would have been enough to spark market anxiety.\""
+    },
+    {
+      "title": "Nvidia Beats Expectations and Raises Its Forecast",
+      "descr": "The turnaround came after the closing bell. Nvidia reported third-quarter revenue of about $115.8 billion, up 103% from a year earlier, and data center revenue of $107.6 billion, up 110%. Adjusted earnings came to $2.68 a share, compared with the $2.47 analysts expected. The company guided to roughly $130 billion in revenue for the current quarter, ahead of the roughly $125 billion Wall Street had pencilled in, and its board added $150 billion to its share buyback authorization, according to CoinDesk. Nvidia shares, which had fallen about 24% in November, jumped nearly 4% to 5% in after-hours trading, and futures followed, with Nasdaq 100 futures up around 1.6% and S&P 500 futures up about 0.8% on Tuesday evening. Interim CEO Colette Kress said, \"Our momentum is real.\" It was the first report since Huang stepped down, and the board has said it does not intend to bring him back."
+    },
+    {
+      "title": "Why Some Investors Are Still Cautious About the AI Trade",
+      "descr": "Even with the strong numbers, not everyone is celebrating. One detail drawing attention is the guidance for next quarter, which includes an extra week, meaning growth looks slower once you adjust for that. The Motley Fool also noted that Nvidia's receivables rose by about $18 billion in the quarter, and the company disclosed large purchase commitments and guarantees, which raises questions about how much of its growth depends on customers finding the money to build data centers. The guidance also assumes no data center sales to China. Add in the unanswered question of who will become the permanent CEO, since the board has hired a search firm, and it is easy to see why some early gains faded. Nvidia is the stock many investors use to judge whether the AI boom is real, so its next moves could set the tone for the whole market."
+    },
+    {
+      "title": "Retail Sales and Home Depot Show a Resilient but Pressured Consumer",
+      "descr": "Tuesday's economic data was steady. The Commerce Department said retail sales rose 0.2% in October to $748.2 billion, in line with forecasts, though the figure is in dollars, so it also rises when prices do. Sales excluding autos and gasoline rose 0.6%, better than the 0.4% economists expected. Home Depot reported third-quarter sales of $43.4 billion, up 4.9%, and said it now expects about 4.5% total sales growth this year, the top of its earlier range. Even so, its shares closed down about 2.5% in a weak market, and the company announced that Richard McPhail will become CEO on November 23, with Ted Decker staying on as chair. The message from consumers is that spending is holding up, but higher prices and borrowing costs are making shoppers more selective."
+    },
+    {
+      "title": "Rate Hike Bets Keep Bond Yields Above 5%",
+      "descr": "Interest rates remain the quiet force behind much of this nervousness. The 10-year Treasury yield ended Tuesday around 5.11%, and the 2-year was about 4.80%. According to CME FedWatch, traders see about a 95% to 96% chance that the Federal Reserve raises rates by a quarter point at its December meeting. St. Louis Fed President Alberto Musalem has said in recent weeks that more hikes may be needed to bring inflation under control. Higher yields make borrowing more expensive and make safer assets like bonds more attractive compared with stocks, which is one reason growth and software companies have struggled. The minutes of the Fed's October meeting come out on Wednesday and should show how widely officials supported further tightening and how fast they may want to go."
+    },
+    {
+      "title": "What to Watch Next on Wall Street",
+      "descr": "There are three things to keep an eye on. First, the Fed minutes this afternoon, because any sign that officials want to move faster could pressure stocks again. Second, whether Nvidia's after-hours jump holds once the regular session opens, since earlier gains have faded after previous earnings reports. Third, Walmart's earnings on Thursday, which will give another read on the American shopper. If you invest, the usual advice still applies. Expect more big swings while the VIX stays elevated, avoid reacting to every headline and think about spreading your money across different sectors rather than relying on a handful of big technology names."
+    }
+  ],
+  "author": {
+    "name": "David Thompson",
+    "role": "News Reporter",
+    "bio": "",
+    "image": "/images/authors/david-thompson.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
     "category": "stock-market",
     "topic": "Stock Market",
     "slug": "sp500-nasdaq-record-highs-nvidia-ai-stocks-may-14-2026",

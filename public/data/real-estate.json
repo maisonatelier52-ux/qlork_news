@@ -1,5 +1,55 @@
 [
-  
+  {
+  "category": "real-estate",
+  "topic": "U.S. Housing Market",
+  "slug": "homebuilder-confidence-lowest-since-2012-housing-starts-jump-permits-fall-pending-sales-record-low",
+  "title": "Homebuilder Confidence Hits Its Lowest Level Since 2012 as Buyer Demand Stays Weak",
+  "image": "/images/news-img/homebuilder-confidence-lowest-since-2012-housing-starts-jump-permits-fall-pending-sales-record-low.webp",
+  "date": "November 19, 2026",
+  "shortdescription": "Builder sentiment falls to its lowest since 2012, housing starts jump while permits drop, home-sale contracts sit near record lows and 30-year mortgage rates hover above 7%.",
+  "sub": [
+    {
+      "title": "A cautious week for the US housing market",
+      "descr": "The latest housing numbers tell a story of a market that is stuck. Builders are the gloomiest they have been in more than a decade, buyers are still holding back, and mortgage rates, while slightly lower than a few weeks ago, remain above 7%. There are small bright spots, including a jump in new construction in October and a pickup in the commercial property market. But there's no sign yet of a sustained recovery. If you're trying to follow the latest US real estate news, here's a plain-English look at what's happening, why it matters for buyers, sellers and builders and what to watch next."
+    },
+    {
+      "title": "Builder Confidence Falls to Its Lowest Level Since 2012",
+      "descr": "On Tuesday, the National Association of Home Builders released its November Housing Market Index, and the reading was grim. The index fell to 25 on a 100-point scale, the lowest since April 2012, with builders more downbeat about current sales, future sales and buyer traffic. To keep homes moving, 46% of builders cut prices this month, with an average reduction of 6%, and 68% offered sales incentives. NAHB chairman Bill Owens said immigration enforcement is keeping legal workers off job sites, which is deepening labor shortages and pushing up costs, while higher fuel prices are leading subcontractors to raise their rates. Bankrate's Jeff Ostrowski said price cuts, once uncommon, are now common. There's also an oversupply problem for new homes, with more than eight months of new homes unsold, compared with around six months in a balanced market, according to Maor Greenberg of Spacial."
+    },
+    {
+      "title": "Housing Starts Jump, but Permits Tell a Different Story",
+      "descr": "Government data released Tuesday added a twist. Builders started work on homes at an annual rate of 1.309 million in October, up 9.9% from September and 2.8% from a year ago, according to the Census Bureau. Most of the lift came from apartments, with multifamily starts up 25.5% on the month to 433,000, while single-family starts rose 4% to 864,000 but remain 3.2% below last year. The less cheerful news is that building permits, a guide to future construction, fell 7.4% to 1.295 million, with single-family permits down 12.9% from a year earlier. Realtor.com's Joel Berner called the permit level the lowest since May 2020 and described it as \"a step in the wrong direction\" given a supply gap of more than four million homes. Owens called the monthly gain encouraging but said it \"does not necessarily signal a sustained recovery.\""
+    },
+    {
+      "title": "Buyers Are Still Staying Away",
+      "descr": "On the demand side, the picture is not much better. Redfin reported that pending home sales for the four weeks ending November 8 stood at 275,980, down 15.5% from a year earlier and the lowest in its records dating to 2021. The National Association of Realtors said its Pending Home Sales Index fell 7.3% in September to 66.0, the lowest reading since the index began, and NAR chief economist Lawrence Yun suggested annual existing-home sales could end up the lowest since the mid-1990s. Prices have started to soften, with Redfin's median sale price at $388,613, down 0.9% from last year, the fourth straight weekly annual decline. Active listings are 3.3% higher than a year ago, at about 1.5 million, which equals 4.7 months of supply. Mortgage broker Matt Gouge said buyers are \"just not fighting it anymore\" and are coming to terms with the current state of affordability."
+    },
+    {
+      "title": "Mortgage Rates Ease a Little but Stay Above 7%",
+      "descr": "Borrowing costs are the key to all of this. Freddie Mac's weekly survey put the average 30-year fixed mortgage rate at 7.11% for the week of November 12, down from 7.18% the week before, with the 15-year rate at 6.45%. That is the third weekly decline in a row, and the 30-year rate is down about 0.29 percentage points over the past month, although it is still almost 0.9 points higher than a year ago. Bankrate puts the average nearer to 7.2%, a reminder that the rate you are offered depends on your lender, credit score and the day you lock. Redfin says the typical monthly payment fell to $2,755, a six-week low, but that was before the recent hot inflation reading pushed rates up again. Freddie Mac's next update is due this morning, so the figures could change."
+    },
+    {
+      "title": "Commercial Property Shows Quiet Signs of Recovery",
+      "descr": "Away from homes, the commercial market is more mixed but a little more encouraging. According to NAR's November commercial real estate report, office space posted positive net absorption of 17.6 million square feet over the 12 months to the third quarter, up from 14.9 million in the second quarter, with Class A buildings leading demand. NAR said that sustained positive absorption and firmer rents suggest conditions are \"becoming more constructive.\" In apartments, the construction pipeline is at a decade low, which could ease supply pressure further, and retail vacancy is close to historic lows. Industrial space is rebalancing, and hotel revenue per room is above 2019 levels. Dallas-Fort Worth led the country in absorption in several property types. Higher borrowing costs still weigh on investment and refinancing."
+    },
+    {
+      "title": "What to Watch Next in US Real Estate",
+      "descr": "There are a few things to keep an eye on. First, Freddie Mac's rate update today and whether the recent dip continues. Second, the Federal Reserve's December 9 meeting, because another rate hike would keep mortgage costs elevated. Third, the next batch of existing-home and pending sales data from NAR, which will show whether contract signings have started to recover. Finally, watch builders' pricing and permits, since further cuts and lower permits could affect supply next year. If you're thinking of buying, it may be worth comparing offers from several lenders, asking sellers or builders about incentives and focusing on the monthly payment you can really afford rather than trying to time the market."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Staff Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
   {
     "category": "real-estate",
     "topic": "U.S. Real Estate Investment",

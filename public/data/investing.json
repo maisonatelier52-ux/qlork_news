@@ -1,5 +1,56 @@
 [
   {
+  "category": "investing",
+  "topic": "U.S. Stock Market & Hedge Funds",
+  "slug": "berkshire-bending-spoons-ackman-trims-microsoft-13f-filings-dow-sinks-1100-points",
+  "title": "Berkshire Buys Bending Spoons, Ackman Trims Microsoft as the Dow Sinks 1,100 Points",
+  "image": "/images/news-img/berkshire-bending-spoons-ackman-trims-microsoft-13f-filings-dow-sinks-1100-points.webp",
+  "date": "November 20, 2026",
+  "shortdescription": "Berkshire opens a new $689 million stake, Pershing Square cuts Microsoft by a third and big funds split on Nvidia and Alphabet, as the Dow drops 1,101 points on Thursday.",
+  "sub": [
+    {
+      "title": "Big investors reveal their moves just as the market takes a hit",
+      "descr": "It has been a revealing week for anyone who follows the way professional investors manage their money. The latest quarterly 13F filings, which show what big funds owned on September 30, have given investors a look at what Warren Buffett's Berkshire Hathaway, Bill Ackman's Pershing Square and other well-known managers were buying and selling over the summer. The timing could hardly be more striking, because Wall Street suffered one of its sharpest falls in months on Thursday. If you're trying to follow the latest US investing news, here's a plain-English look at the biggest moves, what they do and don't tell us, and what to watch next. This is for information only and isn't investment advice."
+    },
+    {
+      "title": "Wall Street Has Its Worst Day in Months",
+      "descr": "On Thursday, the Dow Jones Industrial Average fell 1,101.11 points, or 2.19%, to 49,097.06. The S&P 500 lost 147.80 points, or 2.02%, to 7,175.83, and the Nasdaq Composite dropped 550.69 points, or 2.25%, to 23,879.20. The Motley Fool described it as the S&P 500's sixth straight losing day. The 10-year Treasury yield stayed around 5.05%, and the VIX, Wall Street's fear gauge, jumped to around 28 in late trading. AMD slid as much as 9% at one point after a short-seller report, and UnitedHealth fell about 5%. Not everything was bad news, since Walmart reported third-quarter revenue of $188.8 billion against the $187.2 billion expected, and raised its outlook. Reports pointed to several causes, including pressure on AI stocks and high bond yields, and the market is still digesting what comes next."
+    },
+    {
+      "title": "Berkshire Hathaway Makes One New Bet",
+      "descr": "Berkshire's filing was quiet by its own standards. The portfolio of US stocks it reported rose 1.7% to about $304 billion, with only one new position: a stake in Bending Spoons worth around $689 million, or 0.2% of the portfolio. Bending Spoons is the company behind apps such as Evernote and WeTransfer. Berkshire also nearly doubled its holding in homebuilder Lennar, buying roughly $1.1 billion more, and raised its Delta Air Lines stake by about 12%. On the selling side, it trimmed Bank of America by around 5.7%, worth about $1.5 billion, and cut Capital One by roughly 62%. Berkshire didn't sell any Alphabet, and Apple remains its largest holding at about 25% of the portfolio. One source also reported that Berkshire bought back a record $9.6 billion of its own shares and held about $352 billion in cash and Treasury bills, though that figure comes from a single write-up."
+    },
+    {
+      "title": "Ackman Trims Microsoft by About a Third",
+      "descr": "In May, Bill Ackman announced that Pershing Square had built a $2.1 billion position in Microsoft. The latest filing shows that, as of September 30, the fund had cut that holding by around 34.5%, to about 4.1 million shares. It also opened two new positions, in Intercontinental Exchange, worth about $1.01 billion, and eye-care company Alcon, worth about $954 million, raised its Netflix holding to around 15.4 million shares and exited Hertz. A 13F only shows a snapshot of long US stock positions at the end of a quarter, so it can't tell us why a manager sold, or what the fund has done since. It's a good reminder that even well-publicized, high-conviction bets can change within months, and that the numbers in these filings are already several weeks old by the time they're published."
+    },
+    {
+      "title": "Funds Split on Nvidia and the AI Trade",
+      "descr": "The filings show a market that is far from united on artificial intelligence. Bridgewater cut its Nvidia stake by about 30.5%, to roughly 2.69 million shares worth about $614 million, while ARK Invest added about 85.4%. Soros Fund Management trimmed Nvidia by nearly 20% but increased its Intel stake roughly twenty-eight-fold, and Duan Yongping's H&H International cut Nvidia by around 63%. Third Point and Tiger Global added to Nvidia, and Appaloosa, run by David Tepper, raised it by about 31% and added to Lam Research, ASML and Micron. Coatue opened a new $1.8 billion position in Salesforce and increased its Microsoft stake by about 120%. These filings cover the period before Jensen Huang's resignation as Nvidia's CEO, so they don't show how managers have reacted since."
+    },
+    {
+      "title": "Several Big Names Trim Alphabet and Buy Gold Miners",
+      "descr": "Another clear theme is Alphabet, where several well-known investors took profits. Appaloosa cut its stake by about 46%, Tiger Global by around 42% and Baupost by roughly 30%, and Duquesne Family Office, run by Stanley Druckenmiller, sold its Class A shares. Duquesne also cut TSMC by around 94.5% and opened gold-mining positions in Newmont, Barrick and Agnico Eagle, worth about $129 million combined. In a different direction, Situational Awareness, the AI-focused fund run by Leopold Aschenbrenner, reported a portfolio that shrank from about $20.2 billion in June to about $1.58 billion in September after selling most of its public stock holdings in July. Some of these figures come from third-party summaries, which may contain errors, so it's worth checking the original SEC filings before relying on them."
+    },
+    {
+      "title": "What to Watch Next for Investors",
+      "descr": "So what should you keep an eye on? First, whether Thursday's selloff continues or markets steady, with another volatile session likely while the VIX is elevated. Second, the Fed's December 8 and 9 meeting, where another rate rise is widely expected and could keep bond yields near 5%. Third, any follow-up news on Nvidia, since the filings show big funds are far from agreed on whether the AI boom has further to run. The key lesson from the 13F season is not to copy big investors blindly. Their filings are delayed, they leave out cash, bonds and short positions, and professional managers have different goals, time horizons and tax situations from most individuals. If you invest, a diversified plan you can stick to through swings is usually more useful than chasing the latest headline."
+    }
+  ],
+  "author": {
+    "name": "David Thompson",
+    "role": "News Reporter",
+    "bio": "",
+    "image": "/images/authors/david-thompson.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
     "category": "investing",
     "topic": "U.S. Stock Market & Hedge Funds",
     "slug": "bill-ackman-microsoft-azure-ai-investment",

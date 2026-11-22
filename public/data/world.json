@@ -1,6 +1,49 @@
 [
   {
   "category": "world",
+  "topic": "Security, Climate and Trade",
+  "slug": "russian-missiles-fall-in-poland-cop31-runs-into-overtime-apec-shenzhen-declaration",
+  "title": "Russian Missiles Fall in Poland as COP31 Overruns and APEC Wraps Up",
+  "image": "/images/news-img/russian-missiles-fall-in-poland-cop31-runs-into-overtime-apec-shenzhen-declaration.webp",
+  "date": "November 22, 2026",
+  "shortdescription": "Missiles land in southeast Poland during a Russian attack on Ukraine, COP31 talks run past their deadline in Antalya, and APEC leaders issue a declaration in Shenzhen.",
+  "sub": [
+    {
+      "title": "Security fears, climate talks and trade diplomacy collide",
+      "descr": "It has been a tense few days on the world stage. A Russian attack on Ukraine sent missiles into NATO member Poland, the UN climate summit in Turkey ran past its deadline with countries still arguing over fossil fuels and money, and Asia-Pacific leaders wrapped up their summit in China with a joint declaration. Each story is different, but they share one theme: whether countries can still agree on rules when trust is low. Here is a plain-English guide to the biggest international stories right now."
+    },
+    {
+      "title": "Russian Missiles Land in Southeast Poland",
+      "descr": "During Russia's overnight attack on Ukraine on November 20, two missiles and a jet-powered drone fell on Polish territory in the southeast, according to Poland's Defence Minister Wladyslaw Kosiniak-Kamysz. They came down near Nowy Lipowiec, Rudnik nad Sanem and Molodycz, and one was reportedly a Kh-101 cruise missile. No injuries or damage were reported in Poland. In Ukraine, President Volodymyr Zelensky said the same attack killed at least eight civilians and injured more than two dozen. Prime Minister Donald Tusk said it appeared Poland was \"dealing with an intentional provocation.\" NATO Secretary-General Mark Rutte called it a \"grave violation\" of Polish airspace. President Donald Trump took a lighter line, describing it as \"a couple of little missiles, by mistake.\" Analysts say it is unlikely NATO would invoke Article 5, its collective defence clause, over this incident, and that the more likely response is stronger air defence and closer coordination."
+    },
+    {
+      "title": "COP31 Runs Into Overtime in Antalya",
+      "descr": "The UN climate summit was due to finish on Friday, November 20, but negotiators missed that deadline and kept working through Saturday and into the early hours of Sunday. COP31 President Murat Kurum told a late-night session, \"We believe that we have put forward a text which all the parties can agree upon.\" The big sticking points are familiar: whether the final text should call for moving away from fossil fuels, and how much money richer countries will provide to help poorer ones adapt to climate impacts. An earlier draft was criticised for leaving out fossil fuels, and countries including France and Panama wanted a clear commitment on coal, oil and gas. Some decisions, including on cooperation under Article 6 of the Paris Agreement, have already been adopted. At the time of writing, the full package had not been confirmed as approved, so check for the final outcome before publishing. This is also the first COP since the UN environmental body confirmed that global warming is set to pass 1.5°C."
+    },
+    {
+      "title": "APEC Leaders Issue the Shenzhen Declaration",
+      "descr": "In China, leaders from all 21 APEC economies met in Shenzhen, with President Xi Jinping chairing the 33rd Economic Leaders' Meeting, and issued the 2026 APEC Leaders' Declaration on November 21. In it, they committed to \"maintain macroeconomic stability, promote productivity and dynamism,\" and to advance regional economic integration in a market-driven way, including work towards the Free Trade Area of the Asia-Pacific. The declaration focuses on four areas: trade and investment, connectivity, innovation and economic growth. Leaders also endorsed an APEC Trade Digitalization Cooperation Framework for 2027 to 2030, an APEC Connectivity Blueprint, and a statement on using digital and emerging technologies to support jobs. Viet Nam will host next year's meeting in Phu Quoc."
+    },
+    {
+      "title": "What to Watch Next",
+      "descr": "There are three things to follow. First, whether COP31 delegates formally approve the final text, and whether it mentions fossil fuels or firm money for adaptation. Second, how NATO and Poland respond in the coming days, including any extra air defence for the eastern flank and whether Warsaw asks for formal consultations. Third, whether the broader push for peace in Ukraine continues after this latest attack. With so much moving at once, expect the headlines to keep changing, and check the latest updates before you publish."
+    }
+  ],
+  "author": {
+    "name": "Aisha Patel",
+    "role": "Global Affairs Correspondent",
+    "bio": "",
+    "image": "/images/authors/aisha-patel.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "world",
   "topic": "Global Diplomacy and Climate",
   "slug": "ukraine-peace-talks-stall-cop31-antalya-apec-shenzhen-ahead",
   "title": "Ukraine Peace Talks Stall as COP31 Opens in Antalya and APEC Looms in Shenzhen",

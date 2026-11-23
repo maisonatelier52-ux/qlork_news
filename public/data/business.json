@@ -53,6 +53,49 @@
   },
   {
   "category": "business",
+  "topic": "Chips, Cybersecurity and Layoffs",
+  "slug": "nvidia-115-billion-quarter-after-huang-exit-palo-alto-applied-compute-qualcomm-yelp-job-cuts",
+  "title": "Nvidia Posts $115.8B Quarter After CEO Exit; Qualcomm, Yelp Cut Jobs",
+  "image": "/images/news-img/nvidia-115-billion-quarter-after-huang-exit-palo-alto-applied-compute-qualcomm-yelp-job-cuts.webp",
+  "date": "November 23, 2026",
+  "shortdescription": "Nvidia reports record sales days after CEO Jensen Huang resigned, Palo Alto Networks raises its outlook and buys Applied Compute for $4.5 billion, and Qualcomm and Yelp announce job cuts.",
+  "sub": [
+    {
+      "title": "Big numbers, big changes and more job cuts",
+      "descr": "This week's corporate news pulls in two directions at once. The AI boom is still producing huge numbers, with Nvidia reporting another record quarter and Palo Alto Networks lifting its forecast and buying an AI startup. At the same time, Nvidia is without its founder as CEO, and companies such as Qualcomm and Yelp are cutting jobs to shift money towards AI and new businesses. For workers, investors and anyone watching the economy, it is a mixed picture. Here is a plain-English look at the latest US business stories."
+    },
+    {
+      "title": "Nvidia Reports Record Sales Days After Its CEO Resigns",
+      "descr": "On November 12, Nvidia announced that Jensen Huang had resigned as president, CEO and board member, effective immediately. The company gave no reason in its announcement. Chief financial officer Colette Kress is serving as interim CEO while the board searches for a permanent successor, and Harvey Jones was named the board's first chair. Then, on November 17, Nvidia reported results for the quarter ended October 25. Revenue rose 103% from a year earlier to $115.8 billion, and data center revenue climbed 110% to $107.6 billion. Net income was $65.3 billion. For the next quarter, Nvidia forecast revenue of about $130 billion, plus or minus 3%, without counting any data center compute sales to China. Kress said, \"Our momentum is real.\" The board chair said the board has \"full confidence in Colette and the leadership team.\""
+    },
+    {
+      "title": "Palo Alto Networks Raises Its Outlook and Buys Applied Compute",
+      "descr": "On November 18, cybersecurity company Palo Alto Networks reported first-quarter revenue of $3.44 billion, up 39% from a year earlier. Its key next-generation security recurring revenue rose 66% to $9.73 billion, and the company raised its full-year revenue forecast to between $14.52 billion and $14.57 billion. It also agreed to buy Applied Compute, an AI start-up founded in 2025 by former OpenAI researchers, in an all-stock deal valued at $4.5 billion. Applied Compute helps companies adapt open AI models to their own data. The deal needs regulatory approval and is expected to close between February and April 2027. CEO Nikesh Arora said, \"Every enterprise is going to run a mix of open and closed models, and every one of those models needs to be secured.\" Acquisition costs are weighing on reported profit, with GAAP operating income of $96 million against $1.1 billion on an adjusted basis."
+    },
+    {
+      "title": "Qualcomm and Yelp Announce Job Cuts",
+      "descr": "Not every company is celebrating. State filings reported on November 18 show Qualcomm cutting about 520 jobs in California, 442 in San Diego and 78 in Santa Clara. The cuts follow Qualcomm's announcement last month of worldwide reductions, which Bernstein analyst Stacy Rasgon estimated at 7% to 8% of its workforce. He described it as \"a re-skilling exercise as they move toward becoming a broad computing company,\" as the chipmaker tries to reduce its reliance on smartphones, which still make up nearly 65% of revenue. Yelp also told investors it is cutting nearly 5% of its full-time staff, with severance and benefit charges of $14 million to $16 million. The company said most of the savings will go into AI-powered products, and it kept its 2026 revenue forecast of $1.455 billion to $1.46 billion."
+    },
+    {
+      "title": "What to Watch Next",
+      "descr": "Three things are worth following. First, who Nvidia names as its permanent CEO, and whether its guidance holds up without China sales. Second, whether Palo Alto's Applied Compute deal clears regulators in time for the expected early 2027 close. Third, whether more companies follow Qualcomm and Yelp in cutting staff while spending more on AI, which would show how the technology is changing the job market. As always, check for updates before you publish."
+    }
+  ],
+  "author": {
+    "name": "Sarah Mitchell",
+    "role": "Senior News Correspondent",
+    "bio": "",
+    "image": "/images/authors/sarah-mitchell.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "business",
   "topic": "US Business News",
   "slug": "job-cuts-bankruptcies-big-deals-reshape-corporate-america",
   "title": "Job Cuts, Bankruptcies and Big Deals Reshape Corporate America",

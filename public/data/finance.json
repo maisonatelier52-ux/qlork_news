@@ -1,6 +1,53 @@
 [
   {
   "category": "finance",
+  "topic": "AI Sell-Off and Rebound",
+  "slug": "wall-street-rebounds-after-ai-rout-nvidia-reinstates-huang-crowdstrike-zscaler-fed-cook-warning",
+  "title": "Wall Street Rebounds After AI Rout as Nvidia Reinstates Huang",
+  "image": "/images/news-img/wall-street-rebounds-after-ai-rout-nvidia-reinstates-huang-crowdstrike-zscaler-fed-cook-warning.webp",
+  "date": "November 24, 2026",
+  "shortdescription": "Stocks surge after a brutal AI sell-off as Nvidia brings back Jensen Huang, CrowdStrike agrees a $43.9 billion deal for Zscaler, and Fed governor Lisa Cook warns bigger rate hikes may follow.",
+  "sub": [
+    {
+      "title": "From a sharp sell-off to a sharp rebound in three days",
+      "descr": "Wall Street has just lived through one of its wildest stretches of the year. Last week, a sell-off in artificial intelligence stocks pushed the S&P 500 into a correction. On Monday, the market bounced back hard after Nvidia brought back its CEO. Alongside the swings, there was a major cybersecurity deal and a fresh warning from the Federal Reserve about interest rates. Here is a plain-English recap of the latest US finance news and what it could mean for your money."
+    },
+    {
+      "title": "AI Stocks Drive a Brutal Week and a Market Correction",
+      "descr": "On Friday, November 20, the S&P 500 fell 3.7% to 6,910.39, the Dow dropped 1.9% to 48,147.33 and the Nasdaq slid 5.3% to 22,617.73. For the week, the S&P 500 lost 8.6%, the Dow lost 8% and the Nasdaq lost 10%. The S&P 500 ended more than 10% below its October 6 record high, which is the usual definition of a correction and the first since March 2025. The Associated Press described it as a \"bruising sell-off in artificial intelligence stocks.\" Behind it were worries that huge spending on AI may not pay off quickly enough, plus uncertainty over leadership at Nvidia, the biggest company in the AI trade."
+    },
+    {
+      "title": "Stocks Roar Back as Nvidia Reinstates Jensen Huang",
+      "descr": "On Monday, November 23, Nvidia announced that its board had voted unanimously to reinstate Jensen Huang as president, CEO and board member, effective immediately, 11 days after he resigned. Nvidia shares jumped about 31.5% to close at $165.05, the company's biggest one-day percentage gain in more than two decades, adding nearly $1 trillion in market value. The wider market followed. The S&P 500 rose 4.73% to 7,237.17, the Dow gained 3.01% to 49,595.31 and the Nasdaq jumped 6.51% to 24,089.56, ending a seven-day losing streak for the S&P 500. The VIX, Wall Street's fear gauge, fell about 26% to 26.62, and the 10-year Treasury yield was around 4.92%. Nvidia said its decision followed input from senior US government levels, and that it saw no national security risk. The board is also investigating reports that Huang was targeted by a foreign intelligence effort, and the findings are not public. Some lawmakers, including Republican Senator John Cornyn, publicly questioned the board's conclusion."
+    },
+    {
+      "title": "CrowdStrike Agrees to Buy Zscaler for $43.9 Billion",
+      "descr": "The day also brought one of the year's biggest tech deals. CrowdStrike agreed to buy Zscaler in an all-stock transaction valued at about $43.9 billion. Each Zscaler share will convert into 1.135 CrowdStrike shares, an implied $260.41 per share and a premium of about 34% over Friday's close. After the deal, CrowdStrike shareholders would own about 84.1% of the combined company, which would start with more than $10 billion in annual recurring revenue. Zscaler's founder, Jay Chaudhry, would join CrowdStrike's board. The deal still needs shareholder and regulatory approval and is expected to close in the second half of CrowdStrike's fiscal 2028. In market trading, CrowdStrike fell about 9% while Zscaler rose about 18%. Jay Chaudhry said, \"AI agents are rapidly becoming the new weakest link.\""
+    },
+    {
+      "title": "Fed Governor Lisa Cook Warns of Larger Rate Hikes",
+      "descr": "On the Federal Reserve, Governor Lisa Cook said in a speech in Santiago, Chile, on November 20 that the central bank's September quarter-point hike is unlikely to change the course of inflation. She warned that \"additional and larger rate increases may be required later to catch up.\" Cook estimated October PCE inflation at 3.8% over the past year and said inflation has been above the Fed's 2% target for 67 months. Futures markets are pricing about a 92% chance of a quarter-point hike at the Fed's December 8 to 9 meeting. Cook did not call for a half-point move in December. For borrowers, this means loan and mortgage rates are likely to stay high."
+    },
+    {
+      "title": "What to Watch Next",
+      "descr": "There are a few things to follow. First, whether Monday's rebound holds or fades, since a single big day does not remove the worries behind the sell-off. Second, any new details on the Nvidia board's investigation and the political reaction to Huang's return. Third, the Fed's December 8 to 9 meeting and any more speeches from officials ahead of it. Fourth, regulatory reaction to the CrowdStrike and Zscaler deal. Expect large swings, and check for the latest prices before you publish."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Finance Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "finance",
   "topic": "Wall Street and Inflation",
   "slug": "wall-street-ends-week-higher-hot-ppi-yields-nvidia-slides",
   "title": "Wall Street Ends Week Higher as Hot PPI Pushes Yields Above 5% and Nvidia Slides",

@@ -1,6 +1,53 @@
 [
   {
   "category": "politics",
+  "topic": "Congress and the White House",
+  "slug": "congress-leaves-for-thanksgiving-without-funding-deal-trump-influence-after-midterms-huang-hearings-asylum-supreme-court",
+  "title": "Congress Leaves Without a Funding Deal as Trump's Clout Faces a Test",
+  "image": "/images/news-img/congress-leaves-for-thanksgiving-without-funding-deal-trump-influence-after-midterms-huang-hearings-asylum-supreme-court.webp",
+  "date": "November 26, 2026",
+  "shortdescription": "Congress heads home with no deal to avoid a December 11 shutdown, Republicans debate how much sway Trump will keep once Democrats take over, Nvidia's Huang is called to testify, and the Supreme Court takes up asylum.",
+  "sub": [
+    {
+      "title": "Washington pauses for Thanksgiving with a lot unfinished",
+      "descr": "Congress has left town for the holiday with a to-do list that is getting shorter on time and longer on problems. There is still no plan to keep the government funded past December 11, Republicans are talking openly about how much influence President Trump will have once Democrats take over in January, and a decision by Nvidia has pulled the White House into a fresh political argument. The Supreme Court has also agreed to hear a major immigration case. Here is a plain-English guide to the latest US political news."
+    },
+    {
+      "title": "No Deal Yet to Avoid a December 11 Shutdown",
+      "descr": "Federal funding runs out at 11:59 p.m. Eastern on Friday, December 11. The House finished its votes for the week on November 20 and the Senate left for the holiday, with no stopgap bill text released in either chamber, leaving about eight legislative days before the deadline. Not one of the 12 funding bills for the current fiscal year, which began on October 1, has become law. The House has passed three of its 12 bills and the Senate none. The administration is reportedly considering a stopgap that runs through March, and House Appropriations Chair Tom Cole has floated pairing bipartisan bills with a short-term patch for everything else. Republican Rep. Mike Simpson said, \"We're going to have to pass a (continuing resolution).\" Democratic Rep. Rosa DeLauro wants any stopgap kept as short as possible, and several Senate Democrats say they will oppose a deal without language restricting war funding for Iran. Republicans need at least seven Senate Democrats to reach 60 votes."
+    },
+    {
+      "title": "How Much Power Will Trump Keep After the Midterms?",
+      "descr": "On Tuesday, Trump pardoned two turkeys, Freedom and Feathers, at the White House, with Speaker Mike Johnson in attendance. Johnson loses the gavel in January, when Roll Call reports that Democrats will take control of the new Congress, which is seated on January 3. Republican senators were asked what that means for the president. Sen. James Lankford said Trump's influence will be \"policy-to-policy,\" pointing out that he still has his veto pen and can direct agencies. Sen. Ted Cruz said it will \"obviously, be different,\" and predicted Democrats will focus on attacking the president, but added that \"the president will continue to lead.\" Trump said he would work with Democrats: \"If they want to get things done, I want to get things done, too.\""
+    },
+    {
+      "title": "Huang's Return Draws a Political Response",
+      "descr": "Nvidia's decision on Monday to bring back CEO Jensen Huang spilled into Washington. Trump said he had been \"speaking to the board directly and indirectly\" before the move, and Nvidia said its board received input from senior US government levels and found no national security risk. Republican Rep. Pat Harrigan called the reinstatement a mistake, and Democratic Sen. Tim Kaine said it raised concerns about Trump's China policy. Roll Call reports that Huang is scheduled to appear before several congressional committees next week. Separately, Republican Sen. Jim Banks has questioned the administration's handling of air traffic control upgrades and its request for $50 billion in new funding."
+    },
+    {
+      "title": "Supreme Court Agrees to Hear the Asylum Case",
+      "descr": "On Friday, November 13, the Supreme Court agreed to decide whether the Trump administration can suspend asylum access for migrants at the US-Mexico border, in the case Mullin v. Refugee and Immigrant Center for Education and Legal Services. The justices will review a January 2025 proclamation and related Department of Homeland Security guidance. A federal judge and a D.C. Circuit panel largely ruled against the administration, though the restrictions remain in effect while it appeals. Solicitor General D. John Sauer called suspending illegal entry and asylum access among \"the most important and effective pieces of the President's response.\" The challengers say the president cannot \"invent by fiat a new removal system.\" Arguments are likely next spring, with no date set."
+    },
+    {
+      "title": "What to Watch Next",
+      "descr": "Keep an eye on three things. First, whether congressional leaders agree on the length of a stopgap bill before December 11, and whether Iran war language blocks it in the Senate. Second, next week's congressional hearings with Jensen Huang. Third, how Trump handles his relationship with Democrats before the new Congress arrives on January 3. Check the latest updates before you publish."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Staff Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "politics",
   "topic": "Washington Politics",
   "slug": "trump-immigration-shift-food-tariff-fight-december-funding-deadline",
   "title": "Trump's Mixed Message on Immigration, a Food Tariff Fight and a December Funding Deadline",

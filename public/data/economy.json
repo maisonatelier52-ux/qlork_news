@@ -1,6 +1,57 @@
 [
   {
   "category": "economy",
+  "topic": "Growth, Jobs and Confidence",
+  "slug": "us-gdp-revised-up-4-3-percent-jobless-claims-189000-consumer-confidence-103-beige-book-eight-districts",
+  "title": "US Economy Grew 4.3% in Q3 as Jobless Claims Drop and Confidence Jumps",
+  "image": "/images/news-img/us-gdp-revised-up-4-3-percent-jobless-claims-189000-consumer-confidence-103-beige-book-eight-districts.webp",
+  "date": "November 27, 2026",
+  "shortdescription": "US growth was revised up to 4.3% in the third quarter, jobless claims fell to 189,000, consumer confidence jumped to 103.3, and the Fed's Beige Book shows modest growth with prices still rising.",
+  "sub": [
+    {
+      "title": "A strong economy with stubborn prices",
+      "descr": "The US economy ended the Thanksgiving week looking stronger than expected. The government raised its estimate of summer growth, fewer people filed for unemployment benefits, and consumers felt more upbeat than they have in almost two years. At the same time, inflation is still well above the Federal Reserve's 2% target, which keeps another interest rate hike on the table for December. Here is a plain-English guide to the latest US economy news, what it means for households and what to watch next."
+    },
+    {
+      "title": "Growth Is Revised Up to 4.3%",
+      "descr": "On Wednesday, November 25, the Bureau of Economic Analysis said the economy grew at a 4.3% annual rate in the third quarter, up from its first estimate of 3.4%. It said the upgrade mainly reflected \"upward revisions to investment and consumer spending.\" Consumer spending added 2.78 percentage points to growth, and business and home investment added 2.10 points, led by software. Real final sales to private domestic purchasers, a measure of underlying demand, rose 5.8%. Over the quarter, the price index for consumer spending rose at a 2.1% annual rate, unchanged from the first estimate. A third estimate is due on December 23."
+    },
+    {
+      "title": "Spending Rises, but Inflation Eats Up the Gains",
+      "descr": "The same morning's October figures showed the pressure on household budgets. The PCE price index, the Fed's preferred inflation gauge, rose 0.3% on the month and 3.8% from a year earlier, with core PCE, which strips out food and energy, up 3.3%. Consumers spent more in nominal terms, but after inflation their spending dipped slightly, with restaurants and accommodation up and car purchases down. PYMNTS summed it up as consumers \"spending more without getting more for their money.\" There was some relief. Disposable income rose 0.5% after inflation, reversing September's decline, and the personal saving rate rose to 4.1%."
+    },
+    {
+      "title": "Jobless Claims Fall to 189,000",
+      "descr": "The labor market is holding steady. Initial jobless claims fell by 13,000 to 189,000 in the week ended November 21, better than the 200,000 economists expected, according to a report published on Wednesday, a day early because of Thanksgiving. Quartz described it as a four-month low. Continuing claims, which count people still receiving benefits, fell by 95,000 to 1.697 million in the week ended November 14. Economists still describe the labor market as \"low-hire, low-fire,\" meaning companies are not laying off many workers but are not hiring quickly either."
+    },
+    {
+      "title": "Consumer Confidence Jumps to 103.3",
+      "descr": "Americans are feeling better. The Conference Board's consumer confidence index rose 11.4 points to 103.3 in November from 91.9 in October, based on a survey taken from November 1 to 17. The present situation index rose 13.7 points to 132.8 and the expectations index rose 9.9 points to 83.6. The share of people saying jobs are plentiful rose to 30.8% from 26.2%. Expectations for inflation over the next 12 months fell for a second month, to 5.7%, though that is still high. The Conference Board's Fergus McCormick said confidence rallied \"potentially due to lower uncertainty following the midterm elections.\""
+    },
+    {
+      "title": "The Fed's Beige Book Points to Modest Growth",
+      "descr": "The Fed's Beige Book, a collection of reports from businesses across its 12 districts, was published on November 25 using information gathered by November 16. Eight districts reported slight to moderate growth, and four reported no change. Auto sales, housing and construction weakened, while manufacturing grew modestly. Consumer spending was little changed, with households more selective on discretionary items, though travel and tourism were solid. Employment rose slightly, many firms kept staffing flat, and wages rose moderately. Prices also rose moderately, with firms pointing to energy, transport, healthcare, insurance and tariffs as pressures."
+    },
+    {
+      "title": "What to Watch Next",
+      "descr": "Keep an eye on three things. First, the holiday weekend, with Black Friday on November 27 and shopping data in the days after, which will show whether the confidence boost translates into spending. Second, the November jobs report, due in early December. Third, the Fed's December 8 to 9 meeting, where a quarter-point hike is widely expected after stronger growth and hot inflation. For households, borrowing costs are unlikely to fall soon, so it is worth comparing quotes before taking on new debt. Check the latest figures before you publish."
+    }
+  ],
+  "author": {
+    "name": "Robert Kim",
+    "role": "Staff Correspondent",
+    "bio": "",
+    "image": "/images/authors/robert-kim.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "economy",
   "topic": "US Economy and Housing",
   "slug": "home-sales-16-year-low-october-cpi-hot-jobs-beat-fed-hike-december",
   "title": "Home Sales Sink to a 16-Year Low as Hot Inflation and Strong Jobs Keep the Fed on Edge",

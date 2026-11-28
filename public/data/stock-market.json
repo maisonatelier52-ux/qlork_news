@@ -2,6 +2,57 @@
   {
   "category": "stock-market",
   "topic": "Stock Market",
+  "slug": "dow-gains-592-points-black-friday-half-day-chip-stocks-rebound-sp500-7297-vix-falls",
+  "title": "Dow Gains 592 Points in Half-Day Trade as Chip Stocks Bounce Back",
+  "image": "/images/news-img/dow-gains-592-points-black-friday-half-day-chip-stocks-rebound-sp500-7297-vix-falls.webp",
+  "date": "November 28, 2026",
+  "shortdescription": "Wall Street rallied in Friday's shortened Black Friday session, with the Dow up 592 points, the S&P 500 up 1.6% and chip stocks leading a rebound in the Nasdaq.",
+  "sub": [
+    {
+      "title": "Wall Street Ends the Holiday Week With a Rally",
+      "descr": "American stocks finished the Thanksgiving week on a strong note. In a shortened Black Friday session that ended at 1 p.m. Eastern, all four major indexes climbed, with technology shares leading the way after several days of worry about the artificial intelligence boom. If you are trying to follow the latest US stock market news, here is a plain-English look at what moved on Friday, why it matters for your investments and what could move prices next."
+    },
+    {
+      "title": "How the Major Indexes Closed on Friday",
+      "descr": "The Dow Jones Industrial Average rose 591.99 points, or 1.2%, to 50,774.94. The S&P 500 gained 114.71 points, or 1.6%, to 7,297.49, and the Nasdaq Composite jumped 543.70 points, or 2.3%, to 24,129.50. Smaller companies joined in, with the Russell 2000 up 46.24 points, or 1.7%, to 2,750.30. The S&P 500 is now up about 6.6% so far this year. Markets were closed on Thursday for Thanksgiving, so Friday's gains build on Wednesday's closes of 50,182.95 for the Dow, 7,182.78 for the S&P 500 and 23,585.80 for the Nasdaq."
+    },
+    {
+      "title": "Chip Stocks Lead the Rebound",
+      "descr": "The biggest move came from semiconductors. The Philadelphia Semiconductor index rebounded nearly 5% on Friday, according to Yahoo Finance, as worries about whether AI spending will pay off eased and the recent tech selloff paused. Micron rose more than 7%, and market data showed Sandisk gaining roughly 16%. Nvidia, the stock many investors use to judge the AI trade, rose modestly but swung up and down during the session. Dan Ives of Yorkville Ives described the last few weeks for Nvidia holders as \"a traumatic situation for investors,\" as quoted by Yahoo Finance, so the calm may not last."
+    },
+    {
+      "title": "Fear Gauge Cools, but Stays Elevated",
+      "descr": "The VIX, Wall Street's measure of expected volatility, fell more than 11% to about 23.8 on Friday, according to Yahoo Finance. That is a sign investors were a little less nervous, but it is still higher than the calm readings seen earlier in the year. In simple terms, traders still expect large daily swings, so one strong day does not mean the worry is over."
+    },
+    {
+      "title": "Bond Yields Edge Up After Strong Growth Data",
+      "descr": "Treasury yields rose on Friday after this week's upward revision of third-quarter economic growth to 4.3%. The 10-year yield climbed to about 4.9%, and the 2-year yield was around 4.7%. Strong growth can be good news for company profits, but it can also keep the Federal Reserve leaning toward higher interest rates, which makes borrowing more expensive and can weigh on growth stocks. Bitcoin was little changed, trading near $59,750."
+    },
+    {
+      "title": "Shoppers Keep Spending on Black Friday",
+      "descr": "Retail investors also watched the first big shopping day of the holiday season. Neil Saunders of GlobalData told Yahoo Finance, \"The consumer just is not in recession.\" Spending has held up even with higher prices, though shoppers are more selective and many are hunting for discounts. Friday's half-day trading also means lighter volume than usual, which can exaggerate price moves in either direction."
+    },
+    {
+      "title": "What to Watch Next on Wall Street",
+      "descr": "There are three things to keep an eye on in the week ahead. First, whether the chip rebound holds now that normal full-day trading returns. Second, the next reports on the job market and inflation, which will shape expectations for the Federal Reserve's December meeting. Third, whether Nvidia can steady itself as it searches for a permanent CEO. If you invest, the usual advice still applies: expect more big swings, avoid reacting to every headline and think about spreading your money across different sectors rather than relying on a few big technology names. This article is for information only and is not investment advice."
+    }
+  ],
+  "author": {
+    "name": "David Thompson",
+    "role": "News Reporter",
+    "bio": "",
+    "image": "/images/authors/david-thompson.webp",
+    "email": "",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "substack": "",
+    "medium": ""
+  }
+},
+  {
+  "category": "stock-market",
+  "topic": "Stock Market",
   "slug": "dow-drops-848-points-sp500-lowest-close-since-july-nvidia-earnings-lift-futures",
   "title": "Dow Sheds 848 Points as S&P 500 Hits a Four-Month Low, Then Nvidia Lifts Futures",
   "image": "/images/news-img/dow-drops-848-points-sp500-lowest-close-since-july-nvidia-earnings-lift-futures.webp",

@@ -1,5 +1,4 @@
 [
-  
 {
   "category": "hot",
   "topic": "Immigration Law & Federal Courts",
@@ -42,9 +41,8 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,{
+},
+{
   "category": "hot",
   "topic": "Human Rights & Asylum Law",
   "slug": "chinese-whistleblower-granted-us-asylum-released",
@@ -90,9 +88,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "hot",
   "topic": "Law Enforcement & Immigration Policy",
@@ -135,9 +131,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "hot",
   "topic": "Immigration Enforcement & Federal Policy",
@@ -180,9 +174,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "hot",
   "topic": "Justice Department & Immigration Enforcement",
@@ -225,10 +217,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "hot",
   "topic": "Politics",
@@ -271,9 +260,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "hot",
   "topic": "World",
@@ -320,10 +307,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "hot",
   "topic": "Immigration",
@@ -370,10 +354,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "hot",
   "topic": "Middle East Politics",
@@ -404,9 +385,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "hot",
   "topic": "Crime News",
@@ -454,6 +433,4 @@
     "medium": ""
   }
 }
-
-
 ]

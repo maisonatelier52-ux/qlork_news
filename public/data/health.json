@@ -1,5 +1,4 @@
 [
-  
 {
   "category": "health",
   "topic": "Pharmaceuticals",
@@ -42,9 +41,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "health",
   "topic": "Public Health & Food Safety",
@@ -87,10 +84,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "health",
   "topic": "Cardiovascular Health & Pharmaceuticals",
@@ -133,10 +127,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "health",
   "topic": "Transgender Health & Surgical Guidelines",
@@ -171,10 +162,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "health",
   "topic": "Pharmaceutical Policy & Regulatory Oversight",
@@ -209,10 +197,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "health",
   "topic": "Sports Medicine & Athlete Injury Management",
@@ -247,9 +232,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "health",
   "topic": "Public Health & Environmental Policy",
@@ -288,9 +271,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "health",
   "topic": "Endocrinology & Hormonal Health",
@@ -333,9 +314,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "health",
   "topic": "Nutrition & Dietary Health",
@@ -426,6 +405,4 @@
     "medium": ""
   }
 }
-
-
 ]

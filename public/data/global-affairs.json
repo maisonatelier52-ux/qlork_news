@@ -40,9 +40,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
     "category": "global-affairs",
     "topic": "Global Affairs",
@@ -84,8 +82,7 @@
       "substack": "",
       "medium": ""
     }
-  }
-,
+  },
  {
     "category": "global-affairs",
     "topic": "Global Affairs",
@@ -128,8 +125,7 @@
       "substack": "",
       "medium": ""
     }
-  }
-,
+  },
 {
   "category": "global-affairs",
   "topic": "Geopolitical Realignment and Global Trade",
@@ -167,16 +163,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
-
-
-
-
-
-
+},
 {
     "category": "global-affairs",
     "topic": "Private Aviation and Travel",
@@ -297,10 +284,7 @@
       "substack": "",
       "medium": ""
     }
-  }
-,
-
-
+  },
 {
     "category": "global-affairs",
     "topic": "International Extradition and Accountability",
@@ -375,5 +359,4 @@
       "medium": ""
     }
   }
-
 ]

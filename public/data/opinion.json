@@ -1,5 +1,4 @@
 [
-  
    {
   "category": "opinion",
   "topic": "Biotechnology Policy & Public Health",
@@ -42,9 +41,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "opinion",
   "topic": "Global Security & Nuclear Policy",
@@ -87,9 +84,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "opinion",
   "topic": "U.S. Fiscal Policy & Economic Stability",
@@ -132,10 +127,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "opinion",
   "topic": "Olympic Performance & Sports Development",
@@ -170,10 +162,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "opinion",
   "topic": "Public Opinion & Global Priorities",
@@ -208,10 +197,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "opinion",
   "topic": "U.S. Economy & Social Inequality",
@@ -242,10 +228,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
-
+},
 {
   "category": "opinion",
   "topic": "Immigration Enforcement & Civil Liberties",
@@ -280,9 +263,7 @@
     "substack": "",
     "medium": ""
   }
-}
-,
-
+},
 {
   "category": "opinion",
   "topic": "Judicial Elections & Court Endorsements",
@@ -321,9 +302,7 @@
     "substack": "",
     "medium": ""
   }
-}
-
-,
+},
 {
   "category": "opinion",
   "topic": "Local Governance & Civic Leadership",
@@ -367,7 +346,4 @@
     "medium": ""
   }
 }
-
-
-
 ]
